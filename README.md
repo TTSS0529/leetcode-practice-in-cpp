@@ -3,7 +3,7 @@ This repository is for my personal LeetCode practice using mainly C++.
 
 ## 🎯 Training Goal
 
-My initial target is to solve **one problem per day**. If I miss any problems during the weekdays, I will catch up on them over the weekend.
+My initial target is to solve **one problem per day**. If I miss any problems during the weekdays, I will catch up on them over the weekend.(to be continued...)
 
 # 🚀 LeetCode Training Progress
 
