@@ -8,7 +8,7 @@ My initial target is to solve **one problem per day**. If I miss any problems du
 # 🚀 LeetCode Training Progress
 
 - 📅 Start Date: 2025-06-09
-- ✅ Total Problems Solved: **1/7(week one)**  
+- ✅ Total Problems Solved: **2/7(week one)**  
 - 📈 Difficulty Breakdown: Easy / Medium / Hard  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
