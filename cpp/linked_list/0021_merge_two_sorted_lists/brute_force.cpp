@@ -1,6 +1,6 @@
 #include "merge_two_sorted_lists.hpp"
 
-ListNode	*Solution::mergeTwoLists(ListNode *list1, ListNode *list2) const {
+ListNode	*Solution::mergeTwoLists(ListNode *list1, ListNode *list2) {
 	ListNode	dummy;
 	ListNode	*tail = &dummy;
 	while (list1 && list2) {

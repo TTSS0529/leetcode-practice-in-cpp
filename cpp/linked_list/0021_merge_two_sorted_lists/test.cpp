@@ -1,6 +1,6 @@
 #include "merge_two_sorted_lists.hpp"
 
-static void run_test(ListNode *list1, ListNode *list2) {
+static void runTest(ListNode *list1, ListNode *list2) {
     Solution	sol;
 	ListNode	*result = sol.mergeTwoLists(list1, list2);
 	while (result) {
@@ -18,14 +18,14 @@ int	main() {
 	ListNode	b1(1), b2(3), b3(4);
 	b1.next = &b2;
 	b2.next = &b3;
-	run_test(&a1, &b1);
+	runTest(&a1, &b1);
 
 	std::cout << ">>>>>>>>>> example 2 <<<<<<<<<<" << std::endl;
-	run_test(nullptr, nullptr);
+	runTest(nullptr, nullptr);
 
 	std::cout << ">>>>>>>>>> example 3 <<<<<<<<<<" << std::endl;
 	ListNode	c1;
-	run_test(nullptr, &c1);
+	runTest(nullptr, &c1);
 
 	return 0;
 }

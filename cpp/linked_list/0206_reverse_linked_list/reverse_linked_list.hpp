@@ -13,5 +13,6 @@ struct ListNode {
 
 class Solution {
 public:
-    ListNode    *mergeTwoLists(ListNode *list1, ListNode *list2);
+    ListNode    *findBeforeLastNode(ListNode *head);// only useful for brute_force version!!
+    ListNode    *reverseList(ListNode *head);
 };
