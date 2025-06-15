@@ -8,8 +8,8 @@ My initial target is to solve **one problem per day**. If I miss any problems du
 # 🚀 LeetCode Training Progress
 
 - 📅 Start Date: 2025-06-09
-- ✅ Total Problems Solved: **7/7(week one)**  
-- 📈 Difficulty Breakdown: Easy(3) / Medium(4) / Hard(0) / Total(7)  
+- ✅ Total Problems Solved: **8/14(week 2)**  
+- 📈 Difficulty Breakdown: Easy(4) / Medium(4) / Hard(0) / Total(8)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 ---
@@ -29,7 +29,7 @@ To compile, just compile any solution `.cpp` together with `test.cpp`.
 Example:
 c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 
-📌 If a problem folder only contains a brute_force version, that means the first try already hit 100% runtime, so I haven’t optimized it further (yet). I’ll revisit it if I come up with a better idea.
+📌 If a problem folder only contains a brute_force version, that means it's either already the best I could come up with at the time — possibly even achieving 100% runtime — or it's a reasonable enough solution for now. I’ll revisit it if I come up with a better idea or gain a deeper understanding of the problem.
 
 ---
 
@@ -45,10 +45,11 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 
 ---
 
-### 🧱 Stack & Queue (Total: 2 problems)
+### 🧱 Stack & Queue (Total: 3 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Runtime(100%)](./cpp/stack_queue/0020_valid_parentheses/) | Stack / Bracket matching |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | [Runtime(~45% but classic, can improve later)](./cpp/stack_queue/0155_min_stack/) | Two-stack approach / O(1) min |
+| 0232 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Runtime(100%)](./cpp/stack_queue/0232_implement_queue_using_stacks/) | Two-stack queue / Amortized O(1) ops |
 
 ---
