@@ -8,8 +8,8 @@ My initial target is to solve **one problem per day**. If I miss any problems du
 # 🚀 LeetCode Training Progress
 
 - 📅 Start Date: 2025-06-09
-- ✅ Total Problems Solved: **10/14(week 2)**  
-- 📈 Difficulty Breakdown: Easy(4) / Medium(5) / Hard(1) / Total(10)  
+- ✅ Total Problems Solved: **11/14(week 2)**  
+- 📈 Difficulty Breakdown: Easy(5) / Medium(5) / Hard(1) / Total(11)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 ---
@@ -53,5 +53,12 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 | 0232 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Runtime(100%)](./cpp/stack_queue/0232_implement_queue_using_stacks/) | Two-stack queue / Amortized O(1) ops |
 | 0295 | [Find Median From Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | [Runtime(varies a lot)](./cpp/stack_queue/0295_find_median_from_data_stream/) | Two heaps / O(log n) insert, O(1) median |
 | 0394 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | [Runtime(100%)](./cpp/stack_queue/0394_decode_string/) | Recursion & Stack / Nested string decode |
+
+---
+
+### 🧩 Hash Map (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Runtime(100%)](./cpp/hash_map/0242_valid_anagram/) | Frequency counting / O(1) space |
 
 ---
