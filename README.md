@@ -8,8 +8,8 @@ My initial target is to solve **one problem per day**. If I miss any problems du
 # 🚀 LeetCode Training Progress
 
 - 📅 Start Date: 2025-06-09
-- ✅ Total Problems Solved: **15/21(week 3)**  
-- 📈 Difficulty Breakdown: Easy(9) / Medium(5) / Hard(1) / Total(15)  
+- ✅ Total Problems Solved: **16/21(week 3)**  
+- 📈 Difficulty Breakdown: Easy(10) / Medium(5) / Hard(1) / Total(16)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 ---
@@ -66,9 +66,10 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 
 ---
 
-### 🪝 Two Pointers (Total: 1 problems)
+### 🪝 Two Pointers (Total: 2 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | [Runtime(100%)](./cpp/two_pointers/0392_is_subsequence/) | Two-pointer / String scan |
+| 0876 | [Middle Of The Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [Runtime(100%)](./cpp/two_pointers/0876_middle_of_the_linked_list/) | Fast-slow pointer on Linked List |
 
 ---
