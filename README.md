@@ -8,8 +8,8 @@ My initial target is to solve **one problem per day**. If I miss any problems du
 # 🚀 LeetCode Training Progress
 
 - 📅 Start Date: 2025-06-09
-- ✅ Total Problems Solved: **14/14(week 2)**  
-- 📈 Difficulty Breakdown: Easy(8) / Medium(5) / Hard(1) / Total(14)  
+- ✅ Total Problems Solved: **15/21(week 3)**  
+- 📈 Difficulty Breakdown: Easy(9) / Medium(5) / Hard(1) / Total(15)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 ---
@@ -63,5 +63,12 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Runtime(100%)](./cpp/hash_map/0242_valid_anagram/) | Frequency counting / O(1) space |
 | 0387 | [First Unique Character In A String](https://leetcode.com/problems/first-unique-character-in-a-string/) | Easy | [Runtime(~70%, can improve later)](./cpp/hash_map/0387_first_unique_character_in_a_string/) | Array or hash map / two-pass scan |
 | 0409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Easy | [Runtime(100%)](./cpp/hash_map/0409_longest_palindrome/) | Frequency counting / even part + odd center |
+
+---
+
+### 🪝 Two Pointers (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | [Runtime(100%)](./cpp/two_pointers/0392_is_subsequence/) | Two-pointer / String scan |
 
 ---
