@@ -1,4 +1,4 @@
-#include "two_sum_input_array_is_sorted.hpp"
+#include "two_sum_ii_input_array_is_sorted.hpp"
 
 static void runTest(std::vector<int>& numbers, int target) {
     Solution    sol;
