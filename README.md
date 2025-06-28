@@ -8,8 +8,8 @@ My initial target is to solve **one problem per day**. If I miss any problems du
 # 🚀 LeetCode Training Progress
 
 - 📅 Start Date: 2025-06-09
-- ✅ Total Problems Solved: **19/21(week 3)**  
-- 📈 Difficulty Breakdown: Easy(11) / Medium(7) / Hard(1) / Total(19)  
+- ✅ Total Problems Solved: **20/21(week 3)**  
+- 📈 Difficulty Breakdown: Easy(11) / Medium(8) / Hard(1) / Total(20)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 ---
@@ -74,5 +74,12 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 | 0167 | [Two Sum II Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | [Runtime(100%)](./cpp/two_pointers/0167_two_sum_ii_input_array_is_sorted/) | Two-pointer / Sorted array |
 | 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | [Runtime(100%)](./cpp/two_pointers/0392_is_subsequence/) | Two-pointer / String scan |
 | 0876 | [Middle Of The Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [Runtime(100%)](./cpp/two_pointers/0876_middle_of_the_linked_list/) | Fast-slow pointer on Linked List |
+
+---
+
+### 🔤 String Processing (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0151 | [Reverse Words In A String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [Runtime(100%)](./cpp/string_processing/0151_reverse_words_in_a_string/) | Backward scan + substr + reserve optimization |
 
 ---
