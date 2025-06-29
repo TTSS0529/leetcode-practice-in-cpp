@@ -3,13 +3,14 @@ This repository is for my personal LeetCode practice using mainly C++.
 
 ## 🎯 Training Goal
 
-My initial target is to solve **one problem per day**. If I miss any problems during the weekdays, I will catch up on them over the weekend.(to be continued...)
+My initial target is to solve one or two problems per day. If I miss any problems during the weekdays, I will catch up on them over the weekend.(to be continued...)
 
 # 🚀 LeetCode Training Progress
 
-- 📅 Start Date: 2025-06-09
-- ✅ Total Problems Solved: **21/21(week 3)**  
-- 📈 Difficulty Breakdown: Easy(11) / Medium(9) / Hard(1) / Total(21)  
+- 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
+- 📅 Phase 2: 2025-06-30 - now **ten problems per week**
+- ✅ Total Problems Solved: **22/31(week 4)**  
+- 📈 Difficulty Breakdown: Easy(11) / Medium(10) / Hard(1) / Total(22)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 ---
@@ -66,10 +67,11 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 
 ---
 
-### 🪝 Two Pointers (Total: 6 problems)
+### 🪝 Two Pointers (Total: 7 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Runtime(100%)](./cpp/two_pointers/0003_longest_substring_without_repeating_characters/) | Sliding window (brute-force, map, array) / O(n) optimized |
+| 0015 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [Runtime(~53%), classic solution](./cpp/two_pointers/0015_3sum/) | Sort + two pointers / Skip duplicates / O(n²) |
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [Runtime(80-90%)](./cpp/two_pointers/0142_linked_list_cycle_ii/) | Fast-slow pointer to find cycle start |
 | 0160 | [Intersection Of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [Runtime(~80%), classic solution](./cpp/two_pointers/0160_intersection_of_two_linked_lists/) | Two-pointer with list switching |
 | 0167 | [Two Sum II Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | [Runtime(100%)](./cpp/two_pointers/0167_two_sum_ii_input_array_is_sorted/) | Two-pointer / Sorted array |
