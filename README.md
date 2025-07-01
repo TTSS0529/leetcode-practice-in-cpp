@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems per week**
-- ✅ Total Problems Solved: **25/31(week 4)**  
-- 📈 Difficulty Breakdown: Easy(13) / Medium(10) / Hard(2) / Total(25)  
+- ✅ Total Problems Solved: **26/31(week 4)**  
+- 📈 Difficulty Breakdown: Easy(13) / Medium(11) / Hard(2) / Total(26)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 ---
@@ -46,7 +46,7 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 
 ---
 
-### 🧱 Stack & Queue (Total: 5 problems)
+### 🧱 Stack & Queue (Total: 6 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Runtime(100%)](./cpp/stack_queue/0020_valid_parentheses/) | Stack / Bracket matching |
@@ -54,6 +54,7 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 | 0232 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Runtime(100%)](./cpp/stack_queue/0232_implement_queue_using_stacks/) | Two-stack queue / Amortized O(1) ops |
 | 0295 | [Find Median From Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | [Runtime(varies a lot)](./cpp/stack_queue/0295_find_median_from_data_stream/) | Two heaps / O(log n) insert, O(1) median |
 | 0394 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | [Runtime(100%)](./cpp/stack_queue/0394_decode_string/) | Recursion & Stack / Nested string decode |
+| 0946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | Medium | [Runtime(100%)](./cpp/stack_queue/0946_validate_stack_sequences/) | Simulate push/pop behavior with a real stack |
 
 ---
 
