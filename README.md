@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems per week**
-- ✅ Total Problems Solved: **24/31(week 4)**  
-- 📈 Difficulty Breakdown: Easy(12) / Medium(10) / Hard(2) / Total(24)  
+- ✅ Total Problems Solved: **25/31(week 4)**  
+- 📈 Difficulty Breakdown: Easy(13) / Medium(10) / Hard(2) / Total(25)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 ---
@@ -93,9 +93,10 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Runtime(~99%)](./cpp/sliding_window/0239_sliding_window_maximum/) | Monotonic deque & heap approaches |
 
 ---
-### 🧮 Simulation (Total: 1 problems)
+### 🧮 Simulation (Total: 2 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings/) | Easy | [Runtime(100%)](./cpp/simulation/0415_add_strings/) | Simulate digit-by-digit addition / carry tracking |
+| 0796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | [Runtime(100%)](./cpp/simulation/0796_rotate_string/) | Simulate string rotation by manual character comparison |
 
 ---
