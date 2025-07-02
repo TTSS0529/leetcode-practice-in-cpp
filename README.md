@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems per week**
-- ✅ Total Problems Solved: **26/31(week 4)**  
-- 📈 Difficulty Breakdown: Easy(13) / Medium(11) / Hard(2) / Total(26)  
+- ✅ Total Problems Solved: **27/31(week 4)**  
+- 📈 Difficulty Breakdown: Easy(13) / Medium(12) / Hard(2) / Total(27)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 ---
@@ -28,7 +28,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🧱 Stack \& Queue (Total: 6 problems)](#-stack--queue-total-6-problems)
     - [🧩 Hash Map (Total: 4 problems)](#-hash-map-total-4-problems)
     - [🪝 Two Pointers (Total: 7 problems)](#-two-pointers-total-7-problems)
-    - [🔤 String Processing (Total: 1 problems)](#-string-processing-total-1-problems)
+    - [🔤 String Processing (Total: 2 problems)](#-string-processing-total-2-problems)
     - [🌊 Sliding Window (Total: 1 problems)](#-sliding-window-total-1-problems)
     - [🧮 Simulation (Total: 2 problems)](#-simulation-total-2-problems)
 
@@ -103,9 +103,10 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 
 ---
 
-### 🔤 String Processing (Total: 1 problems)
+### 🔤 String Processing (Total: 2 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
+| 0006 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | Medium | [Runtime(100%)](./cpp/string_processing/0006_zigzag_conversion/) | Simulation + direction control + reserve optimization |
 | 0151 | [Reverse Words In A String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [Runtime(100%)](./cpp/string_processing/0151_reverse_words_in_a_string/) | Backward scan + substr + reserve optimization |
 
 ---
