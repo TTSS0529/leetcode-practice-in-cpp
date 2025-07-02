@@ -14,8 +14,28 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 ---
+<details>
 
-## 📋 Problem Overview (Click to view problem or solution folder)
+<summary>➡️➡️➡️📚 Table of Contents⬅️⬅️⬅️</summary>
+
+- [leetcode-practice-in-cpp](#leetcode-practice-in-cpp)
+  - [🎯 Training Goal](#-training-goal)
+- [🚀 LeetCode Training Progress](#-leetcode-training-progress)
+  - [📋 Problem Overview](#-problem-overview)
+    - [📁 Folder Structure \& Usage](#-folder-structure--usage)
+  - [🗂️ Problem Categories](#️-problem-categories)
+    - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
+    - [🧱 Stack \& Queue (Total: 6 problems)](#-stack--queue-total-6-problems)
+    - [🧩 Hash Map (Total: 4 problems)](#-hash-map-total-4-problems)
+    - [🪝 Two Pointers (Total: 7 problems)](#-two-pointers-total-7-problems)
+    - [🔤 String Processing (Total: 1 problems)](#-string-processing-total-1-problems)
+    - [🌊 Sliding Window (Total: 1 problems)](#-sliding-window-total-1-problems)
+    - [🧮 Simulation (Total: 2 problems)](#-simulation-total-2-problems)
+
+---
+</details>
+
+## 📋 Problem Overview
 
 ### 📁 Folder Structure & Usage
 
@@ -33,6 +53,8 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 📌 If a problem folder only contains a brute_force version, that means it's either already the best I could come up with at the time — possibly even achieving 100% runtime — or it's a reasonable enough solution for now. I’ll revisit it if I come up with a better idea or gain a deeper understanding of the problem.
 
 ---
+
+## 🗂️ Problem Categories
 
 ### 🔗 Linked List (Total: 5 problems)
 
