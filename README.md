@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems per week**
-- ✅ Total Problems Solved: **28/31(week 4)**  
-- 📈 Difficulty Breakdown: Easy(13) / Medium(13) / Hard(2) / Total(28)  
+- ✅ Total Problems Solved: **29/31(week 4)**  
+- 📈 Difficulty Breakdown: Easy(13) / Medium(14) / Hard(2) / Total(29)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 ---
@@ -30,7 +30,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🪝 Two Pointers (Total: 7 problems)](#-two-pointers-total-7-problems)
     - [🔤 String Processing (Total: 2 problems)](#-string-processing-total-2-problems)
     - [🌊 Sliding Window (Total: 1 problems)](#-sliding-window-total-1-problems)
-    - [🧮 Simulation (Total: 3 problems)](#-simulation-total-3-problems)
+    - [🧮 Simulation (Total: 4 problems)](#-simulation-total-4-problems)
 
 ---
 </details>
@@ -117,10 +117,11 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Runtime(~99%)](./cpp/sliding_window/0239_sliding_window_maximum/) | Monotonic deque & heap approaches |
 
 ---
-### 🧮 Simulation (Total: 3 problems)
+### 🧮 Simulation (Total: 4 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [Runtime(100%)](./cpp/simulation/0054_spiral_matrix/) | Simulate matrix traversal by shrinking boundaries |
+| 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [Runtime(100%)](./cpp/simulation/0059_spiral_matrix_ii/) | Simulate spiral filling using 4 dynamic boundaries |
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings/) | Easy | [Runtime(100%)](./cpp/simulation/0415_add_strings/) | Simulate digit-by-digit addition / carry tracking |
 | 0796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | [Runtime(100%)](./cpp/simulation/0796_rotate_string/) | Simulate string rotation by manual character comparison |
 
