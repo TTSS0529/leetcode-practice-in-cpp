@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems per week**
-- ✅ Total Problems Solved: **30/31(week 4)**  
-- 📈 Difficulty Breakdown: Easy(13) / Medium(15) / Hard(2) / Total(30)  
+- ✅ Total Problems Solved: **31/31(week 4)**  
+- 📈 Difficulty Breakdown: Easy(13) / Medium(16) / Hard(2) / Total(31)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -30,7 +30,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🧱 Stack \& Queue (Total: 6 problems)](#-stack--queue-total-6-problems)
     - [🧩 Hash Map (Total: 4 problems)](#-hash-map-total-4-problems)
     - [🪝 Two Pointers (Total: 7 problems)](#-two-pointers-total-7-problems)
-    - [🔤 String Processing (Total: 2 problems)](#-string-processing-total-2-problems)
+    - [🔤 String Processing (Total: 3 problems)](#-string-processing-total-3-problems)
     - [🌊 Sliding Window (Total: 1 problems)](#-sliding-window-total-1-problems)
     - [🧮 Simulation (Total: 5 problems)](#-simulation-total-5-problems)
 
@@ -116,10 +116,11 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp ../../simple_test.cpp -o test
 
 ---
 
-### 🔤 String Processing (Total: 2 problems)
+### 🔤 String Processing (Total: 3 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0006 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | Medium | [Runtime(100%)](./cpp/string_processing/0006_zigzag_conversion/) | Simulation + direction control + reserve optimization |
+| 0008 | [String To Interger Atoi](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [Runtime(100%)](./cpp/string_processing/0008_string_to_integer_atoi/) | Manual parse + overflow clamp + long long use |
 | 0151 | [Reverse Words In A String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [Runtime(100%)](./cpp/string_processing/0151_reverse_words_in_a_string/) | Backward scan + substr + reserve optimization |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
