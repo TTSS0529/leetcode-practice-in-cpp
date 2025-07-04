@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems per week**
-- ✅ Total Problems Solved: **29/31(week 4)**  
-- 📈 Difficulty Breakdown: Easy(13) / Medium(14) / Hard(2) / Total(29)  
+- ✅ Total Problems Solved: **30/31(week 4)**  
+- 📈 Difficulty Breakdown: Easy(13) / Medium(15) / Hard(2) / Total(30)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -32,7 +32,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🪝 Two Pointers (Total: 7 problems)](#-two-pointers-total-7-problems)
     - [🔤 String Processing (Total: 2 problems)](#-string-processing-total-2-problems)
     - [🌊 Sliding Window (Total: 1 problems)](#-sliding-window-total-1-problems)
-    - [🧮 Simulation (Total: 4 problems)](#-simulation-total-4-problems)
+    - [🧮 Simulation (Total: 5 problems)](#-simulation-total-5-problems)
 
 ---
 </details>
@@ -45,12 +45,13 @@ Each problem is placed in its own folder, which contains:
 
 - A `.hpp` header file for declarations  
 - A `test.cpp` file for testing all versions  
-- Multiple `.cpp` files, each representing a different version of the solution  
+- Multiple `.cpp` files, each representing a different version of the solution
+- A `simple_test.hpp` and `simple_test.cpp` pair that provide common testing utilities used by `test.cpp` and solution files
 
-To compile, just compile any solution `.cpp` together with `test.cpp`.
+To compile, just compile any solution `.cpp` together with `test.cpp` and `simple_test.cpp`.
 
 Example:
-c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
+c++ -Wall -Wextra -Werror brute_force.cpp test.cpp ../../simple_test.cpp -o test && ./test
 
 📌 If a problem folder only contains a brute_force version, that means it's either already the best I could come up with at the time — possibly even achieving 100% runtime — or it's a reasonable enough solution for now. I’ll revisit it if I come up with a better idea or gain a deeper understanding of the problem.
 
@@ -133,9 +134,10 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp -o test && ./test
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
 ---
-### 🧮 Simulation (Total: 4 problems)
+### 🧮 Simulation (Total: 5 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
+| 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [Runtime(100%)](./cpp/simulation/0048_rotate_image/) | Simulate 90° rotation by transpose + row reversal |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [Runtime(100%)](./cpp/simulation/0054_spiral_matrix/) | Simulate matrix traversal by shrinking boundaries |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [Runtime(100%)](./cpp/simulation/0059_spiral_matrix_ii/) | Simulate spiral filling using 4 dynamic boundaries |
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings/) | Easy | [Runtime(100%)](./cpp/simulation/0415_add_strings/) | Simulate digit-by-digit addition / carry tracking |
