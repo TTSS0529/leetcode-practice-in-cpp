@@ -25,6 +25,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - [🚀 LeetCode Training Progress](#-leetcode-training-progress)
   - [📋 Problem Overview](#-problem-overview)
     - [📁 Folder Structure \& Usage](#-folder-structure--usage)
+  - [📚 Shared Solutions](#-shared-solutions)
   - [🗂️ Problem Categories](#️-problem-categories)
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
     - [🧱 Stack \& Queue (Total: 6 problems)](#-stack--queue-total-6-problems)
@@ -56,6 +57,12 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp ../../simple_test.cpp -o test
 📌 If a problem folder only contains a brute_force version, that means it's either already the best I could come up with at the time — possibly even achieving 100% runtime — or it's a reasonable enough solution for now. I’ll revisit it if I come up with a better idea or gain a deeper understanding of the problem.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+## 📚 Shared Solutions
+
+You can find all shared solution links and records in the [shared.md](./shared.md) file.
 
 ---
 
