@@ -5,5 +5,8 @@
 #include <string>
 #include <cctype>
 #include <limits>
+#include <algorithm>
 
-void    printMatrix(std::vector<std::vector<int>>& matrix);
+using   namespace   std;
+
+void    printMatrix(vector<vector<int>>& matrix);

@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems per week**
-- ✅ Total Problems Solved: **31/31(week 4)**  
-- 📈 Difficulty Breakdown: Easy(13) / Medium(16) / Hard(2) / Total(31)  
+- ✅ Total Problems Solved: **32/41(week 4)**  
+- 📈 Difficulty Breakdown: Easy(14) / Medium(16) / Hard(2) / Total(32)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -33,7 +33,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🪝 Two Pointers (Total: 7 problems)](#-two-pointers-total-7-problems)
     - [🔤 String Processing (Total: 3 problems)](#-string-processing-total-3-problems)
     - [🌊 Sliding Window (Total: 1 problems)](#-sliding-window-total-1-problems)
-    - [🧮 Simulation (Total: 5 problems)](#-simulation-total-5-problems)
+    - [🧮 Simulation (Total: 6 problems)](#-simulation-total-6-problems)
 
 ---
 </details>
@@ -47,6 +47,9 @@ Each problem is placed in its own folder, which contains:
 - A `.hpp` header file for declarations  
 - A `test.cpp` file for testing all versions  
 - Multiple `.cpp` files, each representing a different version of the solution
+  - `contest.cpp`: The original code written during the contest or simulated contest
+  - `brute_force.cpp`: A straightforward or initial solution outside the contest context
+  - `optimized.cpp`: Improved or optimized solution
 - A `simple_test.hpp` and `simple_test.cpp` pair that provide common testing utilities used by `test.cpp` and solution files
 
 To compile, just compile any solution `.cpp` together with `test.cpp` and `simple_test.cpp`.
@@ -142,7 +145,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
 ---
-### 🧮 Simulation (Total: 5 problems)
+### 🧮 Simulation (Total: 6 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [Runtime(100%)](./cpp/simulation/0048_rotate_image/) | Simulate 90° rotation by transpose + row reversal |
@@ -150,6 +153,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [Runtime(100%)](./cpp/simulation/0059_spiral_matrix_ii/) | Simulate spiral filling using 4 dynamic boundaries |
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings/) | Easy | [Runtime(100%)](./cpp/simulation/0415_add_strings/) | Simulate digit-by-digit addition / carry tracking |
 | 0796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | [Runtime(100%)](./cpp/simulation/0796_rotate_string/) | Simulate string rotation by manual character comparison |
+| 3602 | [Hexadecimal And Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | Easy | [Runtime(100%)](./cpp/simulation/3602_hexadecimal_and_hexatrigesimal_conversion/) | Simulate base conversion with custom digit set / 🏁 Biweekly 160(Q1) |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 

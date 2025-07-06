@@ -9,20 +9,20 @@
  * 
  * @param matrix Reference to the 2D vector<int> to print.
  */
-void    printMatrix(std::vector<std::vector<int>>& matrix) {
-    std::cout << "[";
+void    printMatrix(vector<vector<int>>& matrix) {
+    cout << "[";
     for (size_t i = 0; i < matrix.size(); ++i) {
-        std::cout << "[";
+        cout << "[";
         for (size_t j = 0; j < matrix[i].size(); ++j) {
-            std::cout << matrix[i][j];
+            cout << matrix[i][j];
             if (j != matrix[i].size() - 1) {
-                std::cout << ",";
+                cout << ",";
             }
         }
-        std::cout << "]";
+        cout << "]";
         if (i != matrix.size() - 1) {
-            std::cout << ",";
+            cout << ",";
         }
     }
-    std::cout << "]" << std::endl;
+    cout << "]" << endl;
 }
