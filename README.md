@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems per week**
-- ✅ Total Problems Solved: **32/41(week 4)**  
-- 📈 Difficulty Breakdown: Easy(14) / Medium(16) / Hard(2) / Total(32)  
+- ✅ Total Problems Solved: **33/41(week 5)**  
+- 📈 Difficulty Breakdown: Easy(14) / Medium(17) / Hard(2) / Total(33)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -25,6 +25,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - [🚀 LeetCode Training Progress](#-leetcode-training-progress)
   - [📋 Problem Overview](#-problem-overview)
     - [📁 Folder Structure \& Usage](#-folder-structure--usage)
+  - [🏆 Contest Reviews](#-contest-reviews)
   - [📚 Shared Solutions](#-shared-solutions)
   - [🗂️ Problem Categories](#️-problem-categories)
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
@@ -34,6 +35,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔤 String Processing (Total: 3 problems)](#-string-processing-total-3-problems)
     - [🌊 Sliding Window (Total: 1 problems)](#-sliding-window-total-1-problems)
     - [🧮 Simulation (Total: 6 problems)](#-simulation-total-6-problems)
+    - [🎯 Dynamic Programming (Total: 1 problems)](#-dynamic-programming-total-1-problems)
 
 ---
 </details>
@@ -60,6 +62,12 @@ c++ -Wall -Wextra -Werror brute_force.cpp test.cpp ../../simple_test.cpp -o test
 📌 If a problem folder only contains a brute_force version, that means it's either already the best I could come up with at the time — possibly even achieving 100% runtime — or it's a reasonable enough solution for now. I’ll revisit it if I come up with a better idea or gain a deeper understanding of the problem.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+## 🏆 Contest Reviews
+
+You can find all contest summaries and review notes in the [contest_review.md](./contest_review.md) file.
 
 ---
 
@@ -156,5 +164,12 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 3602 | [Hexadecimal And Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | Easy | [Runtime(100%)](./cpp/simulation/3602_hexadecimal_and_hexatrigesimal_conversion/) | Simulate base conversion with custom digit set / 🏁 Biweekly 160(Q1) |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🎯 Dynamic Programming (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 3603 | [Minimum Cost Path With Alternating Direction II](https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii/) | Medium | [Runtime(~95%) improve later](./cpp/dynamic_programming/3603_minimum_cost_path_with_alternating_direction_ii/) | Grid DP with custom movement rule / 🏁 Biweekly 160(Q2) |
 
 ---
