@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems per week**
-- ✅ Total Problems Solved: **34/41(week 5)**  
-- 📈 Difficulty Breakdown: Easy(15) / Medium(17) / Hard(2) / Total(34)  
+- ✅ Total Problems Solved: **35/41(week 5)**  
+- 📈 Difficulty Breakdown: Easy(16) / Medium(17) / Hard(2) / Total(35)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -36,7 +36,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌊 Sliding Window (Total: 1 problems)](#-sliding-window-total-1-problems)
     - [🧮 Simulation (Total: 6 problems)](#-simulation-total-6-problems)
     - [🎯 Dynamic Programming (Total: 1 problems)](#-dynamic-programming-total-1-problems)
-    - [🔍 Search (Total: 1 problems)](#-search-total-1-problems)
+    - [🔍 Search (Total: 2 problems)](#-search-total-2-problems)
 
 ---
 </details>
@@ -177,9 +177,10 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🔍 Search (Total: 1 problems)
+### 🔍 Search (Total: 2 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
+| 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | Easy | [Runtime(~55%) classic solution](./cpp/search/0278_first_bad_version/) | Find first `true` with minimal API calls / Lower Bound |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [Runtime(100%)](./cpp/search/0704_binary_search/) | Classic binary search on sorted array |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
