@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems per week**
-- ✅ Total Problems Solved: **33/41(week 5)**  
-- 📈 Difficulty Breakdown: Easy(14) / Medium(17) / Hard(2) / Total(33)  
+- ✅ Total Problems Solved: **34/41(week 5)**  
+- 📈 Difficulty Breakdown: Easy(15) / Medium(17) / Hard(2) / Total(34)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -36,6 +36,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌊 Sliding Window (Total: 1 problems)](#-sliding-window-total-1-problems)
     - [🧮 Simulation (Total: 6 problems)](#-simulation-total-6-problems)
     - [🎯 Dynamic Programming (Total: 1 problems)](#-dynamic-programming-total-1-problems)
+    - [🔍 Search (Total: 1 problems)](#-search-total-1-problems)
 
 ---
 </details>
@@ -171,5 +172,16 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 3603 | [Minimum Cost Path With Alternating Direction II](https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii/) | Medium | [Runtime(~95%) improve later](./cpp/dynamic_programming/3603_minimum_cost_path_with_alternating_direction_ii/) | Grid DP with custom movement rule / 🏁 Biweekly 160(Q2) |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🔍 Search (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [Runtime(100%)](./cpp/search/0704_binary_search/) | Classic binary search on sorted array |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
 
 ---
