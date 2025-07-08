@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems per week**
-- ✅ Total Problems Solved: **36/41(week 5)**  
-- 📈 Difficulty Breakdown: Easy(17) / Medium(17) / Hard(2) / Total(36)  
+- ✅ Total Problems Solved: **37/41(week 5)**  
+- 📈 Difficulty Breakdown: Easy(17) / Medium(18) / Hard(2) / Total(37)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -31,7 +31,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
     - [🧱 Stack \& Queue (Total: 6 problems)](#-stack--queue-total-6-problems)
     - [🧩 Hash Map (Total: 4 problems)](#-hash-map-total-4-problems)
-    - [🪝 Two Pointers (Total: 7 problems)](#-two-pointers-total-7-problems)
+    - [🪝 Two Pointers (Total: 8 problems)](#-two-pointers-total-8-problems)
     - [🔤 String Processing (Total: 3 problems)](#-string-processing-total-3-problems)
     - [🌊 Sliding Window (Total: 1 problems)](#-sliding-window-total-1-problems)
     - [🧮 Simulation (Total: 6 problems)](#-simulation-total-6-problems)
@@ -121,7 +121,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🪝 Two Pointers (Total: 7 problems)
+### 🪝 Two Pointers (Total: 8 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Runtime(100%)](./cpp/two_pointers/0003_longest_substring_without_repeating_characters/) | Sliding window (brute-force, map, array) / O(n) optimized |
@@ -129,6 +129,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [Runtime(80-90%)](./cpp/two_pointers/0142_linked_list_cycle_ii/) | Fast-slow pointer to find cycle start |
 | 0160 | [Intersection Of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [Runtime(~80%), classic solution](./cpp/two_pointers/0160_intersection_of_two_linked_lists/) | Two-pointer with list switching |
 | 0167 | [Two Sum II Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | [Runtime(100%)](./cpp/two_pointers/0167_two_sum_ii_input_array_is_sorted/) | Two-pointer / Sorted array |
+| 0287 | [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [Runtime(~70%) classic solution](./cpp/two_pointers/0287_find_the_duplicate_number/) | Floyd’s cycle (fast/slow) & Binary search |
 | 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | [Runtime(100%)](./cpp/two_pointers/0392_is_subsequence/) | Two-pointer / String scan |
 | 0876 | [Middle Of The Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [Runtime(100%)](./cpp/two_pointers/0876_middle_of_the_linked_list/) | Fast-slow pointer on Linked List |
 
