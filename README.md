@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems per week**
-- ✅ Total Problems Solved: **38/41(week 5)**  
-- 📈 Difficulty Breakdown: Easy(17) / Medium(18) / Hard(3) / Total(38)  
+- ✅ Total Problems Solved: **39/41(week 5)**  
+- 📈 Difficulty Breakdown: Easy(17) / Medium(19) / Hard(3) / Total(39)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -38,6 +38,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🎯 Dynamic Programming (Total: 1 problems)](#-dynamic-programming-total-1-problems)
     - [🔍 Search (Total: 3 problems)](#-search-total-3-problems)
     - [➕ Prefix Sum (Total: 1 problems)](#-prefix-sum-total-1-problems)
+    - [🌳 Tree Traversal (Total: 1 problems)](#-tree-traversal-total-1-problems)
 
 ---
 </details>
@@ -194,6 +195,15 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | [Runtime(100%)](./cpp/prefix_sum/0724_find_pivot_index/) | Compare left and right prefix sum |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🌳 Tree Traversal (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Runtime(100%)](./cpp/tree_traversal/0102_binary_tree_level_order_traversal/) | BFS using queue |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
