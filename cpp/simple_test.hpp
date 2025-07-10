@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 #include <queue>
+#include <deque>
 #include <cctype>
 #include <limits>
 #include <algorithm>
