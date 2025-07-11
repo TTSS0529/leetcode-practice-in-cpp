@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **41/41(week 5)**  
-- 📈 Difficulty Breakdown: Easy(17) / Medium(21) / Hard(3) / Total(41)  
+- ✅ Total Problems Solved: **42/51(week 6)**  
+- 📈 Difficulty Breakdown: Easy(17) / Medium(22) / Hard(3) / Total(42)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -39,6 +39,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔍 Search (Total: 3 problems)](#-search-total-3-problems)
     - [➕ Prefix Sum (Total: 1 problems)](#-prefix-sum-total-1-problems)
     - [🌳 Tree Traversal (Total: 3 problems)](#-tree-traversal-total-3-problems)
+    - [🌲 Binary Search Tree (Total: 1 problems)](#-binary-search-tree-total-1-problems)
 
 ---
 </details>
@@ -206,6 +207,15 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Runtime(100%)](./cpp/tree_traversal/0102_binary_tree_level_order_traversal/) | BFS using queue |
 | 0103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Medium | [Runtime(100%)](./cpp/tree_traversal/0103_binary_tree_zigzag_level_order_traversal/) | BFS with alternating direction |
 | 0236 | [Lowest Common Ancestor Of A Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | [Runtime(~60%) classic solution](./cpp/tree_traversal/0236_lowest_common_ancestor_of_a_binary_tree/) | Post-order recursion (LCA logic) |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🌲 Binary Search Tree (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0230 | [Kth Smallest Element In A BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [Runtime(100%)](./cpp/binary_search_tree/0230_kth_smallest_element_in_a_bst/) | In-order traversal + pruning |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 

@@ -4,7 +4,7 @@
 
 - **Solved**: 2 / 4  
 - **Score**: 8  
-- **Rank**: 9617  
+- **Rank**: 8096  
 - **Status**: ✅ First-ever contest
 
 ### 📘 Summary
