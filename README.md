@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **43/51(week 6)**  
-- 📈 Difficulty Breakdown: Easy(17) / Medium(23) / Hard(3) / Total(43)  
+- ✅ Total Problems Solved: **44/51(week 6)**  
+- 📈 Difficulty Breakdown: Easy(17) / Medium(24) / Hard(3) / Total(44)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -40,6 +40,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [➕ Prefix Sum (Total: 1 problems)](#-prefix-sum-total-1-problems)
     - [🌳 Tree Traversal (Total: 3 problems)](#-tree-traversal-total-3-problems)
     - [🌲 Binary Search Tree (Total: 2 problems)](#-binary-search-tree-total-2-problems)
+    - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
 
 ---
 </details>
@@ -217,6 +218,15 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 |:---:|:---:|:---:|:---:|:---:|
 | 0230 | [Kth Smallest Element In A BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [Runtime(100%)](./cpp/binary_search_tree/0230_kth_smallest_element_in_a_bst/) | In-order traversal + pruning |
 | 0235 | [Lowest Common Ancestor Of A Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | [Runtime(~88%) classic solution](./cpp/binary_search_tree/0235_lowest_common_ancestor_of_a_binary_search_tree/) | Top-down search using BST property |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🏔️ Heap / QuickSelect (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0215 | [Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [Runtime(>90%)](./cpp/heap_quickselect/0215_kth_largest_element_in_an_array/) | heap vs quick select |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
