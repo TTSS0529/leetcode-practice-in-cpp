@@ -40,3 +40,7 @@ There are two main strategies:
 | QuickSelect  | **O(n)** average, O(n²) worst | O(n)        | Faster, but randomized pivot  |
 
 ---
+
+### 📌 When to Use Which?
+- **QuickSelect** is great for **static data** when you only need the result once — it's faster on average.
+- **Min-Heap** is better for **streaming data** or repeated queries — it's more stable and supports online processing.
