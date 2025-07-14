@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **44/51(week 6)**  
-- 📈 Difficulty Breakdown: Easy(17) / Medium(24) / Hard(3) / Total(44)  
+- ✅ Total Problems Solved: **45/51(week 6)**  
+- 📈 Difficulty Breakdown: Easy(17) / Medium(25) / Hard(3) / Total(45)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -41,6 +41,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌳 Tree Traversal (Total: 3 problems)](#-tree-traversal-total-3-problems)
     - [🌲 Binary Search Tree (Total: 2 problems)](#-binary-search-tree-total-2-problems)
     - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
+    - [🕸️ Graph \& Topological Sort (Total: 1 problems)](#️-graph--topological-sort-total-1-problems)
 
 ---
 </details>
@@ -227,6 +228,15 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0215 | [Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [Runtime(>90%)](./cpp/heap_quickselect/0215_kth_largest_element_in_an_array/) | heap vs quick select |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🕸️ Graph & Topological Sort (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | [Runtime(79%-100%)](./cpp/graph_topological_sort/0207_course_schedule/) | Cycle detection, DAG check |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
