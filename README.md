@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **46/51(week 6)**  
-- 📈 Difficulty Breakdown: Easy(18) / Medium(25) / Hard(3) / Total(46)  
+- ✅ Total Problems Solved: **47/51(week 6)**  
+- 📈 Difficulty Breakdown: Easy(18) / Medium(26) / Hard(3) / Total(47)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -38,7 +38,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🎯 Dynamic Programming (Total: 1 problems)](#-dynamic-programming-total-1-problems)
     - [🔍 Search (Total: 3 problems)](#-search-total-3-problems)
     - [➕ Prefix Sum (Total: 1 problems)](#-prefix-sum-total-1-problems)
-    - [🌳 Tree Traversal (Total: 4 problems)](#-tree-traversal-total-4-problems)
+    - [🌳 Tree Traversal (Total: 5 problems)](#-tree-traversal-total-5-problems)
     - [🌲 Binary Search Tree (Total: 2 problems)](#-binary-search-tree-total-2-problems)
     - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
     - [🕸️ Graph \& Topological Sort (Total: 1 problems)](#️-graph--topological-sort-total-1-problems)
@@ -203,12 +203,13 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🌳 Tree Traversal (Total: 4 problems)
+### 🌳 Tree Traversal (Total: 5 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Runtime(100%)](./cpp/tree_traversal/0102_binary_tree_level_order_traversal/) | BFS using queue |
 | 0103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Medium | [Runtime(100%)](./cpp/tree_traversal/0103_binary_tree_zigzag_level_order_traversal/) | BFS with alternating direction |
 | 0104 | [Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Runtime(100%)](./cpp/tree_traversal/0104_maximum_depth_of_binary_tree/) | DFS recursion & BFS level count |
+| 0113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | Medium | [Runtime(100%)](./cpp/tree_traversal/0113_path_sum_ii/) | DFS + Backtracking |
 | 0236 | [Lowest Common Ancestor Of A Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | [Runtime(~60%) classic solution](./cpp/tree_traversal/0236_lowest_common_ancestor_of_a_binary_tree/) | Post-order recursion (LCA logic) |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
