@@ -42,6 +42,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌲 Binary Search Tree (Total: 2 problems)](#-binary-search-tree-total-2-problems)
     - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
     - [🕸️ Graph \& Topological Sort (Total: 1 problems)](#️-graph--topological-sort-total-1-problems)
+    - [🌀 Backtracking (Total: 1 problems)](#-backtracking-total-1-problems)
 
 ---
 </details>
@@ -239,6 +240,15 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | [Runtime(79%-100%)](./cpp/graph_topological_sort/0207_course_schedule/) | Cycle detection, DAG check |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🌀 Backtracking (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0046 | [Permutation](https://leetcode.com/problems/permutations/) | Medium | [Runtime(100%)](./cpp/backtracking/0046_permutations/) | Generate all permutations, `used[] + path` (fast) vs `swap` (less memory) |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
