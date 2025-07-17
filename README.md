@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **49/51(week 6)**  
-- 📈 Difficulty Breakdown: Easy(18) / Medium(28) / Hard(3) / Total(49)  
+- ✅ Total Problems Solved: **50/51(week 6)**  
+- 📈 Difficulty Breakdown: Easy(18) / Medium(29) / Hard(3) / Total(50)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -42,7 +42,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌲 Binary Search Tree (Total: 2 problems)](#-binary-search-tree-total-2-problems)
     - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
     - [🕸️ Graph \& Topological Sort (Total: 1 problems)](#️-graph--topological-sort-total-1-problems)
-    - [🌀 Backtracking (Total: 2 problems)](#-backtracking-total-2-problems)
+    - [🌀 Backtracking (Total: 3 problems)](#-backtracking-total-3-problems)
 
 ---
 </details>
@@ -245,9 +245,10 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🌀 Backtracking (Total: 2 problems)
+### 🌀 Backtracking (Total: 3 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
+| 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | [Runtime(sometimes 100%)](./cpp/backtracking/0039_combination_sum/) | Reuse numbers → `sort + prune if > target`, prevent duplicates via `start` |
 | 0046 | [Permutation](https://leetcode.com/problems/permutations/) | Medium | [Runtime(100%)](./cpp/backtracking/0046_permutations/) | Generate all permutations, `used[] + path` (fast) vs `swap` (less memory) |
 | 0047 | [Permutation II](https://leetcode.com/problems/permutations-ii/) | Medium | [Runtime(~75%), classic solution](./cpp/backtracking/0047_permutations_ii/) | Same as 46 but **with duplicates** → `sort + skip !used[i-1]` to prune |
 
