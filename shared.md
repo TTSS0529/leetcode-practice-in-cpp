@@ -4,6 +4,7 @@
 | 0008 | String To Interger Atoi | String | 2025-07-04 | [Link 🔗](https://leetcode.com/problems/string-to-integer-atoi/solutions/6920319/0008-c-manual-parse-overflow-clamp-runti-rr4y/) |
 | 0020 | Valid Parentheses | Stack | 2025-07-05 | [Link 🔗](https://leetcode.com/problems/valid-parentheses/solutions/6922963/0020-c-stack-matching-runtime-100-on-spa-actc/) |
 | 0039 | Combination Sum | Backtracking | 2025-07-18 | [Link 🔗](https://leetcode.com/problems/combination-sum/solutions/6972258/0039-c-combination-sum-backtracking-prun-hzue/) |
+| 0040 | Combination Sum II | Backtracking | 2025-07-19 | [Link 🔗](https://leetcode.com/problems/combination-sum-ii/solutions/6975926/0040-c-combination-sum-ii-backtracking-w-0sep/) |
 | 0048 | Rotate Image | Simulation | 2025-07-04 | [Link 🔗](https://leetcode.com/problems/rotate-image/solutions/6919587/0048-c-transpose-reverse-runtime-100-o1-b461q/) |
 | 0059 | Spiral Matrix II | Simulation | 2025-07-03 | [Link 🔗](https://leetcode.com/problems/spiral-matrix-ii/solutions/6917038/simulate-spiral-filling-with-dynamic-bou-id7l/) |
 | 0103 | Binary Tree Zigzag Level Order Traversal | Tree Traversal | 2025-07-10 | [Link 🔗](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/solutions/6943077/0103-c-zigzag-level-order-runtime-100-on-g1zv/) |
