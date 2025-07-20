@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **51/51(week 6)**  
-- 📈 Difficulty Breakdown: Easy(18) / Medium(30) / Hard(3) / Total(51)  
+- ✅ Total Problems Solved: **52/61(week 7)**  
+- 📈 Difficulty Breakdown: Easy(18) / Medium(31) / Hard(3) / Total(52)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
