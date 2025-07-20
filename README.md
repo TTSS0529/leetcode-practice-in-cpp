@@ -43,6 +43,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
     - [🕸️ Graph \& Topological Sort (Total: 1 problems)](#️-graph--topological-sort-total-1-problems)
     - [🌀 Backtracking (Total: 4 problems)](#-backtracking-total-4-problems)
+    - [📐 Math (Total: 1 problems)](#-math-total-1-problems)
 
 ---
 </details>
@@ -252,6 +253,15 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | [Runtime(100%)](./cpp/backtracking/0040_combination_sum_ii/) | Use each number once → `sort + prune + skip duplicates (i > start)` |
 | 0046 | [Permutation](https://leetcode.com/problems/permutations/) | Medium | [Runtime(100%)](./cpp/backtracking/0046_permutations/) | Generate all permutations, `used[] + path` (fast) vs `swap` (less memory) |
 | 0047 | [Permutation II](https://leetcode.com/problems/permutations-ii/) | Medium | [Runtime(~75%), classic solution](./cpp/backtracking/0047_permutations_ii/) | Same as 46 but **with duplicates** → `sort + skip !used[i-1]` to prune |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 📐 Math (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 3618 | [Split Array By Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | Medium | [Runtime(>70%) classic solution](./cpp/math/3618_split_array_by_prime_indices/) | Number theory + sieve of Eratosthenes / 🏁 Biweekly 161(Q1) |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 

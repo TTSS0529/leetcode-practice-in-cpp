@@ -1,5 +1,25 @@
 # 🏁 LeetCode Contest Review
 
+---
+
+## 🔸 Biweekly Contest 161 (2025-07-19)
+
+- **Solved**: 2 / 4  
+- **Score**: 8  
+- **Rank**: 9557
+- **Status**: ✅ Second contest
+
+### 📘 Summary
+
+| # | Title | Status | Notes |
+|:--:|:------|:--------|:------|
+| 3618 | [Split Array By Prime Indices](./cpp/math/3618_split_array_by_prime_indices/) | ✅ | Array splitting based on prime indices, optimized with sieve |
+
+### 🧠 Lessons Learned
+- Reinforced the **Sieve of Eratosthenes** to efficiently handle prime checks in \(O(n \log \log n)\), avoiding the naive \(O(n \sqrt{n})\) approach.
+
+---
+
 ## 🔸 Biweekly Contest 160 (2025-07-05)
 
 - **Solved**: 2 / 4  
