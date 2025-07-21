@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **54/61(week 7)**  
-- 📈 Difficulty Breakdown: Easy(18) / Medium(32) / Hard(4) / Total(54)  
+- ✅ Total Problems Solved: **55/61(week 7)**  
+- 📈 Difficulty Breakdown: Easy(18) / Medium(33) / Hard(4) / Total(55)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -42,7 +42,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌲 Binary Search Tree (Total: 2 problems)](#-binary-search-tree-total-2-problems)
     - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
     - [🕸️ Graph \& Topological Sort (Total: 2 problems)](#️-graph--topological-sort-total-2-problems)
-    - [🌀 Backtracking (Total: 4 problems)](#-backtracking-total-4-problems)
+    - [🌀 Backtracking (Total: 5 problems)](#-backtracking-total-5-problems)
     - [📐 Math (Total: 1 problems)](#-math-total-1-problems)
     - [🌐 Flood Fill / Connected Components (Total: 1 problems)](#-flood-fill--connected-components-total-1-problems)
 
@@ -248,13 +248,14 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🌀 Backtracking (Total: 4 problems)
+### 🌀 Backtracking (Total: 5 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | [Runtime(sometimes 100%)](./cpp/backtracking/0039_combination_sum/) | Reuse numbers → `sort + prune if > target`, prevent duplicates via `start` |
 | 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | [Runtime(100%)](./cpp/backtracking/0040_combination_sum_ii/) | Use each number once → `sort + prune + skip duplicates (i > start)` |
 | 0046 | [Permutation](https://leetcode.com/problems/permutations/) | Medium | [Runtime(100%)](./cpp/backtracking/0046_permutations/) | Generate all permutations, `used[] + path` (fast) vs `swap` (less memory) |
 | 0047 | [Permutation II](https://leetcode.com/problems/permutations-ii/) | Medium | [Runtime(~75%), classic solution](./cpp/backtracking/0047_permutations_ii/) | Same as 46 but **with duplicates** → `sort + skip !used[i-1]` to prune |
+| 0079 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | [Runtime(98%)](./cpp/backtracking/0079_word_search/) | DFS + backtracking on 2D grid, prune by length & char frequency, in-place visited mark |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 

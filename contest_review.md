@@ -16,11 +16,15 @@
 | 3618 | [Split Array By Prime Indices](./cpp/math/3618_split_array_by_prime_indices/) | ✅ | Array splitting based on prime indices, optimized with sieve |
 | 3619 | [Count Islands With Total Value Divisible By K](./cpp/flood_fill_connected_components/3619_count_islands_with_total_value_divisible_by_k/) | ✅ | Flood fill via DFS and BFS comparison |
 | 3620 | [Network Recovery Pathways](./cpp/graph_topological_sort/3620_network_recovery_pathways/) | ❌ | DAG + Topological DP + Binary Search on edge weights |
+| 3621 | Number of Integers With Popcount-Depth Equal to K I | ❌ | To revisit (Digit DP with bitcount-depth constraint) |
 
 ### 🧠 Lessons Learned
 - Reinforced the **Sieve of Eratosthenes** to efficiently handle prime checks in \(O(n \log \log n)\), avoiding the naive \(O(n \sqrt{n})\) approach.
 - Practiced **grid flood fill (DFS vs BFS)**, confirming DFS is faster on typical LeetCode constraints due to better cache locality and less queue overhead.
 - Learned **DAG shortest path with topological DP**, combined with **binary search on unique edge weights** to optimize feasibility checks to `O((V + E) log E)`.
+> ⚠️ **Note:** Problem 3621 involves advanced algorithmic concepts such as **Digit DP combined with popcount-depth constraints**.  
+> Since this topic is relatively niche and not directly aligned with current interview-focused practice, I have decided to temporarily set this problem aside.  
+> I plan to revisit it later when exploring more **Hard-level Digit DP problems** to strengthen my understanding of advanced counting techniques.
 
 ---
 
