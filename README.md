@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **52/61(week 7)**  
-- 📈 Difficulty Breakdown: Easy(18) / Medium(31) / Hard(3) / Total(52)  
+- ✅ Total Problems Solved: **53/61(week 7)**  
+- 📈 Difficulty Breakdown: Easy(18) / Medium(32) / Hard(3) / Total(53)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -44,6 +44,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🕸️ Graph \& Topological Sort (Total: 1 problems)](#️-graph--topological-sort-total-1-problems)
     - [🌀 Backtracking (Total: 4 problems)](#-backtracking-total-4-problems)
     - [📐 Math (Total: 1 problems)](#-math-total-1-problems)
+    - [🌐 Flood Fill / Connected Components (Total: 1 problems)](#-flood-fill--connected-components-total-1-problems)
 
 ---
 </details>
@@ -262,6 +263,15 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 3618 | [Split Array By Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | Medium | [Runtime(>70%) classic solution](./cpp/math/3618_split_array_by_prime_indices/) | Number theory + sieve of Eratosthenes / 🏁 Biweekly 161(Q1) |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🌐 Flood Fill / Connected Components (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 3619 | [Count Islands With Total Value Divisible By K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/) | Medium | [Runtime(~90%) classic solution](./cpp/flood_fill_connected_components/3619_count_islands_with_total_value_divisible_by_k/) | Flood fill via DFS and BFS comparison / 🏁 Biweekly 161(Q2) |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
