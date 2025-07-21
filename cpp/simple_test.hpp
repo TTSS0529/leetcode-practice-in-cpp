@@ -10,6 +10,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <limits>
+#include <climits>
 #include <utility>
 #include <algorithm>
 

@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **53/61(week 7)**  
-- 📈 Difficulty Breakdown: Easy(18) / Medium(32) / Hard(3) / Total(53)  
+- ✅ Total Problems Solved: **54/61(week 7)**  
+- 📈 Difficulty Breakdown: Easy(18) / Medium(32) / Hard(4) / Total(54)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -41,7 +41,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌳 Tree Traversal (Total: 5 problems)](#-tree-traversal-total-5-problems)
     - [🌲 Binary Search Tree (Total: 2 problems)](#-binary-search-tree-total-2-problems)
     - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
-    - [🕸️ Graph \& Topological Sort (Total: 1 problems)](#️-graph--topological-sort-total-1-problems)
+    - [🕸️ Graph \& Topological Sort (Total: 2 problems)](#️-graph--topological-sort-total-2-problems)
     - [🌀 Backtracking (Total: 4 problems)](#-backtracking-total-4-problems)
     - [📐 Math (Total: 1 problems)](#-math-total-1-problems)
     - [🌐 Flood Fill / Connected Components (Total: 1 problems)](#-flood-fill--connected-components-total-1-problems)
@@ -238,10 +238,11 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🕸️ Graph & Topological Sort (Total: 1 problems)
+### 🕸️ Graph & Topological Sort (Total: 2 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | [Runtime(79%-100%)](./cpp/graph_topological_sort/0207_course_schedule/) | Cycle detection, DAG check |
+| 3620 | [Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/) | Hard | [Runtime(>90%)](./cpp/graph_topological_sort/3620_network_recovery_pathways/) | DAG shortest path + topo sort + binary search / / 🏁 Biweekly 161(Q3) |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 

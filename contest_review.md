@@ -15,10 +15,12 @@
 |:--:|:------|:--------|:------|
 | 3618 | [Split Array By Prime Indices](./cpp/math/3618_split_array_by_prime_indices/) | ✅ | Array splitting based on prime indices, optimized with sieve |
 | 3619 | [Count Islands With Total Value Divisible By K](./cpp/flood_fill_connected_components/3619_count_islands_with_total_value_divisible_by_k/) | ✅ | Flood fill via DFS and BFS comparison |
+| 3620 | [Network Recovery Pathways](./cpp/graph_topological_sort/3620_network_recovery_pathways/) | ❌ | DAG + Topological DP + Binary Search on edge weights |
 
 ### 🧠 Lessons Learned
 - Reinforced the **Sieve of Eratosthenes** to efficiently handle prime checks in \(O(n \log \log n)\), avoiding the naive \(O(n \sqrt{n})\) approach.
 - Practiced **grid flood fill (DFS vs BFS)**, confirming DFS is faster on typical LeetCode constraints due to better cache locality and less queue overhead.
+- Learned **DAG shortest path with topological DP**, combined with **binary search on unique edge weights** to optimize feasibility checks to `O((V + E) log E)`.
 
 ---
 
