@@ -27,3 +27,4 @@ struct TreeNode {
 };
 
 void    printMatrix(vector<vector<int>>& matrix);
+void    printTreeByLevel(TreeNode *root);

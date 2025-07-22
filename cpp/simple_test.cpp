@@ -26,3 +26,48 @@ void    printMatrix(vector<vector<int>>& matrix) {
     }
     cout << "]" << endl;
 }
+
+/**
+ * @brief Print a binary tree in level-order (BFS) traversal format.
+ *
+ * This function performs a breadth-first search (level-order traversal) on the
+ * given binary tree and prints node values in a single list format.
+ * The output format is: [v1,v2,v3,...], where nodes are visited from top to bottom,
+ * left to right. Null children are skipped (only existing nodes are printed).
+ *
+ * Example:
+ *      Input Tree:
+ *          1
+ *         / \
+ *        2   3
+ *           / \
+ *          4   5
+ *
+ *      Output:
+ *          [1,2,3,4,5]
+ *
+ * @param root Pointer to the root node of the binary tree.
+ */
+void    printTreeByLevel(TreeNode *root) {
+    if (!root) {
+        return;
+    }
+    queue<TreeNode *>   q;
+    q.push(root);
+    cout << "[";
+    while (!q.empty()) {
+        TreeNode    *tmp = q.front();
+        q.pop();
+        if (tmp->left) {
+            q.push(tmp->left);
+        }
+        if (tmp->right) {
+            q.push(tmp->right);
+        }
+        cout << tmp->val;
+        if (!q.empty()) {
+            cout << ",";
+        }
+    }
+    cout << "]" << endl;
+}
