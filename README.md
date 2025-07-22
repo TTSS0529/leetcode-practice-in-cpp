@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **56/61(week 7)**  
-- 📈 Difficulty Breakdown: Easy(19) / Medium(33) / Hard(4) / Total(56)  
+- ✅ Total Problems Solved: **57/61(week 7)**  
+- 📈 Difficulty Breakdown: Easy(20) / Medium(33) / Hard(4) / Total(57)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -38,7 +38,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🎯 Dynamic Programming (Total: 1 problems)](#-dynamic-programming-total-1-problems)
     - [🔍 Search (Total: 3 problems)](#-search-total-3-problems)
     - [➕ Prefix Sum (Total: 1 problems)](#-prefix-sum-total-1-problems)
-    - [🌳 Tree Traversal (Total: 6 problems)](#-tree-traversal-total-6-problems)
+    - [🌳 Tree Traversal (Total: 7 problems)](#-tree-traversal-total-7-problems)
     - [🌲 Binary Search Tree (Total: 2 problems)](#-binary-search-tree-total-2-problems)
     - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
     - [🕸️ Graph \& Topological Sort (Total: 2 problems)](#️-graph--topological-sort-total-2-problems)
@@ -206,9 +206,10 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🌳 Tree Traversal (Total: 6 problems)
+### 🌳 Tree Traversal (Total: 7 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
+| 0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | [Runtime(100%)](./cpp/tree_traversal/0101_symmetric_tree/) | DFS recursion & BFS queue mirror check |
 | 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Runtime(100%)](./cpp/tree_traversal/0102_binary_tree_level_order_traversal/) | BFS using queue |
 | 0103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Medium | [Runtime(100%)](./cpp/tree_traversal/0103_binary_tree_zigzag_level_order_traversal/) | BFS with alternating direction |
 | 0104 | [Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Runtime(100%)](./cpp/tree_traversal/0104_maximum_depth_of_binary_tree/) | DFS recursion & BFS level count |
