@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **57/61(week 7)**  
-- 📈 Difficulty Breakdown: Easy(20) / Medium(33) / Hard(4) / Total(57)  
+- ✅ Total Problems Solved: **58/61(week 7)**  
+- 📈 Difficulty Breakdown: Easy(20) / Medium(34) / Hard(4) / Total(58)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -45,6 +45,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌀 Backtracking (Total: 5 problems)](#-backtracking-total-5-problems)
     - [📐 Math (Total: 1 problems)](#-math-total-1-problems)
     - [🌐 Flood Fill / Connected Components (Total: 1 problems)](#-flood-fill--connected-components-total-1-problems)
+    - [⚡ Divide \& Conquer (Total: 1 problems)](#-divide--conquer-total-1-problems)
 
 ---
 </details>
@@ -276,6 +277,15 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 3619 | [Count Islands With Total Value Divisible By K](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/) | Medium | [Runtime(~90%) classic solution](./cpp/flood_fill_connected_components/3619_count_islands_with_total_value_divisible_by_k/) | Flood fill via DFS and BFS comparison / 🏁 Biweekly 161(Q2) |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### ⚡ Divide & Conquer (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0050 | [Pow(x,n)](https://leetcode.com/problems/powx-n/) | Medium | [Runtime(100%)](./cpp/divide_conquer/0050_pow_x_n/) | Fast exponentiation, O(log n) optimization |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
