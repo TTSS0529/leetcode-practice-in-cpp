@@ -13,6 +13,7 @@
 #include <climits>
 #include <utility>
 #include <algorithm>
+#include <optional>// c++17
 
 using   namespace   std;
 
@@ -26,5 +27,8 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-void    printMatrix(vector<vector<int>>& matrix);
-void    printTreeByLevel(TreeNode *root);
+void        printMatrix(vector<vector<int>>& matrix);
+
+void        printTreeByLevel(TreeNode *root);
+TreeNode    *creatBinaryTree(vector<optional<int>>& nodes);
+void        freeBinaryTree(TreeNode *root);

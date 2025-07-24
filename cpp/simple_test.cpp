@@ -71,3 +71,46 @@ void    printTreeByLevel(TreeNode *root) {
     }
     cout << "]" << endl;
 }
+
+static TreeNode* buildTreeDFS(const vector<optional<int>>& nodes, int index) {
+    if (index >= static_cast<int>(nodes.size()) || !nodes[index].has_value()) 
+        return nullptr;
+
+    TreeNode* root = new TreeNode(nodes[index].value());
+    root->left  = buildTreeDFS(nodes, 2 * index + 1);
+    root->right = buildTreeDFS(nodes, 2 * index + 2);
+    return root;
+}
+
+/**
+ * @brief Build a binary tree from a level-order vector using index-based DFS.
+ * 
+ * The input vector represents a binary tree in level-order form, where `nullopt` indicates
+ * a missing node. Children are determined by array indices:
+ *   - left child  = 2 * index + 1
+ *   - right child = 2 * index + 2
+ * 
+ * This method supports sparse trees without requiring trailing nullopt padding.
+ * Returns nullptr if the input is empty or the node at the given index is nullopt.
+ * 
+ * @param nodes Level-order vector of optional<int>, where nullopt represents an empty node.
+ * @return Pointer to the root of the constructed binary tree, or nullptr if empty.
+ */
+TreeNode    *creatBinaryTree(vector<optional<int>>& nodes) {
+    return buildTreeDFS(nodes, 0);
+}
+
+/**
+ * @brief Recursively frees all nodes in a binary tree.
+ * 
+ * Performs a post-order traversal to delete every node and free memory.
+ * Safely handles nullptr (empty tree).
+ * 
+ * @param root Pointer to the root node of the binary tree.
+ */
+void    freeBinaryTree(TreeNode *root) {
+    if (!root) return;
+    freeBinaryTree(root->left);
+    freeBinaryTree(root->right);
+    delete(root);
+}
