@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **60/61(week 7)**  
-- 📈 Difficulty Breakdown: Easy(21) / Medium(35) / Hard(4) / Total(60)  
+- ✅ Total Problems Solved: **61/61(week 7)**  
+- 📈 Difficulty Breakdown: Easy(21) / Medium(35) / Hard(5) / Total(61)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -46,6 +46,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [📐 Math (Total: 1 problems)](#-math-total-1-problems)
     - [🌐 Flood Fill / Connected Components (Total: 1 problems)](#-flood-fill--connected-components-total-1-problems)
     - [⚡ Divide \& Conquer (Total: 2 problems)](#-divide--conquer-total-2-problems)
+    - [🏗️ Design (Total: 1 problems)](#️-design-total-1-problems)
 
 ---
 </details>
@@ -288,6 +289,15 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 |:---:|:---:|:---:|:---:|:---:|
 | 0050 | [Pow(x,n)](https://leetcode.com/problems/powx-n/) | Medium | [Runtime(100%)](./cpp/divide_conquer/0050_pow_x_n/) | Fast exponentiation, O(log n) optimization |
 | 0105 | [Construct Binary Tree From Preorder And Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | [Runtime(100%)](./cpp/divide_conquer/0105_construct_binary_tree_from_preorder_and_inorder_traversal/) | Recursively split inorder, build subtrees |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🏗️ Design (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0297 | [Serialize And Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | [Runtime(~30%) improve later](./cpp/design/0297_serialize_and_deserialize_binary_tree/) | Preorder DFS + `#` null marker, `istringstream` token parsing |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
