@@ -33,7 +33,7 @@ void    printMatrix(vector<vector<int>>& matrix) {
  * This function performs a breadth-first search (level-order traversal) on the
  * given binary tree and prints node values in a single list format.
  * The output format is: [v1,v2,v3,...], where nodes are visited from top to bottom,
- * left to right. Null children are skipped (only existing nodes are printed).
+ * left to right. Null children are shown as "null", but trailing nulls are trimmed.
  *
  * Example:
  *      Input Tree:
@@ -44,12 +44,13 @@ void    printMatrix(vector<vector<int>>& matrix) {
  *          4   5
  *
  *      Output:
- *          [1,2,3,4,5]
+ *          [1,2,3,null,null,4,5]
  *
  * @param root Pointer to the root node of the binary tree.
  */
 void    printTreeByLevel(TreeNode *root) {
     if (!root) {
+        cout << "[]" << endl;
         return;
     }
     queue<TreeNode *>   q;
@@ -58,14 +59,27 @@ void    printTreeByLevel(TreeNode *root) {
     while (!q.empty()) {
         TreeNode    *tmp = q.front();
         q.pop();
-        if (tmp->left) {
+        if (tmp) {
             q.push(tmp->left);
-        }
-        if (tmp->right) {
             q.push(tmp->right);
+            cout << tmp->val;
+        } else {
+            q.push(nullptr);
+            q.push(nullptr);
+            cout << "null";
         }
-        cout << tmp->val;
-        if (!q.empty()) {
+        queue<TreeNode *>   copy = q;
+        bool    allNull = true;
+        while (!copy.empty()) {
+            if (copy.front()) {
+                allNull = false;
+                break;
+            }
+            copy.pop();
+        }
+        if (allNull) {
+            break;
+        } else {
             cout << ",";
         }
     }
