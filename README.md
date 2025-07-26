@@ -63,6 +63,8 @@ Each problem is placed in its own folder, which contains:
   - `contest.cpp`: The original code written during the contest or simulated contest
   - `brute_force.cpp`: A straightforward or initial solution outside the contest context
   - `optimized.cpp`: Improved or optimized solution
+  - **`refined.cpp`**: A further **cleaned-up or more elegant version** created during later review
+    - May have the **same complexity** as `brute_force.cpp` or `optimized.cpp`, but with **better readability** or slightly better runtime
 - A `simple_test.hpp` and `simple_test.cpp` pair that provide common testing utilities used by `test.cpp` and solution files
 
 To compile, just compile any solution `.cpp` together with `test.cpp` and `simple_test.cpp`.
