@@ -29,6 +29,7 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
+void        printVecInt(vector<int>& nums);
 void        printMatrix(vector<vector<int>>& matrix);
 
 void        printTreeByLevel(TreeNode *root);

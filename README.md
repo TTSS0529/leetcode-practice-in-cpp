@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **63/71(week 8)**  
-- 📈 Difficulty Breakdown: Easy(23) / Medium(35) / Hard(5) / Total(63)  
+- ✅ Total Problems Solved: **64/71(week 8)**  
+- 📈 Difficulty Breakdown: Easy(24) / Medium(35) / Hard(5) / Total(64)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -37,7 +37,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🧮 Simulation (Total: 6 problems)](#-simulation-total-6-problems)
     - [🎯 Dynamic Programming (Total: 3 problems)](#-dynamic-programming-total-3-problems)
     - [🔍 Search (Total: 3 problems)](#-search-total-3-problems)
-    - [➕ Prefix Sum (Total: 1 problems)](#-prefix-sum-total-1-problems)
+    - [➕ Prefix Sum (Total: 2 problems)](#-prefix-sum-total-2-problems)
     - [🌳 Tree Traversal (Total: 8 problems)](#-tree-traversal-total-8-problems)
     - [🌲 Binary Search Tree (Total: 2 problems)](#-binary-search-tree-total-2-problems)
     - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
@@ -203,10 +203,11 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### ➕ Prefix Sum (Total: 1 problems)
+### ➕ Prefix Sum (Total: 2 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | [Runtime(100%)](./cpp/prefix_sum/0724_find_pivot_index/) | Compare left and right prefix sum |
+| 1480 | [Running Sum Of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Easy | [Runtime(100%)](./cpp/prefix_sum/1480_running_sum_of_1d_array/) | Basic prefix sum building cumulatively |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
