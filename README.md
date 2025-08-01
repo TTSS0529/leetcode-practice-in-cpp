@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **70/71(week 8)**  
-- 📈 Difficulty Breakdown: Easy(25) / Medium(40) / Hard(5) / Total(70)  
+- ✅ Total Problems Solved: **71/71(week 8)**  
+- 📈 Difficulty Breakdown: Easy(25) / Medium(40) / Hard(6) / Total(71)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -35,7 +35,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔤 String Processing (Total: 3 problems)](#-string-processing-total-3-problems)
     - [🌊 Sliding Window (Total: 1 problems)](#-sliding-window-total-1-problems)
     - [🧮 Simulation (Total: 6 problems)](#-simulation-total-6-problems)
-    - [🎯 Dynamic Programming (Total: 9 problems)](#-dynamic-programming-total-9-problems)
+    - [🎯 Dynamic Programming (Total: 10 problems)](#-dynamic-programming-total-10-problems)
     - [🔍 Search (Total: 3 problems)](#-search-total-3-problems)
     - [➕ Prefix Sum (Total: 2 problems)](#-prefix-sum-total-2-problems)
     - [🌳 Tree Traversal (Total: 8 problems)](#-tree-traversal-total-8-problems)
@@ -181,9 +181,10 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🎯 Dynamic Programming (Total: 9 problems)
+### 🎯 Dynamic Programming (Total: 10 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
+| 0010 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [Runtime(~52%) classic solution](./cpp/dynamic_programming/0010_regular_expression_matching/) | 2D DP → simulate regex with `.` and `*`, careful initialization and transitions |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0053_maximum_subarray/) | Kadane’s Algorithm → O(n) time, O(1) space |
 | 0064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0064_minimum_path_sum/) | Grid DP → can optimize to O(n) space with rolling array(later) |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Runtime(100%)](./cpp/dynamic_programming/0070_climbing_stairs/) | Fibonacci variant with safe integer handling |
