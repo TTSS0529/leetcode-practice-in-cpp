@@ -14,9 +14,11 @@
 | # | Title | Status | Notes |
 |:--:|:------|:--------|:------|
 | 3633 | [Earlies Finish Time For Land And Water Rides I](./cpp/simulation/3633_earlies_finish_time_for_land_and_water_rides_i/) | ✅ | Brute-force simulate both orders (land→water / water→land) |
+| 3635 | [Earlies Finish Time For Land And Water Rides II](./cpp/greedy/3635_earlies_finish_time_for_land_and_water_rides_ii/) | ❌ | Greedy on earliest finish time in both orders (land→water / water→land) |
 
 ### 🧠 Lessons Learned
-- 
+- Reinforced the idea that **brute-force pair enumeration** is acceptable for small inputs (3633), but **greedy strategies** using earliest finish times are essential for scaling to larger inputs (3635).
+- Gained experience distinguishing when full pair comparisons are necessary `vs` when **minimizing over one dimension** suffices for correctness and performance.
 
 ---
 
