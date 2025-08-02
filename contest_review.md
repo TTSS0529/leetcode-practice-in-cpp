@@ -2,6 +2,24 @@
 
 ---
 
+## 🔸 Biweekly Contest 162 (2025-08-02)
+
+- **Solved**: 2 / 4
+- **Score**: 7
+- **Rank**: 15055
+- **Status**: ✅ 3th contest
+
+### 📘 Summary
+
+| # | Title | Status | Notes |
+|:--:|:------|:--------|:------|
+| 3633 | [Earlies Finish Time For Land And Water Rides I](./cpp/simulation/3633_earlies_finish_time_for_land_and_water_rides_i/) | ✅ | Brute-force simulate both orders (land→water / water→land) |
+
+### 🧠 Lessons Learned
+- 
+
+---
+
 ## 🔸 Biweekly Contest 161 (2025-07-19)
 
 - **Solved**: 2 / 4  

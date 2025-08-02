@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **71/71(week 8)**  
-- 📈 Difficulty Breakdown: Easy(25) / Medium(40) / Hard(6) / Total(71)  
+- ✅ Total Problems Solved: **72/81(week 9)**  
+- 📈 Difficulty Breakdown: Easy(26) / Medium(40) / Hard(6) / Total(72)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -34,7 +34,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🪝 Two Pointers (Total: 8 problems)](#-two-pointers-total-8-problems)
     - [🔤 String Processing (Total: 3 problems)](#-string-processing-total-3-problems)
     - [🌊 Sliding Window (Total: 1 problems)](#-sliding-window-total-1-problems)
-    - [🧮 Simulation (Total: 6 problems)](#-simulation-total-6-problems)
+    - [🧮 Simulation (Total: 7 problems)](#-simulation-total-7-problems)
     - [🎯 Dynamic Programming (Total: 10 problems)](#-dynamic-programming-total-10-problems)
     - [🔍 Search (Total: 3 problems)](#-search-total-3-problems)
     - [➕ Prefix Sum (Total: 2 problems)](#-prefix-sum-total-2-problems)
@@ -167,7 +167,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
 ---
-### 🧮 Simulation (Total: 6 problems)
+### 🧮 Simulation (Total: 7 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [Runtime(100%)](./cpp/simulation/0048_rotate_image/) | Simulate 90° rotation by transpose + row reversal |
@@ -176,6 +176,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings/) | Easy | [Runtime(100%)](./cpp/simulation/0415_add_strings/) | Simulate digit-by-digit addition / carry tracking |
 | 0796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | [Runtime(100%)](./cpp/simulation/0796_rotate_string/) | Simulate string rotation by manual character comparison |
 | 3602 | [Hexadecimal And Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | Easy | [Runtime(100%)](./cpp/simulation/3602_hexadecimal_and_hexatrigesimal_conversion/) | Simulate base conversion with custom digit set / 🏁 Biweekly 160(Q1) |
+| 3633 | [Earlies Finish Time For Land And Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | Easy | [Runtime(20%), better solution in 3635](./cpp/simulation/3633_earlies_finish_time_for_land_and_water_rides_i/) | Brute-force simulate both orders (land→water / water→land) / 🏁 Biweekly 162(Q1) |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
