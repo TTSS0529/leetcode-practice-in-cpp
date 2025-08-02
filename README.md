@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **73/81(week 9)**  
-- 📈 Difficulty Breakdown: Easy(26) / Medium(41) / Hard(6) / Total(73)  
+- ✅ Total Problems Solved: **74/81(week 9)**  
+- 📈 Difficulty Breakdown: Easy(26) / Medium(42) / Hard(6) / Total(74)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -43,7 +43,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [➕ Prefix Sum (Total: 2 problems)](#-prefix-sum-total-2-problems)
     - [🔍 Search (Total: 3 problems)](#-search-total-3-problems)
     - [🧮 Simulation (Total: 7 problems)](#-simulation-total-7-problems)
-    - [🌊 Sliding Window (Total: 1 problems)](#-sliding-window-total-1-problems)
+    - [🌊 Sliding Window (Total: 2 problems)](#-sliding-window-total-2-problems)
     - [🧱 Stack \& Queue (Total: 6 problems)](#-stack--queue-total-6-problems)
     - [🔤 String Processing (Total: 3 problems)](#-string-processing-total-3-problems)
     - [🌳 Tree Traversal (Total: 8 problems)](#-tree-traversal-total-8-problems)
@@ -261,10 +261,11 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🌊 Sliding Window (Total: 1 problems)
+### 🌊 Sliding Window (Total: 2 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Runtime(~99%)](./cpp/sliding_window/0239_sliding_window_maximum/) | Monotonic deque & heap approaches |
+| 3634 | [Minimum Removals To Balance Array](https://leetcode.com/problems/minimum-removals-to-balance-array/) | Medium | [Runtime(vary a lot), classic solution](./cpp/sliding_window/3634_minimum_removals_to_balance_array/) | Sort + sliding window (two pointers) / 🏁 Biweekly 162(Q2) |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 

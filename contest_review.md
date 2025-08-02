@@ -14,11 +14,18 @@
 | # | Title | Status | Notes |
 |:--:|:------|:--------|:------|
 | 3633 | [Earlies Finish Time For Land And Water Rides I](./cpp/simulation/3633_earlies_finish_time_for_land_and_water_rides_i/) | ✅ | Brute-force simulate both orders (land→water / water→land) |
+| 3634 | [Minimum Removals To Balance Array](./cpp/sliding_window/3634_minimum_removals_to_balance_array/) | ✅ | Sort + sliding window (two pointers) |
 | 3635 | [Earlies Finish Time For Land And Water Rides II](./cpp/greedy/3635_earlies_finish_time_for_land_and_water_rides_ii/) | ❌ | Greedy on earliest finish time in both orders (land→water / water→land) |
+| 3636 | Threshold Majority Queries | ❌ | To revisit (Range frequency queries with randomized sampling) |
 
 ### 🧠 Lessons Learned
 - Reinforced the idea that **brute-force pair enumeration** is acceptable for small inputs (3633), but **greedy strategies** using earliest finish times are essential for scaling to larger inputs (3635).
 - Gained experience distinguishing when full pair comparisons are necessary `vs` when **minimizing over one dimension** suffices for correctness and performance.
+- Learned that for ratio-based subarray conditions (3634), sorting combined with a **sliding window (two pointers)** is a powerful technique for optimizing performance — avoids unnecessary enumeration while guaranteeing correctness.
+> ⚠️ **Note:** Problem 3636 requires advanced techniques such as **Mo’s algorithm**, **randomized sampling**, and **complex range frequency queries**.  
+> This problem is relatively challenging and involves probabilistic algorithms that are beyond standard interview preparations.  
+> Given the current focus on strengthening core algorithmic skills, I have decided to temporarily set this problem aside.  
+> I plan to revisit it later after consolidating foundational topics and exploring more **advanced range query and randomized algorithms**.
 
 ---
 
