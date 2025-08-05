@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **81/81(week 9)**  
-- 📈 Difficulty Breakdown: Easy(26) / Medium(47) / Hard(8) / Total(81)  
+- ✅ Total Problems Solved: **82/91(week 10)**  
+- 📈 Difficulty Breakdown: Easy(27) / Medium(47) / Hard(8) / Total(82)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -30,6 +30,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
   - [🗂️ Problem Categories](#️-problem-categories)
     - [🌀 Backtracking (Total: 5 problems)](#-backtracking-total-5-problems)
     - [🌲 Binary Search Tree (Total: 2 problems)](#-binary-search-tree-total-2-problems)
+    - [🔧 Bit Manipulation (Total: 1 problems)](#-bit-manipulation-total-1-problems)
     - [🏗️ Design (Total: 1 problems)](#️-design-total-1-problems)
     - [⚡ Divide \& Conquer (Total: 2 problems)](#-divide--conquer-total-2-problems)
     - [🎯 Dynamic Programming (Total: 11 problems)](#-dynamic-programming-total-11-problems)
@@ -111,6 +112,15 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 |:---:|:---:|:---:|:---:|:---:|
 | 0230 | [Kth Smallest Element In A BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [Runtime(100%)](./cpp/binary_search_tree/0230_kth_smallest_element_in_a_bst/) | In-order traversal + pruning |
 | 0235 | [Lowest Common Ancestor Of A Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | [Runtime(~88%) classic solution](./cpp/binary_search_tree/0235_lowest_common_ancestor_of_a_binary_search_tree/) | Top-down search using BST property |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🔧 Bit Manipulation (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0191 | [Number Of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [Runtime(100%)](./cpp/bit_manipulation/0191_number_of_1_bits/) | Brian Kernighan’s algorithm / count set bits |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
