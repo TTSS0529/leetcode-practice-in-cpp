@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **79/81(week 9)**  
-- 📈 Difficulty Breakdown: Easy(26) / Medium(47) / Hard(6) / Total(79)  
+- ✅ Total Problems Solved: **80/81(week 9)**  
+- 📈 Difficulty Breakdown: Easy(26) / Medium(47) / Hard(7) / Total(80)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -35,7 +35,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🎯 Dynamic Programming (Total: 11 problems)](#-dynamic-programming-total-11-problems)
     - [🌐 Flood Fill / Connected Components (Total: 1 problems)](#-flood-fill--connected-components-total-1-problems)
     - [🕸️ Graph \& Topological Sort (Total: 2 problems)](#️-graph--topological-sort-total-2-problems)
-    - [🧭 Greedy (Total: 4 problems)](#-greedy-total-4-problems)
+    - [🧭 Greedy (Total: 5 problems)](#-greedy-total-5-problems)
     - [🧩 Hash Map (Total: 4 problems)](#-hash-map-total-4-problems)
     - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
@@ -173,11 +173,12 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🧭 Greedy (Total: 4 problems)
+### 🧭 Greedy (Total: 5 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [Runtime(sometimes 100%)](./cpp/greedy/0011_container_with_most_water/) | Two pointers with greedy: always move the shorter line |
 | 0122 | [Best Time To Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | [Runtime(100%)](./cpp/greedy/0122_best_time_to_buy_and_sell_stock_ii/) | Greedy → accumulate all positive price differences |
+| 0135 | [Candy](https://leetcode.com/problems/candy/) | Hard | [Runtime(100%)](./cpp/greedy/0135_candy/) | Greedy + two-pass scan: take `max(left[i], right[i])` |
 | 0179 | [Largest Number](https://leetcode.com/problems/largest-number/) | Medium | [Runtime(~77%), classic solution](./cpp/greedy/0179_largest_number/) | Greedy + custom sorting: sort by `a + b > b + a` |
 | 3635 | [Earlies Finish Time For Land And Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | Medium | [Runtime(~83%), classic solution](./cpp/greedy/3635_earlies_finish_time_for_land_and_water_rides_ii/) | Greedy on earliest finish time in both orders (land→water / water→land) / 🏁 Biweekly 162(Q3) |
 
