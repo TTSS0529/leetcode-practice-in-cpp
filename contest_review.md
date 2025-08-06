@@ -6,7 +6,7 @@
 
 - **Solved**: 2 / 4
 - **Score**: 7
-- **Rank**: 15055
+- **Rank**: 14445
 - **Status**: ✅ 3th contest
 
 ### 📘 Summary
