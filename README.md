@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **83/91(week 10)**  
-- 📈 Difficulty Breakdown: Easy(28) / Medium(47) / Hard(8) / Total(83)  
+- ✅ Total Problems Solved: **84/91(week 10)**  
+- 📈 Difficulty Breakdown: Easy(28) / Medium(48) / Hard(8) / Total(84)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -30,7 +30,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
   - [🗂️ Problem Categories](#️-problem-categories)
     - [🌀 Backtracking (Total: 5 problems)](#-backtracking-total-5-problems)
     - [🌲 Binary Search Tree (Total: 2 problems)](#-binary-search-tree-total-2-problems)
-    - [🔧 Bit Manipulation (Total: 2 problems)](#-bit-manipulation-total-2-problems)
+    - [🔧 Bit Manipulation (Total: 3 problems)](#-bit-manipulation-total-3-problems)
     - [🏗️ Design (Total: 1 problems)](#️-design-total-1-problems)
     - [⚡ Divide \& Conquer (Total: 2 problems)](#-divide--conquer-total-2-problems)
     - [🎯 Dynamic Programming (Total: 11 problems)](#-dynamic-programming-total-11-problems)
@@ -117,11 +117,12 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🔧 Bit Manipulation (Total: 2 problems)
+### 🔧 Bit Manipulation (Total: 3 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0191 | [Number Of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [Runtime(100%)](./cpp/bit_manipulation/0191_number_of_1_bits/) | Brian Kernighan’s algorithm / count set bits |
 | 0231 | [Power Of Two](https://leetcode.com/problems/power-of-two/) | Easy | [Runtime(100%)](./cpp/bit_manipulation/0231_power_of_two/) | `n & (n - 1) == 0` trick / check single set bit |
+| 0371 | [Sum Of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Medium | [Runtime(100%)](./cpp/bit_manipulation/0371_sum_of_two_integers/) | XOR for sum without carry & `(a & b) << 1` carry |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
