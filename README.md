@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **86/91(week 10)**  
-- 📈 Difficulty Breakdown: Easy(29) / Medium(49) / Hard(8) / Total(86)  
+- ✅ Total Problems Solved: **87/91(week 10)**  
+- 📈 Difficulty Breakdown: Easy(29) / Medium(50) / Hard(8) / Total(87)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -41,7 +41,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
     - [📐 Math (Total: 1 problems)](#-math-total-1-problems)
-    - [➕ Prefix Sum (Total: 2 problems)](#-prefix-sum-total-2-problems)
+    - [➕ Prefix Sum (Total: 3 problems)](#-prefix-sum-total-3-problems)
     - [🔍 Search (Total: 4 problems)](#-search-total-4-problems)
     - [🧮 Simulation (Total: 7 problems)](#-simulation-total-7-problems)
     - [🌊 Sliding Window (Total: 2 problems)](#-sliding-window-total-2-problems)
@@ -245,9 +245,10 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### ➕ Prefix Sum (Total: 2 problems)
+### ➕ Prefix Sum (Total: 3 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
+| 0238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [Runtime(100%)](./cpp/prefix_sum/0238_product_of_array_except_self/) | Prefix product (left) × suffix product (right) without division |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | [Runtime(100%)](./cpp/prefix_sum/0724_find_pivot_index/) | Compare left and right prefix sum |
 | 1480 | [Running Sum Of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Easy | [Runtime(100%)](./cpp/prefix_sum/1480_running_sum_of_1d_array/) | Basic prefix sum building cumulatively |
 
