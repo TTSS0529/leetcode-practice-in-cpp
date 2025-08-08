@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **88/91(week 10)**  
-- 📈 Difficulty Breakdown: Easy(30) / Medium(50) / Hard(8) / Total(88)  
+- ✅ Total Problems Solved: **89/91(week 10)**  
+- 📈 Difficulty Breakdown: Easy(30) / Medium(51) / Hard(8) / Total(89)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -40,7 +40,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🧩 Hash Map (Total: 4 problems)](#-hash-map-total-4-problems)
     - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
-    - [📐 Math (Total: 1 problems)](#-math-total-1-problems)
+    - [📐 Math (Total: 2 problems)](#-math-total-2-problems)
     - [➕ Prefix Sum (Total: 3 problems)](#-prefix-sum-total-3-problems)
     - [🔍 Search (Total: 4 problems)](#-search-total-4-problems)
     - [🧮 Simulation (Total: 7 problems)](#-simulation-total-7-problems)
@@ -237,9 +237,10 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 📐 Math (Total: 1 problems)
+### 📐 Math (Total: 2 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
+| 0343 | [Integer Break](https://leetcode.com/problems/integer-break/) | Medium | [Runtime(100%)](./cpp/math/0343_integer_break/) | Break `n` into as many `3`s as possible; handle mod=1 by turning `3+1`→`2+2` |
 | 3618 | [Split Array By Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | Medium | [Runtime(>70%) classic solution](./cpp/math/3618_split_array_by_prime_indices/) | Number theory + sieve of Eratosthenes / 🏁 Biweekly 161(Q1) |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)

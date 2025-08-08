@@ -12,6 +12,7 @@
 #include <cctype>
 #include <cstdlib>
 #include <ctime>
+#include <cmath>
 #include <limits>
 #include <climits>
 #include <utility>
