@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **91/91(week 10)**  
-- 📈 Difficulty Breakdown: Easy(30) / Medium(53) / Hard(8) / Total(91)  
+- ✅ Total Problems Solved: **92/101(week 11)**  
+- 📈 Difficulty Breakdown: Easy(30) / Medium(54) / Hard(8) / Total(92)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -40,7 +40,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🧩 Hash Map (Total: 4 problems)](#-hash-map-total-4-problems)
     - [🏔️ Heap / QuickSelect (Total: 1 problems)](#️-heap--quickselect-total-1-problems)
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
-    - [📐 Math (Total: 4 problems)](#-math-total-4-problems)
+    - [📐 Math (Total: 5 problems)](#-math-total-5-problems)
     - [➕ Prefix Sum (Total: 3 problems)](#-prefix-sum-total-3-problems)
     - [🔍 Search (Total: 4 problems)](#-search-total-4-problems)
     - [🧮 Simulation (Total: 7 problems)](#-simulation-total-7-problems)
@@ -237,11 +237,12 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 📐 Math (Total: 4 problems)
+### 📐 Math (Total: 5 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0089 | [Gray Code](https://leetcode.com/problems/gray-code/) | Medium | [Runtime(100%)](./cpp/math/0089_gray_code/) | Generate Gray codes using `i ^ (i >> 1)` formula |
 | 0343 | [Integer Break](https://leetcode.com/problems/integer-break/) | Medium | [Runtime(100%)](./cpp/math/0343_integer_break/) | Break `n` into as many `3`s as possible; handle mod=1 by turning `3+1`→`2+2` |
+| 0400 | [Nth Digit](https://leetcode.com/problems/nth-digit/) | Medium | [Runtime(100%)](./cpp/math/0400_nth_digit/) | Digit block skipping → locate number & digit |
 | 1823 | [Find The Winner Of The Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | Medium | [Runtime(100%)](./cpp/math/1823_find_the_winner_of_the_circular_game/) | Josephus problem — recurrence: `dp = (dp + k) % i` |
 | 3618 | [Split Array By Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | Medium | [Runtime(>70%) classic solution](./cpp/math/3618_split_array_by_prime_indices/) | Number theory + sieve of Eratosthenes / 🏁 Biweekly 161(Q1) |
 
