@@ -3,7 +3,7 @@
 static void runTest(vector<int>& nums) {
     Solution    sol;
     vector<int> res = sol.runningSum(nums);
-    printVecInt(res);
+    printVec(res);
 }
 
 int main() {

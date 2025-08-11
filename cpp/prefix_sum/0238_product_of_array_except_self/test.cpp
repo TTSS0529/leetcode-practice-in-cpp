@@ -3,7 +3,7 @@
 static void runTest(vector<int>& nums) {
     Solution    sol;
     vector<int> res = sol.productExceptSelf(nums);
-    printVecInt(res);
+    printVec(res);
 }
 
 int main() {

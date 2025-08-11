@@ -1,26 +1,6 @@
 #include "simple_test.hpp"
 
 /**
- * @brief Print a 1D integer vector to standard output in list format.
- * 
- * The output format is: [x1,x2,x3,...]
- * Elements are printed as a comma-separated list enclosed in square brackets.
- * No extra space or trailing comma is printed.
- * 
- * @param nums Reference to the vector<int> to print.
- */
-void    printVecInt(vector<int>& nums) {
-    cout << "[";
-    for (size_t i = 0; i < nums.size(); ++i) {
-        cout << nums[i];
-        if (i != nums.size() - 1) {
-            cout << ",";
-        }
-    }
-    cout << "]" << endl;
-}
-
-/**
  * @brief Print a 2D integer matrix to standard output in nested list format.
  * 
  * The output format is: [[a11,a12,...],[a21,a22,...],...]
