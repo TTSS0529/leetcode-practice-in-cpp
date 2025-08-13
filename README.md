@@ -9,8 +9,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - now **ten problems(min) per week**
-- ✅ Total Problems Solved: **96/101(week 11)**  
-- 📈 Difficulty Breakdown: Easy(30) / Medium(56) / Hard(10) / Total(96)  
+- ✅ Total Problems Solved: **97/101(week 11)**  
+- 📈 Difficulty Breakdown: Easy(30) / Medium(57) / Hard(10) / Total(97)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -28,7 +28,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
   - [🏆 Contest Reviews](#-contest-reviews)
   - [📚 Shared Solutions](#-shared-solutions)
   - [🗂️ Problem Categories](#️-problem-categories)
-    - [🌀 Backtracking (Total: 8 problems)](#-backtracking-total-8-problems)
+    - [🌀 Backtracking (Total: 9 problems)](#-backtracking-total-9-problems)
     - [🌲 Binary Search Tree (Total: 2 problems)](#-binary-search-tree-total-2-problems)
     - [🔧 Bit Manipulation (Total: 5 problems)](#-bit-manipulation-total-5-problems)
     - [🏗️ Design (Total: 1 problems)](#️-design-total-1-problems)
@@ -94,7 +94,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ## 🗂️ Problem Categories
 
-### 🌀 Backtracking (Total: 8 problems)
+### 🌀 Backtracking (Total: 9 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0017 | [Letter Combinations Of A Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | [Runtime(100%)](./cpp/backtracking/0017_letter_combinations_of_a_phone_number/) | Classic digit-to-letter mapping → DFS/backtracking |
@@ -104,6 +104,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0046 | [Permutation](https://leetcode.com/problems/permutations/) | Medium | [Runtime(100%)](./cpp/backtracking/0046_permutations/) | Generate all permutations, `used[] + path` (fast) vs `swap` (less memory) |
 | 0047 | [Permutation II](https://leetcode.com/problems/permutations-ii/) | Medium | [Runtime(~75%), classic solution](./cpp/backtracking/0047_permutations_ii/) | Same as 46 but **with duplicates** → `sort + skip !used[i-1]` to prune |
 | 0051 | [N Queens](https://leetcode.com/problems/n-queens/) | Hard | [Runtime(100%)](./cpp/backtracking/0051_n_queens/) | Place queens row-by-row, prune with `colUsed`, `diag1Used`, `diag2Used` for O(1) validity check |
+| 0078 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [Runtime(100%)](./cpp/backtracking/0078_subsets/) | Generate all subsets → Backtracking (DFS) or Bit Manipulation, use `path` and recursion for DFS |
 | 0079 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | [Runtime(98%)](./cpp/backtracking/0079_word_search/) | DFS + backtracking on 2D grid, prune by length & char frequency, in-place visited mark |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
