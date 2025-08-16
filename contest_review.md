@@ -2,6 +2,24 @@
 
 ---
 
+## 🔸 Biweekly Contest 163 (2025-08-16)
+
+- **Solved**: 0 / 4
+- **Score**: 0
+- **Rank**: 18869
+- **Status**: ✅ 4th contest
+
+### 📘 Summary
+
+| # | Title | Status | Notes |
+|:--:|:------|:--------|:------|
+| 3649 | [Number Of Perfect Pairs](./cpp/two_pointers/3649_number_of_perfect_pairs/) | ❌ | Sort + two pointers on absolute values / Count pairs satisfying y ≤ 2x |
+
+### 🧠 
+- Simplify the mathematical condition(3649): complex **min/max constraints** can be reduced to a **simple inequality** on a sorted array, then efficiently count pairs using **two pointers**.
+
+---
+
 ## 🔸 Biweekly Contest 162 (2025-08-02)
 
 - **Solved**: 2 / 4
