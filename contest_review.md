@@ -13,9 +13,11 @@
 
 | # | Title | Status | Notes |
 |:--:|:------|:--------|:------|
+| 3648 | [Minimum Sensors To Cover Grid](./cpp/math/3648_minimum_sensors_to_cover_grid/) | ❌ | Coverage square side = `2k+1`; ceil-div in both dims |
 | 3649 | [Number Of Perfect Pairs](./cpp/two_pointers/3649_number_of_perfect_pairs/) | ❌ | Sort + two pointers on absolute values / Count pairs satisfying y ≤ 2x |
 
-### 🧠 
+### 🧠 Lessons Learned
+- Transform coverage by Chebyshev distance (3648): each sensor covers a **(2k+1) × (2k+1) square**, so the problem reduces to **ceil-dividing n and m by (2k+1)** and multiplying → direct O(1) formula.
 - Simplify the mathematical condition(3649): complex **min/max constraints** can be reduced to a **simple inequality** on a sorted array, then efficiently count pairs using **two pointers**.
 
 ---
