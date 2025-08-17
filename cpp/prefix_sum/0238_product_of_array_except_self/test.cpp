@@ -4,6 +4,7 @@ static void runTest(vector<int>& nums) {
     Solution    sol;
     vector<int> res = sol.productExceptSelf(nums);
     printVec(res);
+    cout << endl;
 }
 
 int main() {

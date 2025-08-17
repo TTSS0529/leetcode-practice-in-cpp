@@ -4,6 +4,7 @@ static void runTest(vector<int>& nums) {
     Solution    sol;
     vector<int> res = sol.runningSum(nums);
     printVec(res);
+    cout << endl;
 }
 
 int main() {

@@ -3,9 +3,8 @@
 static void runTest(string s) {
     Solution    sol;
     vector<vector<string>>  res = sol.partition(s);
-    for (const auto& line : res) {
-        printVec(line);
-    }
+    printVec(res);
+    cout << endl;
 }
 
 int main() {

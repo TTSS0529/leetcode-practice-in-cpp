@@ -4,6 +4,7 @@ static void runTest(int n) {
     Solution    sol;
     vector<string>  res = sol.generateParenthesis(n);
     printVec(res);
+    cout << endl;
 }
 
 int main() {

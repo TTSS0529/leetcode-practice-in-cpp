@@ -4,6 +4,7 @@ static void runTest(int n) {
     Solution    sol;
     vector<int> res = sol.grayCode(n);
     printVec(res);
+    cout << endl;
 }
 
 int main() {

@@ -3,9 +3,8 @@
 static void runTest(int n) {
     Solution    sol;
     vector<vector<string>>  res = sol.solveNQueens(n);
-    for (const auto& line : res) {
-        printVec(line);
-    }
+    printVec(res);
+    cout << endl;
 }
 
 int main() {

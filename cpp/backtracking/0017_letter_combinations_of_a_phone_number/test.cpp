@@ -4,6 +4,7 @@ static void runTest(string digits) {
     Solution    sol;
     vector<string>  res = sol.letterCombinations(digits);
     printVec(res);
+    cout << endl;
 }
 
 int main() {

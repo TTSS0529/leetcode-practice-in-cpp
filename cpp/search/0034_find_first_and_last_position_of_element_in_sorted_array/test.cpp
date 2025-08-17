@@ -4,6 +4,7 @@ static void runTest(vector<int>& nums, int target) {
     Solution    sol;
     vector<int> res = sol.searchRange(nums, target);
     printVec(res);
+    cout << endl;
 }
 
 int main() {
