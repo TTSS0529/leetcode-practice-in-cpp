@@ -15,10 +15,20 @@
 |:--:|:------|:--------|:------|
 | 3648 | [Minimum Sensors To Cover Grid](./cpp/math/3648_minimum_sensors_to_cover_grid/) | ❌ | Coverage square side = `2k+1`; ceil-div in both dims |
 | 3649 | [Number Of Perfect Pairs](./cpp/two_pointers/3649_number_of_perfect_pairs/) | ❌ | Sort + two pointers on absolute values / Count pairs satisfying y ≤ 2x |
+| 3650 | [Minimum Cost Path With Edge Reversals](./cpp/shortest_path/3650_minimum_cost_path_with_edge_reversals/) | ❌ | Model each edge as two directed edges (original cost and 2× cost for reversal) and solve with Dijkstra |
+| 3651 | Minimum Cost Path With Teleportations | ❌ | To revisit (2D grid shortest path with at most k teleportations; involves multi-dimensional DP / BFS / Dijkstra) |
 
 ### 🧠 Lessons Learned
 - Transform coverage by Chebyshev distance (3648): each sensor covers a **(2k+1) × (2k+1) square**, so the problem reduces to **ceil-dividing n and m by (2k+1)** and multiplying → direct O(1) formula.
 - Simplify the mathematical condition(3649): complex **min/max constraints** can be reduced to a **simple inequality** on a sorted array, then efficiently count pairs using **two pointers**.
+- Minimum Cost Path With Edge Reversals (3650): model each edge as **two directed edges** (original cost and 2× cost for reversal), then use **Dijkstra** to find the shortest path → handles edge reversals naturally in O((V+E) log V) time.
+- During the contest, I started with Q2 and implemented a brute-force solution first, hoping to optimize it before attempting other problems.
+- This strategy backfired: I couldn't optimize Q2 in time and ran out of time for the other questions, resulting in no problems solved.
+- Reflection: next time, consider **quickly securing easier problems first** before tackling harder ones.
+> ⚠️ **Note:** Problem 3651 involves advanced techniques such as **multi-dimensional DP**, **stateful BFS/Dijkstra**, and **conditional teleportation optimizations**.  
+> This problem is relatively challenging and goes beyond standard grid/DP practice.  
+> Given the current focus on consolidating core algorithmic skills, I have decided to temporarily set this problem aside.  
+> I plan to revisit it later after strengthening **multi-state DP and shortest-path techniques**.
 
 ---
 
