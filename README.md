@@ -348,6 +348,8 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 ---
 
 ### 💡 Tree DP / Path Sum (Total: 2 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
 | 0113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | Medium | [Runtime(100%)](./cpp/tree_dp_path_sum/0113_path_sum_ii/) | DFS + Backtracking |
 | 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | [Runtime(100%)](./cpp/tree_dp_path_sum/0124_binary_tree_maximum_path_sum/) | DFS + Tree DP |
 
