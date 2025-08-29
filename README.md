@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **110/110(week 12)**  
-- 📈 Difficulty Breakdown: Easy(32) / Medium(66) / Hard(12) / Total(110)  
+- ✅ Total Problems Solved: **111/111(week 12)**  
+- 📈 Difficulty Breakdown: Easy(33) / Medium(66) / Hard(12) / Total(111)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -30,7 +30,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
   - [📚 Shared Solutions](#-shared-solutions)
   - [🗂️ Problem Categories](#️-problem-categories)
     - [🌀 Backtracking (Total: 10 problems)](#-backtracking-total-10-problems)
-    - [🌲 Binary Search Tree (Total: 3 problems)](#-binary-search-tree-total-3-problems)
+    - [🌲 Binary Search Tree (Total: 4 problems)](#-binary-search-tree-total-4-problems)
     - [🔧 Bit Manipulation (Total: 5 problems)](#-bit-manipulation-total-5-problems)
     - [🏗️ Design (Total: 1 problems)](#️-design-total-1-problems)
     - [⚡ Divide \& Conquer (Total: 2 problems)](#-divide--conquer-total-2-problems)
@@ -115,10 +115,11 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🌲 Binary Search Tree (Total: 3 problems)
+### 🌲 Binary Search Tree (Total: 4 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [Runtime(100%)](./cpp/binary_search_tree/0098_validate_binary_search_tree/) | In-order traversal OR Recursive bounds check |
+| 0108 | [Convert Sorted Array To Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | Easy | [sometimes Runtime(100%)](./cpp/binary_search_tree/0108_convert_sorted_array_to_binary_search_tree/) | Divide & Conquer + Recursion |
 | 0230 | [Kth Smallest Element In A BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [Runtime(100%)](./cpp/binary_search_tree/0230_kth_smallest_element_in_a_bst/) | In-order traversal + pruning |
 | 0235 | [Lowest Common Ancestor Of A Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | [Runtime(~88%) classic solution](./cpp/binary_search_tree/0235_lowest_common_ancestor_of_a_binary_search_tree/) | Top-down search using BST property |
 
