@@ -7,6 +7,7 @@
 #include <queue>
 #include <deque>
 #include <stack>
+#include <array>
 #include <unordered_set>
 #include <unordered_map>
 #include <cctype>
