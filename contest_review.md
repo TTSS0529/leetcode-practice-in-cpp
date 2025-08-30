@@ -2,6 +2,24 @@
 
 ---
 
+## 🔸 Biweekly Contest 164 (2025-08-30)
+
+- **Solved**: 1 / 4
+- **Score**: 3
+- **Rank**: 14524
+- **Status**: ✅ 5th contest
+
+### 📘 Summary
+
+| # | Title | Status | Notes |
+|:--:|:------|:--------|:------|
+| 3663 | [Find The Least Frequent Digit](./cpp/simulation/3663_find_the_least_frequent_digit/) | ✅ | Counting digits |
+
+### 🧠 Lessons Learned
+
+
+---
+
 ## 🔸 Biweekly Contest 163 (2025-08-16)
 
 - **Solved**: 0 / 4

@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **111/111(week 12)**  
-- 📈 Difficulty Breakdown: Easy(33) / Medium(66) / Hard(12) / Total(111)  
+- ✅ Total Problems Solved: **112/118(week 13)**  
+- 📈 Difficulty Breakdown: Easy(34) / Medium(66) / Hard(12) / Total(112)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -310,6 +310,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | [Runtime(100%)](./cpp/simulation/0796_rotate_string/) | Simulate string rotation by manual character comparison |
 | 3602 | [Hexadecimal And Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | Easy | [Runtime(100%)](./cpp/simulation/3602_hexadecimal_and_hexatrigesimal_conversion/) | Simulate base conversion with custom digit set / 🏁 Biweekly 160(Q1) |
 | 3633 | [Earlies Finish Time For Land And Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | Easy | [Runtime(20%), better solution in 3635](./cpp/simulation/3633_earlies_finish_time_for_land_and_water_rides_i/) | Brute-force simulate both orders (land→water / water→land) / 🏁 Biweekly 162(Q1) |
+| 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | Easy | [Runtime(100%)](./cpp/simulation/3663_find_the_least_frequent_digit/) | Counting digits / 🏁 Biweekly 164(Q1) |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
