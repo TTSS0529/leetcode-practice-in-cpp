@@ -15,10 +15,16 @@
 |:--:|:------|:--------|:------|
 | 3663 | [Find The Least Frequent Digit](./cpp/simulation/3663_find_the_least_frequent_digit/) | ✅ | Counting digits |
 | 3664 | [Two-Letter Card Game](./cpp/greedy/3664_two_letter_card_game/) | ❌ | Count cards by categories and use greedy pairing with leftovers (`both`, `left`, `right`) |
+| 3665 | Twisted Mirror Path Count | ❌ | To revisit |
+| 3666 | Minimum Operations To Equalize Binary String | ❌ | To revisit |
 
 ### 🧠 Lessons Learned
 - Two Letter Card Game (3664): count cards in three categories (`both-x`, `left-x`, `right-x`), compute the maximum pairs from `left-x` and `right-x` using a greedy `interPair` strategy, then use `both-x` cards to cover leftovers and form additional pairs, maximizing the total score.
-
+> ⚠️ **Note:** Problems 3665 and 3666 are both relatively challenging and involve advanced techniques:
+> - **Problem 3665** requires **multi-state dynamic programming**, **directional simulation with consecutive reflections**, and **boundary-aware path counting**.
+> - **Problem 3666** requires **combinatorial bit manipulation**, **subset selection strategies**, and **parity-based feasibility analysis**.
+> Given the current focus on consolidating core algorithmic skills, I have decided to temporarily set these problems aside.
+> I plan to revisit them later after strengthening **stateful DP, simulation, and combinatorial techniques**.
 
 ---
 
