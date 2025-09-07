@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **121/126(week 14)**  
-- 📈 Difficulty Breakdown: Easy(37) / Medium(72) / Hard(12) / Total(121)  
+- ✅ Total Problems Solved: **122/126(week 14)**  
+- 📈 Difficulty Breakdown: Easy(37) / Medium(72) / Hard(13) / Total(122)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -46,7 +46,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔍 Search (Total: 10 problems)](#-search-total-10-problems)
     - [🛣️ Shortest Path (Total: 1 problems)](#️-shortest-path-total-1-problems)
     - [🧮 Simulation (Total: 7 problems)](#-simulation-total-7-problems)
-    - [🌊 Sliding Window (Total: 2 problems)](#-sliding-window-total-2-problems)
+    - [🌊 Sliding Window (Total: 3 problems)](#-sliding-window-total-3-problems)
     - [🧱 Stack \& Queue (Total: 6 problems)](#-stack--queue-total-6-problems)
     - [🔤 String Processing (Total: 3 problems)](#-string-processing-total-3-problems)
     - [💡 Tree DP / Path Sum (Total: 2 problems)](#-tree-dp--path-sum-total-2-problems)
@@ -324,9 +324,10 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🌊 Sliding Window (Total: 2 problems)
+### 🌊 Sliding Window (Total: 3 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
+| 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [Runtime(100%)](./cpp/sliding_window/0076_minimum_window_substring/) | Classic sliding window with char count & shrink |
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Runtime(~99%)](./cpp/sliding_window/0239_sliding_window_maximum/) | Monotonic deque & heap approaches |
 | 3634 | [Minimum Removals To Balance Array](https://leetcode.com/problems/minimum-removals-to-balance-array/) | Medium | [Runtime(vary a lot), classic solution](./cpp/sliding_window/3634_minimum_removals_to_balance_array/) | Sort + sliding window (two pointers) / 🏁 Biweekly 162(Q2) |
 
