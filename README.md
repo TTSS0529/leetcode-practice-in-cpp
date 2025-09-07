@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **120/126(week 14)**  
-- 📈 Difficulty Breakdown: Easy(36) / Medium(72) / Hard(12) / Total(120)  
+- ✅ Total Problems Solved: **121/126(week 14)**  
+- 📈 Difficulty Breakdown: Easy(37) / Medium(72) / Hard(12) / Total(121)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -51,7 +51,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔤 String Processing (Total: 3 problems)](#-string-processing-total-3-problems)
     - [💡 Tree DP / Path Sum (Total: 2 problems)](#-tree-dp--path-sum-total-2-problems)
     - [🌳 Tree Traversal (Total: 8 problems)](#-tree-traversal-total-8-problems)
-    - [🪝 Two Pointers (Total: 9 problems)](#-two-pointers-total-9-problems)
+    - [🪝 Two Pointers (Total: 10 problems)](#-two-pointers-total-10-problems)
 
 ---
 </details>
@@ -385,11 +385,12 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🪝 Two Pointers (Total: 9 problems)
+### 🪝 Two Pointers (Total: 10 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Runtime(100%)](./cpp/two_pointers/0003_longest_substring_without_repeating_characters/) | Sliding window (brute-force, map, array) / O(n) optimized |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [Runtime(~53%), classic solution](./cpp/two_pointers/0015_3sum/) | Sort + two pointers / Skip duplicates / O(n²) |
+| 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | [Runtime(100%)](./cpp/two_pointers/0088_merge_sorted_array/) | Two pointers from back / In-place merge / O(m+n) |
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [Runtime(80-90%)](./cpp/two_pointers/0142_linked_list_cycle_ii/) | Fast-slow pointer to find cycle start |
 | 0160 | [Intersection Of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [Runtime(~80%), classic solution](./cpp/two_pointers/0160_intersection_of_two_linked_lists/) | Two-pointer with list switching |
 | 0167 | [Two Sum II Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | [Runtime(100%)](./cpp/two_pointers/0167_two_sum_ii_input_array_is_sorted/) | Two-pointer / Sorted array |
