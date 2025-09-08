@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **123/126(week 14)**  
-- 📈 Difficulty Breakdown: Easy(37) / Medium(73) / Hard(13) / Total(123)  
+- ✅ Total Problems Solved: **124/126(week 14)**  
+- 📈 Difficulty Breakdown: Easy(38) / Medium(73) / Hard(13) / Total(124)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -51,7 +51,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔤 String Processing (Total: 3 problems)](#-string-processing-total-3-problems)
     - [💡 Tree DP / Path Sum (Total: 2 problems)](#-tree-dp--path-sum-total-2-problems)
     - [🌳 Tree Traversal (Total: 8 problems)](#-tree-traversal-total-8-problems)
-    - [🪝 Two Pointers (Total: 11 problems)](#-two-pointers-total-11-problems)
+    - [🪝 Two Pointers (Total: 12 problems)](#-two-pointers-total-12-problems)
 
 ---
 </details>
@@ -386,7 +386,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🪝 Two Pointers (Total: 11 problems)
+### 🪝 Two Pointers (Total: 12 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Runtime(100%)](./cpp/two_pointers/0003_longest_substring_without_repeating_characters/) | Sliding window (brute-force, map, array) / O(n) optimized |
@@ -398,6 +398,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0287 | [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [Runtime(~70%) classic solution](./cpp/two_pointers/0287_find_the_duplicate_number/) | Floyd’s cycle (fast/slow) & Binary search |
 | 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | [Runtime(100%)](./cpp/two_pointers/0392_is_subsequence/) | Two-pointer / String scan |
 | 0633 | [Sum Of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | Medium | [Runtime(100%)](./cpp/two_pointers/0633_sum_of_square_numbers/) | Two pointers (0 ~ √c) / Check sum of squares |
+| 0680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | [Runtime(sometimes 100%)](./cpp/two_pointers/0680_valid_palindrome_ii/) | Two-pointer with one deletion / Check substrings when mismatch |
 | 0876 | [Middle Of The Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [Runtime(100%)](./cpp/two_pointers/0876_middle_of_the_linked_list/) | Fast-slow pointer on Linked List |
 | 3649 | [Number Of Perfect Pairs](https://leetcode.com/problems/number-of-perfect-pairs/) | Medium | [Runtime(vary a lot)](./cpp/two_pointers/3649_number_of_perfect_pairs/) | Sort + two pointers on absolute values / Count pairs satisfying y ≤ 2x / 🏁 Biweekly 163(Q2) |
 
