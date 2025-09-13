@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **127/127(week 14)**  
-- 📈 Difficulty Breakdown: Easy(39) / Medium(75) / Hard(13) / Total(127)  
+- ✅ Total Problems Solved: **128/128(week 14)**  
+- 📈 Difficulty Breakdown: Easy(39) / Medium(76) / Hard(13) / Total(128)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -43,7 +43,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
     - [📐 Math (Total: 7 problems)](#-math-total-7-problems)
     - [➕ Prefix Sum (Total: 3 problems)](#-prefix-sum-total-3-problems)
-    - [🔍 Search (Total: 12 problems)](#-search-total-12-problems)
+    - [🔍 Search (Total: 13 problems)](#-search-total-13-problems)
     - [🛣️ Shortest Path (Total: 1 problems)](#️-shortest-path-total-1-problems)
     - [🧮 Simulation (Total: 7 problems)](#-simulation-total-7-problems)
     - [🌊 Sliding Window (Total: 3 problems)](#-sliding-window-total-3-problems)
@@ -281,7 +281,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🔍 Search (Total: 12 problems)
+### 🔍 Search (Total: 13 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0004 | [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [Runtime(100%)](./cpp/search/0004_median_of_two_sorted_arrays/) | Binary search on partition of shorter array → O(log(min(m,n))) |
@@ -295,6 +295,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0154 | [Find Minimum In Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Hard | [Runtime(100%)](./cpp/search/0154_find_minimum_in_rotated_sorted_array_ii/) | Binary Search with Duplicates |
 | 0240 | [Search A 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | [Runtime(vary a lot), classic solution](./cpp/search/0240_search_a_2d_matrix_ii/) | Monotonic matrix search from top-right corner → O(m+n) |
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | Easy | [Runtime(~55%) classic solution](./cpp/search/0278_first_bad_version/) | Find first `true` with minimal API calls / Lower Bound |
+| 0540 | [Single Element In A Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | Medium | [Runtime(100%)](./cpp/search/0540_single_element_in_a_sorted_array/) | Binary search with pair index check → O(log n) |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [Runtime(100%)](./cpp/search/0704_binary_search/) | Classic binary search on sorted array |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
