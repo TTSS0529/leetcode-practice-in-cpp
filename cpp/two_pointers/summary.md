@@ -24,6 +24,15 @@ while (left < right) {
     }
 }
 ```
+### 变种： 三路划分 / 荷兰国旗问题(0075)
+```cpp
+int left = 0, right = n - 1, i = 0;
+while (i <= right) {
+    if (nums[i] == 0) swap(nums[i++], nums[left++]);
+    else if (nums[i] == 2) swap(nums[i], nums[right--]);
+    else i++;
+}
+```
 - 题目: 0167 Two Sum II, 0015 3Sum, 0633 Sum of Square Numbers
 
 ## 📌 模板 2：子序列扫描型
