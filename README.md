@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **136/136(week 15)**  
-- 📈 Difficulty Breakdown: Easy(39) / Medium(84) / Hard(13) / Total(136)  
+- ✅ Total Problems Solved: **137/137(week 15)**  
+- 📈 Difficulty Breakdown: Easy(39) / Medium(84) / Hard(14) / Total(137)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -44,7 +44,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [📐 Math (Total: 7 problems)](#-math-total-7-problems)
     - [➕ Prefix Sum (Total: 3 problems)](#-prefix-sum-total-3-problems)
     - [🔍 Search (Total: 13 problems)](#-search-total-13-problems)
-    - [🛣️ Shortest Path (Total: 1 problems)](#️-shortest-path-total-1-problems)
+    - [🛣️ Shortest Path (Total: 2 problems)](#️-shortest-path-total-2-problems)
     - [🧮 Simulation (Total: 7 problems)](#-simulation-total-7-problems)
     - [🌊 Sliding Window (Total: 3 problems)](#-sliding-window-total-3-problems)
     - [🧱 Stack \& Queue (Total: 6 problems)](#-stack--queue-total-6-problems)
@@ -309,9 +309,10 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🛣️ Shortest Path (Total: 1 problems)
+### 🛣️ Shortest Path (Total: 2 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
+| 0126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | Hard | [Runtime(~45%)](./cpp/shortest_path/0126_word_ladder_ii/) | BFS to find shortest depth + backtracking to reconstruct all shortest paths |
 | 3650 | [Minimum Cost Path With Edge Reversals](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) | Medium | [Runtime(~95%)](./cpp/shortest_path/3650_minimum_cost_path_with_edge_reversals/) | Model each edge as two directed edges (original cost and 2× cost for reversal) and solve with Dijkstra / 🏁 Biweekly 163(Q3) |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
