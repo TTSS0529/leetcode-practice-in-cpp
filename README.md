@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **137/137(week 15)**  
-- 📈 Difficulty Breakdown: Easy(39) / Medium(84) / Hard(14) / Total(137)  
+- ✅ Total Problems Solved: **138/138(week 15)**  
+- 📈 Difficulty Breakdown: Easy(39) / Medium(85) / Hard(14) / Total(138)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -35,7 +35,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🏗️ Design (Total: 1 problems)](#️-design-total-1-problems)
     - [⚡ Divide \& Conquer (Total: 2 problems)](#-divide--conquer-total-2-problems)
     - [🎯 Dynamic Programming (Total: 11 problems)](#-dynamic-programming-total-11-problems)
-    - [🌐 Flood Fill / Connected Components (Total: 5 problems)](#-flood-fill--connected-components-total-5-problems)
+    - [🌐 Flood Fill / Connected Components (Total: 6 problems)](#-flood-fill--connected-components-total-6-problems)
     - [🕸️ Graph \& Topological Sort (Total: 2 problems)](#️-graph--topological-sort-total-2-problems)
     - [🧭 Greedy (Total: 15 problems)](#-greedy-total-15-problems)
     - [🧩 Hash Map (Total: 4 problems)](#-hash-map-total-4-problems)
@@ -179,9 +179,10 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🌐 Flood Fill / Connected Components (Total: 5 problems)
+### 🌐 Flood Fill / Connected Components (Total: 6 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
+| 0130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Medium | [Runtime(100%)](./cpp/flood_fill_connected_components/0130_surrounded_regions/) | DFS with temporary marking + revert step |
 | 0417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | Medium | [Runtime(sometimes 100%)](./cpp/flood_fill_connected_components/0417_pacific_atlantic_water_flow/) | Reverse flood fill from oceans / DFS |
 | 0547 | [Number Of Provinces](https://leetcode.com/problems/number-of-provinces/) | Medium | [Runtime(100%)](./cpp/flood_fill_connected_components/0547_number_of_provinces/) | Connected components in adjacency matrix / DFS |
 | 0695 | [Max Area Of Island](https://leetcode.com/problems/max-area-of-island/) | Medium | [Runtime(100%)](./cpp/flood_fill_connected_components/0695_max_area_of_island/) | Classic flood fill / DFS variants |
