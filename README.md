@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **140/145(week 16)**  
-- 📈 Difficulty Breakdown: Easy(40) / Medium(85) / Hard(15) / Total(140)  
+- ✅ Total Problems Solved: **141/145(week 16)**  
+- 📈 Difficulty Breakdown: Easy(40) / Medium(86) / Hard(15) / Total(141)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -36,7 +36,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [⚡ Divide \& Conquer (Total: 2 problems)](#-divide--conquer-total-2-problems)
     - [🎯 Dynamic Programming (Total: 11 problems)](#-dynamic-programming-total-11-problems)
     - [🌐 Flood Fill / Connected Components (Total: 6 problems)](#-flood-fill--connected-components-total-6-problems)
-    - [🕸️ Graph \& Topological Sort (Total: 2 problems)](#️-graph--topological-sort-total-2-problems)
+    - [🕸️ Graph \& Topological Sort (Total: 3 problems)](#️-graph--topological-sort-total-3-problems)
     - [🧭 Greedy (Total: 15 problems)](#-greedy-total-15-problems)
     - [🧩 Hash Map (Total: 4 problems)](#-hash-map-total-4-problems)
     - [🏔️ Heap / QuickSelect / Bucket (Total: 3 problems)](#️-heap--quickselect--bucket-total-3-problems)
@@ -194,10 +194,11 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🕸️ Graph & Topological Sort (Total: 2 problems)
+### 🕸️ Graph & Topological Sort (Total: 3 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | [Runtime(79%-100%)](./cpp/graph_topological_sort/0207_course_schedule/) | Cycle detection, DAG check |
+| 0310 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Medium | [Runtime(~60%)](./cpp/graph_topological_sort/0310_minimum_height_trees/) | Trim leaves iteratively, tree centers |
 | 3620 | [Network Recovery Pathways](https://leetcode.com/problems/network-recovery-pathways/) | Hard | [Runtime(>90%)](./cpp/graph_topological_sort/3620_network_recovery_pathways/) | DAG shortest path + topo sort + binary search / / 🏁 Biweekly 161(Q3) |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
