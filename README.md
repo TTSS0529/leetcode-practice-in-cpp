@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **139/145(week 16)**  
-- 📈 Difficulty Breakdown: Easy(40) / Medium(85) / Hard(14) / Total(139)  
+- ✅ Total Problems Solved: **140/145(week 16)**  
+- 📈 Difficulty Breakdown: Easy(40) / Medium(85) / Hard(15) / Total(140)  
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -29,7 +29,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
   - [🏆 Contest Reviews](#-contest-reviews)
   - [📚 Shared Solutions](#-shared-solutions)
   - [🗂️ Problem Categories](#️-problem-categories)
-    - [🌀 Backtracking (Total: 11 problems)](#-backtracking-total-11-problems)
+    - [🌀 Backtracking (Total: 12 problems)](#-backtracking-total-12-problems)
     - [🌲 Binary Search Tree (Total: 4 problems)](#-binary-search-tree-total-4-problems)
     - [🔧 Bit Manipulation (Total: 5 problems)](#-bit-manipulation-total-5-problems)
     - [🏗️ Design (Total: 1 problems)](#️-design-total-1-problems)
@@ -97,11 +97,12 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ## 🗂️ Problem Categories
 
-### 🌀 Backtracking (Total: 11 problems)
+### 🌀 Backtracking (Total: 12 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0017 | [Letter Combinations Of A Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | [Runtime(100%)](./cpp/backtracking/0017_letter_combinations_of_a_phone_number/) | Classic digit-to-letter mapping → DFS/backtracking |
 | 0022 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [Runtime(100%)](./cpp/backtracking/0022_generate_parentheses/) | Backtracking with pruning → track left/right counts, reserve string capacity |
+| 0037 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | Hard | [Runtime(~94%)](./cpp/backtracking/0037_sudoku_solver/) | Backtracking with pruning: **Brute-force** uses `unordered_set`; **Optimized** uses bitmask (`int row[9], col[9], block[9]`) + `__builtin_ctz` to pick candidates efficiently |
 | 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | [Runtime(sometimes 100%)](./cpp/backtracking/0039_combination_sum/) | Reuse numbers → `sort + prune if > target`, prevent duplicates via `start` |
 | 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | [Runtime(100%)](./cpp/backtracking/0040_combination_sum_ii/) | Use each number once → `sort + prune + skip duplicates (i > start)` |
 | 0046 | [Permutation](https://leetcode.com/problems/permutations/) | Medium | [Runtime(100%)](./cpp/backtracking/0046_permutations/) | Generate all permutations, `used[] + path` (fast) vs `swap` (less memory) |
