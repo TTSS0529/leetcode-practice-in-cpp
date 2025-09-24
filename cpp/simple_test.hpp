@@ -18,6 +18,7 @@
 #include <climits>
 #include <utility>
 #include <algorithm>
+#include <numeric>
 #include <type_traits>
 #include <optional>// c++17
 
