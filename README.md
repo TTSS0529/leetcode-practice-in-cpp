@@ -1,5 +1,5 @@
 # leetcode-practice-in-cpp
-This repository is for my personal LeetCode practice using mainly C++. 
+This repository is for my personal LeetCode practice using mainly C++.
 
 ## 🎯 Training Goal
 
@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **144/145(week 16)**  
-- 📈 Difficulty Breakdown: Easy(40) / Medium(89) / Hard(15) / Total(144)  
+- ✅ Total Problems Solved: **145/145(week 16)**
+- 📈 Difficulty Breakdown: Easy(40) / Medium(90) / Hard(15) / Total(145)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -34,7 +34,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔧 Bit Manipulation (Total: 5 problems)](#-bit-manipulation-total-5-problems)
     - [🏗️ Design (Total: 1 problems)](#️-design-total-1-problems)
     - [⚡ Divide \& Conquer (Total: 2 problems)](#-divide--conquer-total-2-problems)
-    - [🎯 Dynamic Programming (Total: 14 problems)](#-dynamic-programming-total-14-problems)
+    - [🎯 Dynamic Programming (Total: 15 problems)](#-dynamic-programming-total-15-problems)
     - [🌐 Flood Fill / Connected Components (Total: 6 problems)](#-flood-fill--connected-components-total-6-problems)
     - [🕸️ Graph \& Topological Sort (Total: 3 problems)](#️-graph--topological-sort-total-3-problems)
     - [🧭 Greedy (Total: 15 problems)](#-greedy-total-15-problems)
@@ -161,7 +161,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🎯 Dynamic Programming (Total: 14 problems)
+### 🎯 Dynamic Programming (Total: 15 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0010 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [Runtime(~52%) classic solution](./cpp/dynamic_programming/0010_regular_expression_matching/) | 2D DP → simulate regex with `.` and `*`, careful initialization and transitions |
@@ -172,6 +172,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0198_house_robber/) | Classic DP → `dp[i] = max(dp[i-1], dp[i-2] + nums[i])` → O(1) space optimized |
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0213_house_robber_ii/) | Circular variant of 0198 → run twice on `[0,n-2]` & `[1,n-1]`, then max |
 | 0221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | [Runtime(vary a lot)](./cpp/dynamic_programming/0221_maximal_square/) | 2D DP → `dp[i][j]` stores maximal square side ending at `(i,j)` → depends on top, left, top-left neighbors → can optimize to O(n) space |
+| 0279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium | [Runtime(~86%)](./cpp/dynamic_programming/0279_perfect_squares/) | Complete knapsack DP → `dp[i] = min(dp[i], dp[i - j²] + 1)` |
 | 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0264_ugly_number_ii/) | DP + 3 pointers → generate sequence by merging ×2,×3,×5 |
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0300_longest_increasing_subsequence/) | Patience Sorting + Binary Search → O(n log n) |
 | 0413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0413_arithmetic_slices/) | DP → `dp[i] = dp[i-1] + 1` if valid, sum(dp) for answer |
