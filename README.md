@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **146/146(week 16)**
-- 📈 Difficulty Breakdown: Easy(40) / Medium(91) / Hard(15) / Total(146)
+- ✅ Total Problems Solved: **147/147(week 16)**
+- 📈 Difficulty Breakdown: Easy(40) / Medium(92) / Hard(15) / Total(147)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -34,7 +34,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔧 Bit Manipulation (Total: 5 problems)](#-bit-manipulation-total-5-problems)
     - [🏗️ Design (Total: 1 problems)](#️-design-total-1-problems)
     - [⚡ Divide \& Conquer (Total: 2 problems)](#-divide--conquer-total-2-problems)
-    - [🎯 Dynamic Programming (Total: 16 problems)](#-dynamic-programming-total-16-problems)
+    - [🎯 Dynamic Programming (Total: 17 problems)](#-dynamic-programming-total-17-problems)
     - [🌐 Flood Fill / Connected Components (Total: 6 problems)](#-flood-fill--connected-components-total-6-problems)
     - [🕸️ Graph \& Topological Sort (Total: 3 problems)](#️-graph--topological-sort-total-3-problems)
     - [🧭 Greedy (Total: 15 problems)](#-greedy-total-15-problems)
@@ -161,7 +161,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🎯 Dynamic Programming (Total: 16 problems)
+### 🎯 Dynamic Programming (Total: 17 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0010 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [Runtime(~52%) classic solution](./cpp/dynamic_programming/0010_regular_expression_matching/) | 2D DP → simulate regex with `.` and `*`, careful initialization and transitions |
@@ -170,6 +170,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Runtime(100%)](./cpp/dynamic_programming/0070_climbing_stairs/) | Fibonacci variant with safe integer handling |
 | 0091 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0091_decode_ways/) | DP → `dp[i]` = ways to decode `s[0..i-1]`; careful handling of `0` and two-digit numbers (`10..26`) |
 | 0121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Runtime(sometimes 100%)](./cpp/dynamic_programming/0121_best_time_to_buy_and_sell_stock/) | Track prefix min & update max profit in one pass |
+| 0139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0139_word_break/) | DP → `dp[i]` = whether `s[0..i-1]` can be segmented; check all words ending at `i` |
 | 0198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0198_house_robber/) | Classic DP → `dp[i] = max(dp[i-1], dp[i-2] + nums[i])` → O(1) space optimized |
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0213_house_robber_ii/) | Circular variant of 0198 → run twice on `[0,n-2]` & `[1,n-1]`, then max |
 | 0221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | [Runtime(vary a lot)](./cpp/dynamic_programming/0221_maximal_square/) | 2D DP → `dp[i][j]` stores maximal square side ending at `(i,j)` → depends on top, left, top-left neighbors → can optimize to O(n) space |
