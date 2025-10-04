@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **153/155(week 17)**
-- 📈 Difficulty Breakdown: Easy(40) / Medium(98) / Hard(15) / Total(153)
+- ✅ Total Problems Solved: **154/155(week 17)**
+- 📈 Difficulty Breakdown: Easy(41) / Medium(98) / Hard(15) / Total(154)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -38,7 +38,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌐 Flood Fill / Connected Components (Total: 6 problems)](#-flood-fill--connected-components-total-6-problems)
     - [🕸️ Graph \& Topological Sort (Total: 3 problems)](#️-graph--topological-sort-total-3-problems)
     - [🧭 Greedy (Total: 15 problems)](#-greedy-total-15-problems)
-    - [🧩 Hash Map (Total: 4 problems)](#-hash-map-total-4-problems)
+    - [🧩 Hash Map (Total: 5 problems)](#-hash-map-total-5-problems)
     - [🏔️ Heap / QuickSelect / Bucket (Total: 3 problems)](#️-heap--quickselect--bucket-total-3-problems)
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
     - [📐 Math (Total: 8 problems)](#-math-total-8-problems)
@@ -239,9 +239,10 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🧩 Hash Map (Total: 4 problems)
+### 🧩 Hash Map (Total: 5 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
+| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Runtime(100%)](./cpp/hash_map/0001_two_sum/) | One-pass hash map / complement lookup |
 | 0205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | [Runtime(100%)](./cpp/hash_map/0205_isomorphic_strings/) | Two-way mapping / fixed array optimization |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Runtime(100%)](./cpp/hash_map/0242_valid_anagram/) | Frequency counting / O(1) space |
 | 0387 | [First Unique Character In A String](https://leetcode.com/problems/first-unique-character-in-a-string/) | Easy | [Runtime(~70%, can improve later)](./cpp/hash_map/0387_first_unique_character_in_a_string/) | Array or hash map / two-pass scan |
