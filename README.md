@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **152/155(week 17)**
-- 📈 Difficulty Breakdown: Easy(40) / Medium(97) / Hard(15) / Total(152)
+- ✅ Total Problems Solved: **153/155(week 17)**
+- 📈 Difficulty Breakdown: Easy(40) / Medium(98) / Hard(15) / Total(153)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -41,7 +41,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🧩 Hash Map (Total: 4 problems)](#-hash-map-total-4-problems)
     - [🏔️ Heap / QuickSelect / Bucket (Total: 3 problems)](#️-heap--quickselect--bucket-total-3-problems)
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
-    - [📐 Math (Total: 7 problems)](#-math-total-7-problems)
+    - [📐 Math (Total: 8 problems)](#-math-total-8-problems)
     - [➕ Prefix Sum (Total: 3 problems)](#-prefix-sum-total-3-problems)
     - [🔍 Search (Total: 13 problems)](#-search-total-13-problems)
     - [🛣️ Shortest Path (Total: 2 problems)](#️-shortest-path-total-2-problems)
@@ -276,13 +276,14 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 📐 Math (Total: 7 problems)
+### 📐 Math (Total: 8 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0089 | [Gray Code](https://leetcode.com/problems/gray-code/) | Medium | [Runtime(100%)](./cpp/math/0089_gray_code/) | Generate Gray codes using `i ^ (i >> 1)` formula |
 | 0233 | [Number Of Digit One](https://leetcode.com/problems/number-of-digit-one/) | Hard | [Runtime(100%)](./cpp/math/0233_number_of_digit_one/) | Digit counting by high/cur/low parts per digit |
 | 0343 | [Integer Break](https://leetcode.com/problems/integer-break/) | Medium | [Runtime(100%)](./cpp/math/0343_integer_break/) | Break `n` into as many `3`s as possible; handle mod=1 by turning `3+1`→`2+2` |
 | 0400 | [Nth Digit](https://leetcode.com/problems/nth-digit/) | Medium | [Runtime(100%)](./cpp/math/0400_nth_digit/) | Digit block skipping → locate number & digit |
+| 0650 | [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/) | Medium | [Runtime(100%)](./cpp/math/0650_2_keys_keyboard/) | Min steps = sum of prime factors of `n` |
 | 1823 | [Find The Winner Of The Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | Medium | [Runtime(100%)](./cpp/math/1823_find_the_winner_of_the_circular_game/) | Josephus problem — recurrence: `dp = (dp + k) % i` |
 | 3618 | [Split Array By Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | Medium | [Runtime(>70%) classic solution](./cpp/math/3618_split_array_by_prime_indices/) | Number theory + sieve of Eratosthenes / 🏁 Biweekly 161(Q1) |
 | 3648 | [Minimum Sensors To Cover Grid](https://leetcode.com/problems/minimum-sensors-to-cover-grid/) | Medium | [Runtime(100%)](./cpp/math/3648_minimum_sensors_to_cover_grid/) | Coverage square side = `2k+1`; ceil-div in both dims / 🏁 Biweekly 163(Q1) |
