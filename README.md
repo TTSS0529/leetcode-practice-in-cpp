@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **158/162(week 18)**
-- 📈 Difficulty Breakdown: Easy(42) / Medium(99) / Hard(17) / Total(158)
+- ✅ Total Problems Solved: **159/162(week 18)**
+- 📈 Difficulty Breakdown: Easy(42) / Medium(100) / Hard(17) / Total(159)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -34,7 +34,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔧 Bit Manipulation (Total: 5 problems)](#-bit-manipulation-total-5-problems)
     - [🏗️ Design (Total: 1 problems)](#️-design-total-1-problems)
     - [⚡ Divide \& Conquer (Total: 2 problems)](#-divide--conquer-total-2-problems)
-    - [🎯 Dynamic Programming (Total: 26 problems)](#-dynamic-programming-total-26-problems)
+    - [🎯 Dynamic Programming (Total: 27 problems)](#-dynamic-programming-total-27-problems)
     - [🌐 Flood Fill / Connected Components (Total: 6 problems)](#-flood-fill--connected-components-total-6-problems)
     - [🕸️ Graph \& Topological Sort (Total: 3 problems)](#️-graph--topological-sort-total-3-problems)
     - [🧭 Greedy (Total: 15 problems)](#-greedy-total-15-problems)
@@ -161,7 +161,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🎯 Dynamic Programming (Total: 26 problems)
+### 🎯 Dynamic Programming (Total: 27 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0010 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [Runtime(~52%) classic solution](./cpp/dynamic_programming/0010_regular_expression_matching/) | 2D DP → simulate regex with `.` and `*`, careful initialization and transitions |
@@ -188,6 +188,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0474 | [Ones And Zeros](https://leetcode.com/problems/ones-and-zeroes/) | Medium | [Runtime(~82%)](./cpp/dynamic_programming/0474_ones_and_zeros/) | 2D 0/1 Knapsack → `dp[i][j]` max strings with i zeros & j ones; iterate backwards to avoid reuse |
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | [Runtime(sometimes 100%)](./cpp/dynamic_programming/0509_fibonacci_number/) | Classic DP → optimized to rolling variables |
 | 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | Medium | [Runtime(~90%)](./cpp/dynamic_programming/0542_01_matrix/) | 2-pass DP → compute min distance to nearest 0 (top-left to bottom-right, then reverse) |
+| 0583 | [Delete Operation For Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | Medium | [Runtime(65~90%)](./cpp/dynamic_programming/0583_delete_operation_for_two_strings/) | 2D DP → LCS length → min deletions = len1 + len2 - 2*LCS; can optimize to O(n) space with rolling array |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [Runtime(vary a lot) classic solution](./cpp/dynamic_programming/1143_longest_common_subsequence/) | Classic LCS → 2D DP; `dp[i][j]` = LCS of prefixes; can optimize to O(min(m,n)) space |
 | 3603 | [Minimum Cost Path With Alternating Direction II](https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii/) | Medium | [Runtime(~95%) improve later](./cpp/dynamic_programming/3603_minimum_cost_path_with_alternating_direction_ii/) | Grid DP with custom movement rule / 🏁 Biweekly 160(Q2) |
 
