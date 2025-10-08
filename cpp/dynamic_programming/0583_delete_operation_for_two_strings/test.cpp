@@ -6,11 +6,11 @@ static void runTest(string word1, string word2) {
 }
 
 int main() {
-    // std::cout << ">>>>>> example 1 <<<<<<" << std::endl;
-    // runTest("sea", "eat");
+    std::cout << ">>>>>> example 1 <<<<<<" << std::endl;
+    runTest("sea", "eat");
 
-    // std::cout << ">>>>>> example 2 <<<<<<" << std::endl;
-    // runTest("leetcode", "etco");
+    std::cout << ">>>>>> example 2 <<<<<<" << std::endl;
+    runTest("leetcode", "etco");
 
     std::cout << ">>>>>> example 3 <<<<<<" << std::endl;
     runTest("a", "b");
