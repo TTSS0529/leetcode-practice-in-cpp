@@ -34,7 +34,11 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔧 Bit Manipulation (Total: 5 problems)](#-bit-manipulation-total-5-problems)
     - [🏗️ Design (Total: 1 problems)](#️-design-total-1-problems)
     - [⚡ Divide \& Conquer (Total: 2 problems)](#-divide--conquer-total-2-problems)
-    - [🎯 Dynamic Programming (Total: 29 problems)](#-dynamic-programming-total-29-problems)
+    - [🎯 DP Grid / Matrix (Total: 4 problems)](#-dp-grid--matrix-total-4-problems)
+    - [🎯 DP Knapsack / Subset (Total: 5 problems)](#-dp-knapsack--subset-total-5-problems)
+    - [🎯 DP Linear / Sequence (Total: 10 problems)](#-dp-linear--sequence-total-10-problems)
+    - [🎯 DP Math (Total: 5 problems)](#-dp-math-total-5-problems)
+    - [🎯 DP String / Edit (Total: 5 problems)](#-dp-string--edit-total-5-problems)
     - [🌐 Flood Fill / Connected Components (Total: 6 problems)](#-flood-fill--connected-components-total-6-problems)
     - [🕸️ Graph \& Topological Sort (Total: 3 problems)](#️-graph--topological-sort-total-3-problems)
     - [🧭 Greedy (Total: 17 problems)](#-greedy-total-17-problems)
@@ -161,38 +165,70 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🎯 Dynamic Programming (Total: 29 problems)
+### 🎯 DP Grid / Matrix (Total: 4 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
-| 0010 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [Runtime(~52%) classic solution](./cpp/dynamic_programming/0010_regular_expression_matching/) | 2D DP → simulate regex with `.` and `*`, careful initialization and transitions |
-| 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0053_maximum_subarray/) | Kadane’s Algorithm → O(n) time, O(1) space |
-| 0064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0064_minimum_path_sum/) | Grid DP → can optimize to O(n) space with rolling array(later) |
-| 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Runtime(100%)](./cpp/dynamic_programming/0070_climbing_stairs/) | Fibonacci variant with safe integer handling |
-| 0072 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | Medium | [Runtime(>70%)](./cpp/dynamic_programming/0072_edit_distance/) | 2D DP → `dp[i][j]` = min ops to convert prefix of word1→word2; handles insert/delete/replace |
-| 0091 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0091_decode_ways/) | DP → `dp[i]` = ways to decode `s[0..i-1]`; careful handling of `0` and two-digit numbers (`10..26`) |
-| 0118 | [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [Runtime(100%)](./cpp/dynamic_programming/0118_pascals_triangle/) | Generate triangle row by row → `row[j] = prev_row[j-1] + prev_row[j]`, edge 1’s |
-| 0121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Runtime(sometimes 100%)](./cpp/dynamic_programming/0121_best_time_to_buy_and_sell_stock/) | Track prefix min & update max profit in one pass |
-| 0123 | [Best Time To Buy And Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | [Runtime(sometimes 100%)](./cpp/dynamic_programming/0123_best_time_to_buy_and_sell_stock_iii/) | Two approaches: left-right profit split (O(n) space) or 4-state DP (O(1) space) |
-| 0139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0139_word_break/) | DP → `dp[i]` = whether `s[0..i-1]` can be segmented; check all words ending at `i` |
-| 0188 | [Best Time To Buy And Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | [Runtime(~85%)](./cpp/dynamic_programming/0188_best_time_to_buy_and_sell_stock_iv/) | State DP → buy[i], sell[i] for k transactions; optimize from 2D DP to O(k) space |
-| 0198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0198_house_robber/) | Classic DP → `dp[i] = max(dp[i-1], dp[i-2] + nums[i])` → O(1) space optimized |
-| 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0213_house_robber_ii/) | Circular variant of 0198 → run twice on `[0,n-2]` & `[1,n-1]`, then max |
-| 0221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | [Runtime(vary a lot)](./cpp/dynamic_programming/0221_maximal_square/) | 2D DP → `dp[i][j]` stores maximal square side ending at `(i,j)` → depends on top, left, top-left neighbors → can optimize to O(n) space |
-| 0279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium | [Runtime(~86%)](./cpp/dynamic_programming/0279_perfect_squares/) | Complete knapsack DP → `dp[i] = min(dp[i], dp[i - j²] + 1)` |
-| 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0264_ugly_number_ii/) | DP + 3 pointers → generate sequence by merging ×2,×3,×5 |
-| 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0300_longest_increasing_subsequence/) | Patience Sorting + Binary Search → O(n log n) |
-| 0309 | [Best Time To Buy And Sell Stock With Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0309_best_time_to_buy_and_sell_stock_with_cooldown/) | State-machine DP → `hold / cool / rest` states; enforces 1-day cooldown |
-| 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | [Runtime(~82%)](./cpp/dynamic_programming/0322_coin_change/) | 1D DP (Unbounded Knapsack) → `dp[j] = min(dp[j], dp[j - coin] + 1)`, handle impossible states with `INT_MAX-1` |
-| 0413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0413_arithmetic_slices/) | DP → `dp[i] = dp[i-1] + 1` if valid, sum(dp) for answer |
-| 0416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium | [Runtime(~80%)](./cpp/dynamic_programming/0416_partition_equal_subset_sum/) | 0/1 Knapsack DP → `dp[j] |= dp[j-num]`; backward iteration prevents reuse |
-| 0474 | [Ones And Zeros](https://leetcode.com/problems/ones-and-zeroes/) | Medium | [Runtime(~82%)](./cpp/dynamic_programming/0474_ones_and_zeros/) | 2D 0/1 Knapsack → `dp[i][j]` max strings with i zeros & j ones; iterate backwards to avoid reuse |
-| 0494 | [Target Sum](https://leetcode.com/problems/target-sum/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0494_target_sum/) | Transform to subset sum → count subsets summing to `(target + sum(nums))/2`, use 1D DP with backward iteration |
-| 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | [Runtime(sometimes 100%)](./cpp/dynamic_programming/0509_fibonacci_number/) | Classic DP → optimized to rolling variables |
-| 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | Medium | [Runtime(~90%)](./cpp/dynamic_programming/0542_01_matrix/) | 2-pass DP → compute min distance to nearest 0 (top-left to bottom-right, then reverse) |
-| 0583 | [Delete Operation For Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | Medium | [Runtime(65~90%)](./cpp/dynamic_programming/0583_delete_operation_for_two_strings/) | 2D DP → LCS length → min deletions = len1 + len2 - 2*LCS; can optimize to O(n) space with rolling array |
-| 0714 | [Best Time To Buy And Sell Stock With Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | [Runtime(100%)](./cpp/dynamic_programming/0714_best_time_to_buy_and_sell_stock_with_transaction_fee/) | DP with two states → hold (keep) & empty; update daily max profit; subtract fee on sell |
-| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [Runtime(vary a lot) classic solution](./cpp/dynamic_programming/1143_longest_common_subsequence/) | Classic LCS → 2D DP; `dp[i][j]` = LCS of prefixes; can optimize to O(min(m,n)) space |
-| 3603 | [Minimum Cost Path With Alternating Direction II](https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii/) | Medium | [Runtime(~95%) improve later](./cpp/dynamic_programming/3603_minimum_cost_path_with_alternating_direction_ii/) | Grid DP with custom movement rule / 🏁 Biweekly 160(Q2) |
+| 0064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | [Runtime(100%)](./cpp/dp_grid_matrix/0064_minimum_path_sum/) | Grid DP → can optimize to O(n) space with rolling array(later) |
+| 0221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | [Runtime(vary a lot)](./cpp/dp_grid_matrix/0221_maximal_square/) | 2D DP → `dp[i][j]` stores maximal square side ending at `(i,j)` → depends on top, left, top-left neighbors → can optimize to O(n) space |
+| 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | Medium | [Runtime(~90%)](./cpp/dp_grid_matrix/0542_01_matrix/) | 2-pass DP → compute min distance to nearest 0 (top-left to bottom-right, then reverse) |
+| 3603 | [Minimum Cost Path With Alternating Direction II](https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii/) | Medium | [Runtime(~95%) improve later](./cpp/dp_grid_matrix/3603_minimum_cost_path_with_alternating_direction_ii/) | Grid DP with custom movement rule / 🏁 Biweekly 160(Q2) |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🎯 DP Knapsack / Subset (Total: 5 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium | [Runtime(~86%)](./cpp/dp_knapsack_subset/0279_perfect_squares/) | Complete knapsack DP → `dp[i] = min(dp[i], dp[i - j²] + 1)` |
+| 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | [Runtime(~82%)](./cpp/dp_knapsack_subset/0322_coin_change/) | 1D DP (Unbounded Knapsack) → `dp[j] = min(dp[j], dp[j - coin] + 1)`, handle impossible states with `INT_MAX-1` |
+| 0416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium | [Runtime(~80%)](./cpp/dp_knapsack_subset/0416_partition_equal_subset_sum/) | 0/1 Knapsack DP → `dp[j] |= dp[j-num]`; backward iteration prevents reuse |
+| 0474 | [Ones And Zeros](https://leetcode.com/problems/ones-and-zeroes/) | Medium | [Runtime(~82%)](./cpp/dp_knapsack_subset/0474_ones_and_zeros/) | 2D 0/1 Knapsack → `dp[i][j]` max strings with i zeros & j ones; iterate backwards to avoid reuse |
+| 0494 | [Target Sum](https://leetcode.com/problems/target-sum/) | Medium | [Runtime(100%)](./cpp/dp_knapsack_subset/0494_target_sum/) | Transform to subset sum → count subsets summing to `(target + sum(nums))/2`, use 1D DP with backward iteration |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🎯 DP Linear / Sequence (Total: 10 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [Runtime(100%)](./cpp/dp_linear_sequence/0053_maximum_subarray/) | Kadane’s Algorithm → O(n) time, O(1) space |
+| 0121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Runtime(sometimes 100%)](./cpp/dp_linear_sequence/0121_best_time_to_buy_and_sell_stock/) | Track prefix min & update max profit in one pass |
+| 0123 | [Best Time To Buy And Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | [Runtime(sometimes 100%)](./cpp/dp_linear_sequence/0123_best_time_to_buy_and_sell_stock_iii/) | Two approaches: left-right profit split (O(n) space) or 4-state DP (O(1) space) |
+| 0188 | [Best Time To Buy And Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | [Runtime(~85%)](./cpp/dp_linear_sequence/0188_best_time_to_buy_and_sell_stock_iv/) | State DP → buy[i], sell[i] for k transactions; optimize from 2D DP to O(k) space |
+| 0198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | [Runtime(100%)](./cpp/dp_linear_sequence/0198_house_robber/) | Classic DP → `dp[i] = max(dp[i-1], dp[i-2] + nums[i])` → O(1) space optimized |
+| 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [Runtime(100%)](./cpp/dp_linear_sequence/0213_house_robber_ii/) | Circular variant of 0198 → run twice on `[0,n-2]` & `[1,n-1]`, then max |
+| 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [Runtime(100%)](./cpp/dp_linear_sequence/0300_longest_increasing_subsequence/) | Patience Sorting + Binary Search → O(n log n) |
+| 0309 | [Best Time To Buy And Sell Stock With Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium | [Runtime(100%)](./cpp/dp_linear_sequence/0309_best_time_to_buy_and_sell_stock_with_cooldown/) | State-machine DP → `hold / cool / rest` states; enforces 1-day cooldown |
+| 0413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [Runtime(100%)](./cpp/dp_linear_sequence/0413_arithmetic_slices/) | DP → `dp[i] = dp[i-1] + 1` if valid, sum(dp) for answer |
+| 0714 | [Best Time To Buy And Sell Stock With Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | [Runtime(100%)](./cpp/dp_linear_sequence/0714_best_time_to_buy_and_sell_stock_with_transaction_fee/) | DP with two states → hold (keep) & empty; update daily max profit; subtract fee on sell |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🎯 DP Math (Total: 5 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Runtime(100%)](./cpp/dp_math/0070_climbing_stairs/) | Fibonacci variant with safe integer handling |
+| 0091 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [Runtime(100%)](./cpp/dp_math/0091_decode_ways/) | DP → `dp[i]` = ways to decode `s[0..i-1]`; careful handling of `0` and two-digit numbers (`10..26`) |
+| 0118 | [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [Runtime(100%)](./cpp/dp_math/0118_pascals_triangle/) | Generate triangle row by row → `row[j] = prev_row[j-1] + prev_row[j]`, edge 1’s |
+| 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium | [Runtime(100%)](./cpp/dp_math/0264_ugly_number_ii/) | DP + 3 pointers → generate sequence by merging ×2,×3,×5 |
+| 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | [Runtime(sometimes 100%)](./cpp/dp_math/0509_fibonacci_number/) | Classic DP → optimized to rolling variables |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
+
+### 🎯 DP String / Edit (Total: 5 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 0010 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [Runtime(~52%) classic solution](./cpp/dp_string_edit/0010_regular_expression_matching/) | 2D DP → simulate regex with `.` and `*`, careful initialization and transitions |
+| 0072 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | Medium | [Runtime(>70%)](./cpp/dp_string_edit/0072_edit_distance/) | 2D DP → `dp[i][j]` = min ops to convert prefix of word1→word2; handles insert/delete/replace |
+| 0139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [Runtime(100%)](./cpp/dp_string_edit/0139_word_break/) | DP → `dp[i]` = whether `s[0..i-1]` can be segmented; check all words ending at `i` |
+| 0583 | [Delete Operation For Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | Medium | [Runtime(65~90%)](./cpp/dp_string_edit/0583_delete_operation_for_two_strings/) | 2D DP → LCS length → min deletions = len1 + len2 - 2*LCS; can optimize to O(n) space with rolling array |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [Runtime(vary a lot) classic solution](./cpp/dp_string_edit/1143_longest_common_subsequence/) | Classic LCS → 2D DP; `dp[i][j]` = LCS of prefixes; can optimize to O(min(m,n)) space |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
