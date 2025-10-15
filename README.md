@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **163/169(week 19)**
-- 📈 Difficulty Breakdown: Easy(42) / Medium(104) / Hard(17) / Total(163)
+- ✅ Total Problems Solved: **164/169(week 19)**
+- 📈 Difficulty Breakdown: Easy(42) / Medium(105) / Hard(17) / Total(164)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -33,7 +33,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌲 Binary Search Tree (Total: 4 problems)](#-binary-search-tree-total-4-problems)
     - [🔧 Bit Manipulation (Total: 5 problems)](#-bit-manipulation-total-5-problems)
     - [🏗️ Design (Total: 1 problems)](#️-design-total-1-problems)
-    - [⚡ Divide \& Conquer (Total: 2 problems)](#-divide--conquer-total-2-problems)
+    - [⚡ Divide \& Conquer (Total: 3 problems)](#-divide--conquer-total-3-problems)
     - [🎯 DP Grid / Matrix (Total: 4 problems)](#-dp-grid--matrix-total-4-problems)
     - [🎯 DP Knapsack / Subset (Total: 5 problems)](#-dp-knapsack--subset-total-5-problems)
     - [🎯 DP Linear / Sequence (Total: 10 problems)](#-dp-linear--sequence-total-10-problems)
@@ -155,11 +155,12 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### ⚡ Divide & Conquer (Total: 2 problems)
+### ⚡ Divide & Conquer (Total: 3 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0050 | [Pow(x,n)](https://leetcode.com/problems/powx-n/) | Medium | [Runtime(100%)](./cpp/divide_conquer/0050_pow_x_n/) | Fast exponentiation, O(log n) optimization |
 | 0105 | [Construct Binary Tree From Preorder And Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | [Runtime(100%)](./cpp/divide_conquer/0105_construct_binary_tree_from_preorder_and_inorder_traversal/) | Recursively split inorder, build subtrees |
+| 0241 | [Different Ways To Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | Medium | [Runtime(100%)](./cpp/divide_conquer/0241_different_ways_to_add_parentheses/) | Divide & Conquer with memoization |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
