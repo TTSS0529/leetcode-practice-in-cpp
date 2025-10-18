@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **167/169(week 19)**
-- 📈 Difficulty Breakdown: Easy(43) / Medium(107) / Hard(17) / Total(167)
+- ✅ Total Problems Solved: **168/169(week 19)**
+- 📈 Difficulty Breakdown: Easy(43) / Medium(108) / Hard(17) / Total(168)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -45,7 +45,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🧩 Hash Map (Total: 5 problems)](#-hash-map-total-5-problems)
     - [🏔️ Heap / QuickSelect / Bucket (Total: 3 problems)](#️-heap--quickselect--bucket-total-3-problems)
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
-    - [📐 Math (Total: 10 problems)](#-math-total-10-problems)
+    - [📐 Math (Total: 11 problems)](#-math-total-11-problems)
     - [➕ Prefix Sum (Total: 3 problems)](#-prefix-sum-total-3-problems)
     - [🔍 Search (Total: 13 problems)](#-search-total-13-problems)
     - [🛣️ Shortest Path (Total: 2 problems)](#️-shortest-path-total-2-problems)
@@ -324,10 +324,11 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 📐 Math (Total: 10 problems)
+### 📐 Math (Total: 11 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0089 | [Gray Code](https://leetcode.com/problems/gray-code/) | Medium | [Runtime(100%)](./cpp/math/0089_gray_code/) | Generate Gray codes using `i ^ (i >> 1)` formula |
+| 0172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | Medium | [Runtime(100%)](./cpp/math/0172_factorial_trailing_zeroes/) | Count factors of 5 in `n!`; trailing zeros = sum of `n/5 + n/25 + n/125 + ...` |
 | 0204 | [Count Primes](https://leetcode.com/problems/count-primes/) | Medium | [Runtime(~90%)](./cpp/math/0204_count_primes/) | Use **Sieve of Eratosthenes**; mark multiples; `accumulate` counts primes |
 | 0233 | [Number Of Digit One](https://leetcode.com/problems/number-of-digit-one/) | Hard | [Runtime(100%)](./cpp/math/0233_number_of_digit_one/) | Digit counting by high/cur/low parts per digit |
 | 0343 | [Integer Break](https://leetcode.com/problems/integer-break/) | Medium | [Runtime(100%)](./cpp/math/0343_integer_break/) | Break `n` into as many `3`s as possible; handle mod=1 by turning `3+1`→`2+2` |
