@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **169/169(week 19)**
-- 📈 Difficulty Breakdown: Easy(44) / Medium(108) / Hard(17) / Total(169)
+- ✅ Total Problems Solved: **170/170(week 19)**
+- 📈 Difficulty Breakdown: Easy(44) / Medium(109) / Hard(17) / Total(170)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -49,7 +49,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [➕ Prefix Sum (Total: 3 problems)](#-prefix-sum-total-3-problems)
     - [🔍 Search (Total: 13 problems)](#-search-total-13-problems)
     - [🛣️ Shortest Path (Total: 2 problems)](#️-shortest-path-total-2-problems)
-    - [🧮 Simulation (Total: 7 problems)](#-simulation-total-7-problems)
+    - [🧮 Simulation (Total: 8 problems)](#-simulation-total-8-problems)
     - [🌊 Sliding Window (Total: 3 problems)](#-sliding-window-total-3-problems)
     - [🧱 Stack \& Queue (Total: 6 problems)](#-stack--queue-total-6-problems)
     - [🔤 String Processing (Total: 3 problems)](#-string-processing-total-3-problems)
@@ -386,12 +386,13 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🧮 Simulation (Total: 7 problems)
+### 🧮 Simulation (Total: 8 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [Runtime(100%)](./cpp/simulation/0048_rotate_image/) | Simulate 90° rotation by transpose + row reversal |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [Runtime(100%)](./cpp/simulation/0054_spiral_matrix/) | Simulate matrix traversal by shrinking boundaries |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [Runtime(100%)](./cpp/simulation/0059_spiral_matrix_ii/) | Simulate spiral filling using 4 dynamic boundaries |
+| 0384 | [Shuffle An Array](https://leetcode.com/problems/shuffle-an-array/) | Medium | [Runtime(vary a lot)](./cpp/simulation/0384_shuffle_an_array/) | Fisher-Yates shuffle to generate uniform random permutation; store original array for reset |
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings/) | Easy | [Runtime(100%)](./cpp/simulation/0415_add_strings/) | Simulate digit-by-digit addition / carry tracking |
 | 0796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | [Runtime(100%)](./cpp/simulation/0796_rotate_string/) | Simulate string rotation by manual character comparison |
 | 3602 | [Hexadecimal And Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | Easy | [Runtime(100%)](./cpp/simulation/3602_hexadecimal_and_hexatrigesimal_conversion/) | Simulate base conversion with custom digit set / 🏁 Biweekly 160(Q1) |
