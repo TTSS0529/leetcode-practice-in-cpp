@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **170/170(week 19)**
-- 📈 Difficulty Breakdown: Easy(44) / Medium(109) / Hard(17) / Total(170)
+- ✅ Total Problems Solved: **171/177(week 20)**
+- 📈 Difficulty Breakdown: Easy(44) / Medium(110) / Hard(17) / Total(171)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -46,7 +46,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🏔️ Heap / QuickSelect / Bucket (Total: 3 problems)](#️-heap--quickselect--bucket-total-3-problems)
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
     - [📐 Math (Total: 12 problems)](#-math-total-12-problems)
-    - [➕ Prefix Sum (Total: 3 problems)](#-prefix-sum-total-3-problems)
+    - [➕ Prefix Sum (Total: 4 problems)](#-prefix-sum-total-4-problems)
     - [🔍 Search (Total: 13 problems)](#-search-total-13-problems)
     - [🛣️ Shortest Path (Total: 2 problems)](#️-shortest-path-total-2-problems)
     - [🧮 Simulation (Total: 8 problems)](#-simulation-total-8-problems)
@@ -344,10 +344,11 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### ➕ Prefix Sum (Total: 3 problems)
+### ➕ Prefix Sum (Total: 4 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [Runtime(100%)](./cpp/prefix_sum/0238_product_of_array_except_self/) | Prefix product (left) × suffix product (right) without division |
+| 0528 | [Random Pick With Weight](https://leetcode.com/problems/random-pick-with-weight/) | Medium | [Runtime(vary a lot)](./cpp/prefix_sum/0528_random_pick_with_weight/) | Prefix sum + binary search for weighted random selection |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | [Runtime(100%)](./cpp/prefix_sum/0724_find_pivot_index/) | Compare left and right prefix sum |
 | 1480 | [Running Sum Of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Easy | [Runtime(100%)](./cpp/prefix_sum/1480_running_sum_of_1d_array/) | Basic prefix sum building cumulatively |
 
