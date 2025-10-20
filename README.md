@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **171/177(week 20)**
-- 📈 Difficulty Breakdown: Easy(44) / Medium(110) / Hard(17) / Total(171)
+- ✅ Total Problems Solved: **172/177(week 20)**
+- 📈 Difficulty Breakdown: Easy(44) / Medium(111) / Hard(17) / Total(172)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -32,7 +32,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌀 Backtracking (Total: 12 problems)](#-backtracking-total-12-problems)
     - [🌲 Binary Search Tree (Total: 4 problems)](#-binary-search-tree-total-4-problems)
     - [🔧 Bit Manipulation (Total: 5 problems)](#-bit-manipulation-total-5-problems)
-    - [🏗️ Design (Total: 1 problems)](#️-design-total-1-problems)
+    - [🏗️ Design (Total: 2 problems)](#️-design-total-2-problems)
     - [⚡ Divide \& Conquer (Total: 4 problems)](#-divide--conquer-total-4-problems)
     - [🎯 DP Grid / Matrix (Total: 4 problems)](#-dp-grid--matrix-total-4-problems)
     - [🎯 DP Knapsack / Subset (Total: 5 problems)](#-dp-knapsack--subset-total-5-problems)
@@ -146,10 +146,11 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🏗️ Design (Total: 1 problems)
+### 🏗️ Design (Total: 2 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0297 | [Serialize And Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | [Runtime(~30%) improve later](./cpp/design/0297_serialize_and_deserialize_binary_tree/) | Preorder DFS + `#` null marker, `istringstream` token parsing |
+| 0382 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | Medium | [Runtime(100%)](./cpp/design/0382_linked_list_random_node/) | Reservoir Sampling for uniform random selection |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
