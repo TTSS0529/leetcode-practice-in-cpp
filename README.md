@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **173/177(week 20)**
-- 📈 Difficulty Breakdown: Easy(45) / Medium(111) / Hard(17) / Total(173)
+- ✅ Total Problems Solved: **174/177(week 20)**
+- 📈 Difficulty Breakdown: Easy(46) / Medium(111) / Hard(17) / Total(174)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -52,7 +52,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🧮 Simulation (Total: 8 problems)](#-simulation-total-8-problems)
     - [🌊 Sliding Window (Total: 3 problems)](#-sliding-window-total-3-problems)
     - [🧱 Stack \& Queue (Total: 6 problems)](#-stack--queue-total-6-problems)
-    - [🔤 String Processing (Total: 3 problems)](#-string-processing-total-3-problems)
+    - [🔤 String Processing (Total: 4 problems)](#-string-processing-total-4-problems)
     - [💡 Tree DP / Path Sum (Total: 2 problems)](#-tree-dp--path-sum-total-2-problems)
     - [🌳 Tree Traversal (Total: 9 problems)](#-tree-traversal-total-9-problems)
     - [🪝 Two Pointers (Total: 14 problems)](#-two-pointers-total-14-problems)
@@ -431,11 +431,12 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🔤 String Processing (Total: 3 problems)
+### 🔤 String Processing (Total: 4 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0006 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | Medium | [Runtime(100%)](./cpp/string_processing/0006_zigzag_conversion/) | Simulation + direction control + reserve optimization |
 | 0008 | [String To Interger Atoi](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [Runtime(100%)](./cpp/string_processing/0008_string_to_integer_atoi/) | Manual parse + overflow clamp + long long use |
+| 0067 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [Runtime(100%)](./cpp/string_processing/0067_add_binary/) | Reverse + carry handling + reserve optimization |
 | 0151 | [Reverse Words In A String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [Runtime(100%)](./cpp/string_processing/0151_reverse_words_in_a_string/) | Backward scan + substr + reserve optimization |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
