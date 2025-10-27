@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **177/177(week 20)**
-- 📈 Difficulty Breakdown: Easy(47) / Medium(113) / Hard(17) / Total(177)
+- ✅ Total Problems Solved: **178/184(week 21)**
+- 📈 Difficulty Breakdown: Easy(48) / Medium(113) / Hard(17) / Total(178)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -31,7 +31,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
   - [🗂️ Problem Categories](#️-problem-categories)
     - [🌀 Backtracking (Total: 12 problems)](#-backtracking-total-12-problems)
     - [🌲 Binary Search Tree (Total: 4 problems)](#-binary-search-tree-total-4-problems)
-    - [🔧 Bit Manipulation (Total: 5 problems)](#-bit-manipulation-total-5-problems)
+    - [🔧 Bit Manipulation (Total: 6 problems)](#-bit-manipulation-total-6-problems)
     - [🏗️ Design (Total: 2 problems)](#️-design-total-2-problems)
     - [⚡ Divide \& Conquer (Total: 4 problems)](#-divide--conquer-total-4-problems)
     - [🎯 DP Grid / Matrix (Total: 4 problems)](#-dp-grid--matrix-total-4-problems)
@@ -133,7 +133,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🔧 Bit Manipulation (Total: 5 problems)
+### 🔧 Bit Manipulation (Total: 6 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [Runtime(100%)](./cpp/bit_manipulation/0136_single_number/) | XOR all numbers → duplicates cancel out, leaving unique |
@@ -141,6 +141,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0191 | [Number Of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [Runtime(100%)](./cpp/bit_manipulation/0191_number_of_1_bits/) | Brian Kernighan’s algorithm / count set bits |
 | 0231 | [Power Of Two](https://leetcode.com/problems/power-of-two/) | Easy | [Runtime(100%)](./cpp/bit_manipulation/0231_power_of_two/) | `n & (n - 1) == 0` trick / check single set bit |
 | 0371 | [Sum Of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Medium | [Runtime(100%)](./cpp/bit_manipulation/0371_sum_of_two_integers/) | XOR for sum without carry & `(a & b) << 1` carry |
+| 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Easy | [Runtime(100%)](./cpp/bit_manipulation/0461_hamming_distance/) | XOR to find differing bits + Brian Kernighan’s algorithm to count 1s |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
