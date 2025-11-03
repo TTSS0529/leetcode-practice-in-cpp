@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **185/191(week 22)**
-- 📈 Difficulty Breakdown: Easy(54) / Medium(114) / Hard(17) / Total(185)
+- ✅ Total Problems Solved: **186/191(week 22)**
+- 📈 Difficulty Breakdown: Easy(54) / Medium(115) / Hard(17) / Total(186)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -31,7 +31,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
   - [🗂️ Problem Categories](#️-problem-categories)
     - [🌀 Backtracking (Total: 12 problems)](#-backtracking-total-12-problems)
     - [🌲 Binary Search Tree (Total: 4 problems)](#-binary-search-tree-total-4-problems)
-    - [🔧 Bit Manipulation (Total: 13 problems)](#-bit-manipulation-total-13-problems)
+    - [🔧 Bit Manipulation (Total: 14 problems)](#-bit-manipulation-total-14-problems)
     - [🏗️ Design (Total: 2 problems)](#️-design-total-2-problems)
     - [⚡ Divide \& Conquer (Total: 4 problems)](#-divide--conquer-total-4-problems)
     - [🎯 DP Grid / Matrix (Total: 4 problems)](#-dp-grid--matrix-total-4-problems)
@@ -133,7 +133,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🔧 Bit Manipulation (Total: 13 problems)
+### 🔧 Bit Manipulation (Total: 14 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [Runtime(100%)](./cpp/bit_manipulation/0136_single_number/) | XOR all numbers → duplicates cancel out, leaving unique |
@@ -141,6 +141,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | [Runtime(100%)](./cpp/bit_manipulation/0190_reverse_bits/) | Shift & add each bit / reverse 32-bit integer |
 | 0191 | [Number Of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [Runtime(100%)](./cpp/bit_manipulation/0191_number_of_1_bits/) | Brian Kernighan’s algorithm / count set bits |
 | 0231 | [Power Of Two](https://leetcode.com/problems/power-of-two/) | Easy | [Runtime(100%)](./cpp/bit_manipulation/0231_power_of_two/) | `n & (n - 1) == 0` trick / check single set bit |
+| 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | Medium | [Runtime(100%)](./cpp/bit_manipulation/0260_single_number_iii/) | XOR all numbers → partition by rightmost differing bit → isolate two unique numbers |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [Runtime(100%)](./cpp/bit_manipulation/0268_missing_number/) | XOR index and value → missing number remains |
 | 0318 | [Maximum Product Of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | Medium | [Runtime(40-50%)](./cpp/bit_manipulation/0318_maximum_product_of_word_lengths/) | Bitmask each word / compare non-overlapping masks for max length product |
 | 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | [Runtime(100%)](./cpp/bit_manipulation/0338_counting_bits/) | DP + bitwise pattern / even → same as i>>1, odd → +1 |
