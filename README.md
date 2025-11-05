@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **187/191(week 22)**
-- 📈 Difficulty Breakdown: Easy(55) / Medium(115) / Hard(17) / Total(187)
+- ✅ Total Problems Solved: **188/191(week 22)**
+- 📈 Difficulty Breakdown: Easy(55) / Medium(116) / Hard(17) / Total(188)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -41,7 +41,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🎯 DP String / Edit (Total: 5 problems)](#-dp-string--edit-total-5-problems)
     - [🌐 Flood Fill / Connected Components (Total: 6 problems)](#-flood-fill--connected-components-total-6-problems)
     - [🕸️ Graph \& Topological Sort (Total: 3 problems)](#️-graph--topological-sort-total-3-problems)
-    - [🧭 Greedy (Total: 17 problems)](#-greedy-total-17-problems)
+    - [🧭 Greedy (Total: 18 problems)](#-greedy-total-18-problems)
     - [🧩 Hash Map (Total: 6 problems)](#-hash-map-total-6-problems)
     - [🏔️ Heap / QuickSelect / Bucket (Total: 3 problems)](#️-heap--quickselect--bucket-total-3-problems)
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
@@ -271,7 +271,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🧭 Greedy (Total: 17 problems)
+### 🧭 Greedy (Total: 18 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [Runtime(sometimes 100%)](./cpp/greedy/0011_container_with_most_water/) | Two pointers with greedy: always move the shorter line |
@@ -289,6 +289,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0665 | [Non Decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | Medium | [Runtime(100%)](./cpp/greedy/0665_non_decreasing_array/) | Greedy: allow at most one violation, fix locally by lowering `nums[i]` or raising `nums[i+1]` |
 | 0763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | [Runtime(100%)](./cpp/greedy/0763_partition_labels/) | Greedy + last occurrence: expand partition until reaching farthest boundary |
 | 0768 | [Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/) | Hard | [Runtime(100%)](./cpp/greedy/0768_max_chunks_to_make_sorted_ii/) | Greedy + monotonic stack: track max of each chunk, merge when `arr[i] < stack.top()` |
+| 0769 | [Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/) | Medium | [Runtime(100%)](./cpp/greedy/0769_max_chunks_to_make_sorted/) | Greedy + prefix max: when `cur_max == i`, one chunk can be cut |
 | 3635 | [Earlies Finish Time For Land And Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | Medium | [Runtime(~83%), classic solution](./cpp/greedy/3635_earlies_finish_time_for_land_and_water_rides_ii/) | Greedy on earliest finish time in both orders (land→water / water→land) / 🏁 Biweekly 162(Q3) |
 | 3664 | [Two-Letter Card Game](https://leetcode.com/problems/two-letter-card-game/) | Medium | [Runtime varies, classic solution](./cpp/greedy/3664_two_letter_card_game/) | Count cards by categories and use greedy pairing with leftovers (`both`, `left`, `right`) / 🏁 Biweekly 164(Q2) |
 
