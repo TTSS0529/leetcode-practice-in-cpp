@@ -107,3 +107,4 @@ void        printMatrix(vector<vector<int>>& matrix);
 void        printTreeByLevel(TreeNode *root);
 TreeNode    *creatBinaryTree(vector<optional<int>>& nodes);
 void        freeBinaryTree(TreeNode *root);
+void        printLinkedlist(ListNode *root);
