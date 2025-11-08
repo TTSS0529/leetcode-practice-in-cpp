@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **190/191(week 22)**
-- 📈 Difficulty Breakdown: Easy(55) / Medium(117) / Hard(18) / Total(190)
+- ✅ Total Problems Solved: **191/191(week 22)**
+- 📈 Difficulty Breakdown: Easy(56) / Medium(117) / Hard(18) / Total(191)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -49,7 +49,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [➕ Prefix Sum (Total: 4 problems)](#-prefix-sum-total-4-problems)
     - [🔍 Search (Total: 13 problems)](#-search-total-13-problems)
     - [🛣️ Shortest Path (Total: 2 problems)](#️-shortest-path-total-2-problems)
-    - [🧮 Simulation (Total: 9 problems)](#-simulation-total-9-problems)
+    - [🧮 Simulation (Total: 10 problems)](#-simulation-total-10-problems)
     - [🌊 Sliding Window (Total: 3 problems)](#-sliding-window-total-3-problems)
     - [🧱 Stack \& Queue (Total: 7 problems)](#-stack--queue-total-7-problems)
     - [🔤 String Processing (Total: 4 problems)](#-string-processing-total-4-problems)
@@ -403,7 +403,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🧮 Simulation (Total: 9 problems)
+### 🧮 Simulation (Total: 10 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [Runtime(100%)](./cpp/simulation/0048_rotate_image/) | Simulate 90° rotation by transpose + row reversal |
@@ -412,6 +412,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0384 | [Shuffle An Array](https://leetcode.com/problems/shuffle-an-array/) | Medium | [Runtime(vary a lot)](./cpp/simulation/0384_shuffle_an_array/) | Fisher-Yates shuffle to generate uniform random permutation; store original array for reset |
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings/) | Easy | [Runtime(100%)](./cpp/simulation/0415_add_strings/) | Simulate digit-by-digit addition / carry tracking |
 | 0448 | [Find All Numbers Disappeared In An Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | [Runtime(vary a lot), classic solution](./cpp/simulation/0448_find_all_numbers_disappeared_in_an_array/) | Mark visited indices in-place using negation |
+| 0566 | [Reshape The Matrix](https://leetcode.com/problems/reshape-the-matrix/) | Easy | [Runtime(100%)](./cpp/simulation/0566_reshape_the_matrix/) | Flatten and remap elements in row-major order; check reshape validity |
 | 0796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | [Runtime(100%)](./cpp/simulation/0796_rotate_string/) | Simulate string rotation by manual character comparison |
 | 3602 | [Hexadecimal And Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | Easy | [Runtime(100%)](./cpp/simulation/3602_hexadecimal_and_hexatrigesimal_conversion/) | Simulate base conversion with custom digit set / 🏁 Biweekly 160(Q1) |
 | 3633 | [Earlies Finish Time For Land And Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | Easy | [Runtime(20%), better solution in 3635](./cpp/simulation/3633_earlies_finish_time_for_land_and_water_rides_i/) | Brute-force simulate both orders (land→water / water→land) / 🏁 Biweekly 162(Q1) |
