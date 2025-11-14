@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **195/198(week 23)**
-- 📈 Difficulty Breakdown: Easy(58) / Medium(118) / Hard(19) / Total(195)
+- ✅ Total Problems Solved: **196/198(week 23)**
+- 📈 Difficulty Breakdown: Easy(58) / Medium(119) / Hard(19) / Total(196)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -34,7 +34,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔧 Bit Manipulation (Total: 14 problems)](#-bit-manipulation-total-14-problems)
     - [🏗️ Design (Total: 2 problems)](#️-design-total-2-problems)
     - [⚡ Divide \& Conquer (Total: 4 problems)](#-divide--conquer-total-4-problems)
-    - [🎯 DP Grid / Matrix (Total: 4 problems)](#-dp-grid--matrix-total-4-problems)
+    - [🎯 DP Grid / Matrix (Total: 5 problems)](#-dp-grid--matrix-total-5-problems)
     - [🎯 DP Knapsack / Subset (Total: 5 problems)](#-dp-knapsack--subset-total-5-problems)
     - [🎯 DP Linear / Sequence (Total: 10 problems)](#-dp-linear--sequence-total-10-problems)
     - [🎯 DP Math (Total: 5 problems)](#-dp-math-total-5-problems)
@@ -177,11 +177,12 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🎯 DP Grid / Matrix (Total: 4 problems)
+### 🎯 DP Grid / Matrix (Total: 5 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | [Runtime(100%)](./cpp/dp_grid_matrix/0064_minimum_path_sum/) | Grid DP → can optimize to O(n) space with rolling array(later) |
 | 0221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | [Runtime(vary a lot)](./cpp/dp_grid_matrix/0221_maximal_square/) | 2D DP → `dp[i][j]` stores maximal square side ending at `(i,j)` → depends on top, left, top-left neighbors → can optimize to O(n) space |
+| 0304 | [Range Sum Query 2D Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | Medium | [Runtime(vary a lot)](./cpp/dp_grid_matrix/0304_range_sum_query_2d_immutable/) | 2D prefix sum / summed-area table → O(1) query time |
 | 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | Medium | [Runtime(~90%)](./cpp/dp_grid_matrix/0542_01_matrix/) | 2-pass DP → compute min distance to nearest 0 (top-left to bottom-right, then reverse) |
 | 3603 | [Minimum Cost Path With Alternating Direction II](https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii/) | Medium | [Runtime(~95%) improve later](./cpp/dp_grid_matrix/3603_minimum_cost_path_with_alternating_direction_ii/) | Grid DP with custom movement rule / 🏁 Biweekly 160(Q2) |
 
