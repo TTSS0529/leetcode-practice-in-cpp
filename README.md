@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **198/198(week 23)**
-- 📈 Difficulty Breakdown: Easy(58) / Medium(121) / Hard(19) / Total(198)
+- ✅ Total Problems Solved: **199/205(week 24)**
+- 📈 Difficulty Breakdown: Easy(58) / Medium(121) / Hard(20) / Total(199)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -42,7 +42,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌐 Flood Fill / Connected Components (Total: 6 problems)](#-flood-fill--connected-components-total-6-problems)
     - [🕸️ Graph \& Topological Sort (Total: 3 problems)](#️-graph--topological-sort-total-3-problems)
     - [🧭 Greedy (Total: 18 problems)](#-greedy-total-18-problems)
-    - [🧩 Hash Map (Total: 7 problems)](#-hash-map-total-7-problems)
+    - [🧩 Hash Map (Total: 8 problems)](#-hash-map-total-8-problems)
     - [🏔️ Heap / QuickSelect / Bucket (Total: 5 problems)](#️-heap--quickselect--bucket-total-5-problems)
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
     - [📐 Math (Total: 15 problems)](#-math-total-15-problems)
@@ -298,11 +298,12 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🧩 Hash Map (Total: 7 problems)
+### 🧩 Hash Map (Total: 8 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Runtime(100%)](./cpp/hash_map/0001_two_sum/) | One-pass hash map / complement lookup |
 | 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [Runtime(vary a lot)](./cpp/hash_map/0128_longest_consecutive_sequence/) | Hash set / sequence start detection / O(n) |
+| 0149 | [Max Points On A Line](https://leetcode.com/problems/max-points-on-a-line/) | Hard | [Runtime(~92%)](./cpp/hash_map/0149_max_points_on_a_line/) | Slope hash map / duplicates / vertical lines |
 | 0202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | [Runtime(100%)](./cpp/hash_map/0202_happy_number/) | Hash set / cycle detection |
 | 0205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | [Runtime(100%)](./cpp/hash_map/0205_isomorphic_strings/) | Two-way mapping / fixed array optimization |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Runtime(100%)](./cpp/hash_map/0242_valid_anagram/) | Frequency counting / O(1) space |
