@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **201/205(week 24)**
-- 📈 Difficulty Breakdown: Easy(59) / Medium(121) / Hard(21) / Total(201)
+- ✅ Total Problems Solved: **202/205(week 24)**
+- 📈 Difficulty Breakdown: Easy(60) / Medium(121) / Hard(21) / Total(202)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -42,7 +42,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌐 Flood Fill / Connected Components (Total: 6 problems)](#-flood-fill--connected-components-total-6-problems)
     - [🕸️ Graph \& Topological Sort (Total: 4 problems)](#️-graph--topological-sort-total-4-problems)
     - [🧭 Greedy (Total: 18 problems)](#-greedy-total-18-problems)
-    - [🧩 Hash Map (Total: 9 problems)](#-hash-map-total-9-problems)
+    - [🧩 Hash Map (Total: 10 problems)](#-hash-map-total-10-problems)
     - [🏔️ Heap / QuickSelect / Bucket (Total: 5 problems)](#️-heap--quickselect--bucket-total-5-problems)
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
     - [📐 Math (Total: 15 problems)](#-math-total-15-problems)
@@ -299,7 +299,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🧩 Hash Map (Total: 9 problems)
+### 🧩 Hash Map (Total: 10 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Runtime(100%)](./cpp/hash_map/0001_two_sum/) | One-pass hash map / complement lookup |
@@ -311,6 +311,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Runtime(100%)](./cpp/hash_map/0242_valid_anagram/) | Frequency counting / O(1) space |
 | 0387 | [First Unique Character In A String](https://leetcode.com/problems/first-unique-character-in-a-string/) | Easy | [Runtime(~70%, can improve later)](./cpp/hash_map/0387_first_unique_character_in_a_string/) | Array or hash map / two-pass scan |
 | 0409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Easy | [Runtime(100%)](./cpp/hash_map/0409_longest_palindrome/) | Frequency counting / even part + odd center |
+| 0697 | [Degree Of An Array](https://leetcode.com/problems/degree-of-an-array/) | Easy | [Runtime(vary a lot)](./cpp/hash_map/0697_degree_of_an_array/) | Count / first & last index / shortest subarray |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
