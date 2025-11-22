@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **203/205(week 24)**
-- 📈 Difficulty Breakdown: Easy(61) / Medium(121) / Hard(21) / Total(203)
+- ✅ Total Problems Solved: **204/205(week 24)**
+- 📈 Difficulty Breakdown: Easy(61) / Medium(122) / Hard(21) / Total(204)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -37,7 +37,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🎯 DP Grid / Matrix (Total: 5 problems)](#-dp-grid--matrix-total-5-problems)
     - [🎯 DP Knapsack / Subset (Total: 5 problems)](#-dp-knapsack--subset-total-5-problems)
     - [🎯 DP Linear / Sequence (Total: 10 problems)](#-dp-linear--sequence-total-10-problems)
-    - [🎯 DP Math (Total: 5 problems)](#-dp-math-total-5-problems)
+    - [🎯 DP Math (Total: 6 problems)](#-dp-math-total-6-problems)
     - [🎯 DP String / Edit (Total: 5 problems)](#-dp-string--edit-total-5-problems)
     - [🌐 Flood Fill / Connected Components (Total: 6 problems)](#-flood-fill--connected-components-total-6-problems)
     - [🕸️ Graph \& Topological Sort (Total: 4 problems)](#️-graph--topological-sort-total-4-problems)
@@ -221,13 +221,14 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🎯 DP Math (Total: 5 problems)
+### 🎯 DP Math (Total: 6 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Runtime(100%)](./cpp/dp_math/0070_climbing_stairs/) | Fibonacci variant with safe integer handling |
 | 0091 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [Runtime(100%)](./cpp/dp_math/0091_decode_ways/) | DP → `dp[i]` = ways to decode `s[0..i-1]`; careful handling of `0` and two-digit numbers (`10..26`) |
 | 0118 | [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [Runtime(100%)](./cpp/dp_math/0118_pascals_triangle/) | Generate triangle row by row → `row[j] = prev_row[j-1] + prev_row[j]`, edge 1’s |
 | 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium | [Runtime(100%)](./cpp/dp_math/0264_ugly_number_ii/) | DP + 3 pointers → generate sequence by merging ×2,×3,×5 |
+| 0313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | Medium | [Runtime(~89%)](./cpp/dp_math/0313_super_ugly_number/) | DP + k pointers → merge k prime-generated streams, avoid duplicates |
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | [Runtime(sometimes 100%)](./cpp/dp_math/0509_fibonacci_number/) | Classic DP → optimized to rolling variables |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
