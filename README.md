@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **206/212(week 25)**
-- 📈 Difficulty Breakdown: Easy(61) / Medium(124) / Hard(21) / Total(206)
+- ✅ Total Problems Solved: **207/212(week 25)**
+- 📈 Difficulty Breakdown: Easy(62) / Medium(124) / Hard(21) / Total(207)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -55,7 +55,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔤 String Processing (Total: 4 problems)](#-string-processing-total-4-problems)
     - [💡 Tree DP / Path Sum (Total: 2 problems)](#-tree-dp--path-sum-total-2-problems)
     - [🌳 Tree Traversal (Total: 9 problems)](#-tree-traversal-total-9-problems)
-    - [🪝 Two Pointers (Total: 14 problems)](#-two-pointers-total-14-problems)
+    - [🪝 Two Pointers (Total: 15 problems)](#-two-pointers-total-15-problems)
 
 ---
 </details>
@@ -502,7 +502,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🪝 Two Pointers (Total: 14 problems)
+### 🪝 Two Pointers (Total: 15 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Runtime(100%)](./cpp/two_pointers/0003_longest_substring_without_repeating_characters/) | Sliding window (brute-force, map, array) / O(n) optimized |
@@ -517,6 +517,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0524 | [Longest Word In Dictionary Through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | Medium | [Runtime(100%)](./cpp/two_pointers/0524_longest_word_in_dictionary_through_deleting/) | Two-pointer subsequence check / Track longest + lexicographically smallest |
 | 0633 | [Sum Of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | Medium | [Runtime(100%)](./cpp/two_pointers/0633_sum_of_square_numbers/) | Two pointers (0 ~ √c) / Check sum of squares |
 | 0680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | [Runtime(sometimes 100%)](./cpp/two_pointers/0680_valid_palindrome_ii/) | Two-pointer with one deletion / Check substrings when mismatch |
+| 0696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | Easy | [Runtime(100%)](./cpp/two_pointers/0696_count_binary_substrings/) | Track consecutive 0/1 groups / Single pass O(n) / Constant space |
 | 0876 | [Middle Of The Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [Runtime(100%)](./cpp/two_pointers/0876_middle_of_the_linked_list/) | Fast-slow pointer on Linked List |
 | 3649 | [Number Of Perfect Pairs](https://leetcode.com/problems/number-of-perfect-pairs/) | Medium | [Runtime(vary a lot)](./cpp/two_pointers/3649_number_of_perfect_pairs/) | Sort + two pointers on absolute values / Count pairs satisfying y ≤ 2x / 🏁 Biweekly 163(Q2) |
 
