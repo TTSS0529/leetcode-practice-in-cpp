@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **205/205(week 24)**
-- 📈 Difficulty Breakdown: Easy(61) / Medium(123) / Hard(21) / Total(205)
+- ✅ Total Problems Solved: **206/212(week 25)**
+- 📈 Difficulty Breakdown: Easy(61) / Medium(124) / Hard(21) / Total(206)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -47,7 +47,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔗 Linked List (Total: 5 problems)](#-linked-list-total-5-problems)
     - [📐 Math (Total: 15 problems)](#-math-total-15-problems)
     - [➕ Prefix Sum (Total: 6 problems)](#-prefix-sum-total-6-problems)
-    - [🔍 Search (Total: 13 problems)](#-search-total-13-problems)
+    - [🔍 Search (Total: 14 problems)](#-search-total-14-problems)
     - [🛣️ Shortest Path (Total: 2 problems)](#️-shortest-path-total-2-problems)
     - [🧮 Simulation (Total: 10 problems)](#-simulation-total-10-problems)
     - [🌊 Sliding Window (Total: 3 problems)](#-sliding-window-total-3-problems)
@@ -384,7 +384,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🔍 Search (Total: 13 problems)
+### 🔍 Search (Total: 14 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0004 | [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [Runtime(100%)](./cpp/search/0004_median_of_two_sorted_arrays/) | Binary search on partition of shorter array → O(log(min(m,n))) |
@@ -399,6 +399,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0240 | [Search A 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | [Runtime(vary a lot), classic solution](./cpp/search/0240_search_a_2d_matrix_ii/) | Monotonic matrix search from top-right corner → O(m+n) |
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | Easy | [Runtime(~55%) classic solution](./cpp/search/0278_first_bad_version/) | Find first `true` with minimal API calls / Lower Bound |
 | 0540 | [Single Element In A Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | Medium | [Runtime(100%)](./cpp/search/0540_single_element_in_a_sorted_array/) | Binary search with pair index check → O(log n) |
+| 0647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | [Runtime(~70%)](./cpp/search/0647_palindromic_substrings/) | Expand-around-center on all 2n−1 centers → O(n²) |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [Runtime(100%)](./cpp/search/0704_binary_search/) | Classic binary search on sorted array |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
