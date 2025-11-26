@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **207/212(week 25)**
-- 📈 Difficulty Breakdown: Easy(62) / Medium(124) / Hard(21) / Total(207)
+- ✅ Total Problems Solved: **208/212(week 25)**
+- 📈 Difficulty Breakdown: Easy(62) / Medium(125) / Hard(21) / Total(208)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -51,7 +51,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🛣️ Shortest Path (Total: 2 problems)](#️-shortest-path-total-2-problems)
     - [🧮 Simulation (Total: 10 problems)](#-simulation-total-10-problems)
     - [🌊 Sliding Window (Total: 3 problems)](#-sliding-window-total-3-problems)
-    - [🧱 Stack \& Queue (Total: 9 problems)](#-stack--queue-total-9-problems)
+    - [🧱 Stack \& Queue (Total: 10 problems)](#-stack--queue-total-10-problems)
     - [🔤 String Processing (Total: 4 problems)](#-string-processing-total-4-problems)
     - [💡 Tree DP / Path Sum (Total: 2 problems)](#-tree-dp--path-sum-total-2-problems)
     - [🌳 Tree Traversal (Total: 9 problems)](#-tree-traversal-total-9-problems)
@@ -446,12 +446,13 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🧱 Stack & Queue (Total: 9 problems)
+### 🧱 Stack & Queue (Total: 10 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Runtime(100%)](./cpp/stack_queue/0020_valid_parentheses/) | Stack / Bracket matching |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | [Runtime(~45% but classic, can improve later)](./cpp/stack_queue/0155_min_stack/) | Two-stack approach / O(1) min |
 | 0225 | [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | Easy | [Runtime(100%)](./cpp/stack_queue/0225_implement_stack_using_queues/) | Single queue rotation / Push O(n), others O(1) |
+| 0227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | Medium | [Runtime(sometimes 100%)](./cpp/stack_queue/0227_basic_calculator_ii/) | Operator precedence / O(n) scan |
 | 0232 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Runtime(100%)](./cpp/stack_queue/0232_implement_queue_using_stacks/) | Two-stack queue / Amortized O(1) ops |
 | 0295 | [Find Median From Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | [Runtime(varies a lot)](./cpp/stack_queue/0295_find_median_from_data_stream/) | Two heaps / O(log n) insert, O(1) median |
 | 0394 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | [Runtime(100%)](./cpp/stack_queue/0394_decode_string/) | Recursion & Stack / Nested string decode |
