@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **211/212(week 25)**
-- 📈 Difficulty Breakdown: Easy(63) / Medium(127) / Hard(21) / Total(211)
+- ✅ Total Problems Solved: **212/212(week 25)**
+- 📈 Difficulty Breakdown: Easy(64) / Medium(127) / Hard(21) / Total(212)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -44,7 +44,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🧭 Greedy (Total: 19 problems)](#-greedy-total-19-problems)
     - [🧩 Hash Map (Total: 11 problems)](#-hash-map-total-11-problems)
     - [🏔️ Heap / QuickSelect / Bucket (Total: 5 problems)](#️-heap--quickselect--bucket-total-5-problems)
-    - [🔗 Linked List (Total: 6 problems)](#-linked-list-total-6-problems)
+    - [🔗 Linked List (Total: 7 problems)](#-linked-list-total-7-problems)
     - [📐 Math (Total: 15 problems)](#-math-total-15-problems)
     - [➕ Prefix Sum (Total: 6 problems)](#-prefix-sum-total-6-problems)
     - [🔍 Search (Total: 14 problems)](#-search-total-14-problems)
@@ -333,7 +333,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🔗 Linked List (Total: 6 problems)
+### 🔗 Linked List (Total: 7 problems)
 
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
@@ -342,6 +342,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0086 | [Partition List](https://leetcode.com/problems/partition-list/) | Medium | [Runtime(100%)](./cpp/linked_list/0086_partition_list/) | Dummy node / In-place insertion |
 | 0138 | [Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | Medium | [Runtime(>90%,sometimes 100%)](./cpp/linked_list/0138_copy_list_with_random_pointer/) | Hash Map / In-place / O(1) extra space optimized |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Runtime(100%)](./cpp/linked_list/0206_reverse_linked_list/) | Tail-cutting / Recursive / Iterative |
+| 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Runtime(100%)](./cpp/linked_list/0234_palindrome_linked_list/) | Slow/Fast pointers / Reverse second half / In-place comparison |
 | 0237 | [Delete Node In A Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | Medium | [Runtime(Not 100%), good enough](./cpp/linked_list/0237_delete_node_in_a_linked_list/) | Loop-copy / O(1) overwrite |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
