@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **212/212(week 25)**
-- 📈 Difficulty Breakdown: Easy(64) / Medium(127) / Hard(21) / Total(212)
+- ✅ Total Problems Solved: **213/219(week 26)**
+- 📈 Difficulty Breakdown: Easy(65) / Medium(127) / Hard(21) / Total(213)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -44,7 +44,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🧭 Greedy (Total: 19 problems)](#-greedy-total-19-problems)
     - [🧩 Hash Map (Total: 11 problems)](#-hash-map-total-11-problems)
     - [🏔️ Heap / QuickSelect / Bucket (Total: 5 problems)](#️-heap--quickselect--bucket-total-5-problems)
-    - [🔗 Linked List (Total: 7 problems)](#-linked-list-total-7-problems)
+    - [🔗 Linked List (Total: 8 problems)](#-linked-list-total-8-problems)
     - [📐 Math (Total: 15 problems)](#-math-total-15-problems)
     - [➕ Prefix Sum (Total: 6 problems)](#-prefix-sum-total-6-problems)
     - [🔍 Search (Total: 14 problems)](#-search-total-14-problems)
@@ -333,12 +333,13 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🔗 Linked List (Total: 7 problems)
+### 🔗 Linked List (Total: 8 problems)
 
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Runtime(100%)](./cpp/linked_list/0021_merge_two_sorted_lists/) | Recursive vs Iterative |
 | 0024 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [Runtime(100%)](./cpp/linked_list/0024_swap_nodes_in_pairs/) | Pairwise swapping / Dummy node |
+| 0083 | [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | [Runtime(100%)](./cpp/linked_list/0083_remove_duplicates_from_sorted_list/) | Skip consecutive equals |
 | 0086 | [Partition List](https://leetcode.com/problems/partition-list/) | Medium | [Runtime(100%)](./cpp/linked_list/0086_partition_list/) | Dummy node / In-place insertion |
 | 0138 | [Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | Medium | [Runtime(>90%,sometimes 100%)](./cpp/linked_list/0138_copy_list_with_random_pointer/) | Hash Map / In-place / O(1) extra space optimized |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Runtime(100%)](./cpp/linked_list/0206_reverse_linked_list/) | Tail-cutting / Recursive / Iterative |
