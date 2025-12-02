@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **214/219(week 26)**
-- 📈 Difficulty Breakdown: Easy(65) / Medium(128) / Hard(21) / Total(214)
+- ✅ Total Problems Solved: **215/219(week 26)**
+- 📈 Difficulty Breakdown: Easy(65) / Medium(129) / Hard(21) / Total(215)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -55,7 +55,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🔤 String Processing (Total: 5 problems)](#-string-processing-total-5-problems)
     - [💡 Tree DP / Path Sum (Total: 2 problems)](#-tree-dp--path-sum-total-2-problems)
     - [🌳 Tree Traversal (Total: 9 problems)](#-tree-traversal-total-9-problems)
-    - [🪝 Two Pointers (Total: 16 problems)](#-two-pointers-total-16-problems)
+    - [🪝 Two Pointers (Total: 17 problems)](#-two-pointers-total-17-problems)
 
 ---
 </details>
@@ -508,12 +508,13 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🪝 Two Pointers (Total: 16 problems)
+### 🪝 Two Pointers (Total: 17 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Runtime(100%)](./cpp/two_pointers/0003_longest_substring_without_repeating_characters/) | Sliding window (brute-force, map, array) / O(n) optimized |
 | 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [Runtime(~90%)](./cpp/two_pointers/0005_longest_palindromic_substring/) | Expand Around Center / Two pointers / O(n²) |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [Runtime(~53%), classic solution](./cpp/two_pointers/0015_3sum/) | Sort + two pointers / Skip duplicates / O(n²) |
+| 0019 | [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [Runtime(100%)](./cpp/two_pointers/0019_remove_nth_node_from_end_of_list/) | Two pointers with dummy head / Fixed gap (n+1) / One pass |
 | 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [Runtime(100%)](./cpp/two_pointers/0075_sort_colors/) | Dutch National Flag / Three pointers / In-place / O(n) |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | [Runtime(100%)](./cpp/two_pointers/0088_merge_sorted_array/) | Two pointers from back / In-place merge / O(m+n) |
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [Runtime(80-90%)](./cpp/two_pointers/0142_linked_list_cycle_ii/) | Fast-slow pointer to find cycle start |
