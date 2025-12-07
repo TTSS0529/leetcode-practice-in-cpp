@@ -10,8 +10,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 1: 2025-06-09 - 2025-06-29 **one problem per day**
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - now **seven problems(min) per week**
-- ✅ Total Problems Solved: **216/219(week 26)**
-- 📈 Difficulty Breakdown: Easy(65) / Medium(130) / Hard(21) / Total(216)
+- ✅ Total Problems Solved: **217/219(week 26)**
+- 📈 Difficulty Breakdown: Easy(66) / Medium(130) / Hard(21) / Total(217)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -53,7 +53,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🌊 Sliding Window (Total: 3 problems)](#-sliding-window-total-3-problems)
     - [🧱 Stack \& Queue (Total: 10 problems)](#-stack--queue-total-10-problems)
     - [🔤 String Processing (Total: 5 problems)](#-string-processing-total-5-problems)
-    - [💡 Tree DP / Path Sum (Total: 2 problems)](#-tree-dp--path-sum-total-2-problems)
+    - [💡 Tree DP / Path Sum (Total: 3 problems)](#-tree-dp--path-sum-total-3-problems)
     - [🌳 Tree Traversal (Total: 9 problems)](#-tree-traversal-total-9-problems)
     - [🪝 Two Pointers (Total: 17 problems)](#-two-pointers-total-17-problems)
 
@@ -482,11 +482,12 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 💡 Tree DP / Path Sum (Total: 2 problems)
+### 💡 Tree DP / Path Sum (Total: 3 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | Medium | [Runtime(100%)](./cpp/tree_dp_path_sum/0113_path_sum_ii/) | DFS + Backtracking |
 | 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | [Runtime(100%)](./cpp/tree_dp_path_sum/0124_binary_tree_maximum_path_sum/) | DFS + Tree DP |
+| 0543 | [Diameter Of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [Runtime(100%)](./cpp/tree_dp_path_sum/0543_diameter_of_binary_tree/) | DFS + Tree DP |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
