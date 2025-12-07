@@ -129,7 +129,7 @@ void    freeBinaryTree(TreeNode *root) {
     delete(root);
 }
 
-void        printLinkedlist(ListNode *root) {
+void    printLinkedlist(ListNode *root) {
     cout << "[";
     while (root) {
         cout << root->val;
