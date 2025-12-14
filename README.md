@@ -507,7 +507,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [Runtime(100%)](./cpp/tree_traversal/0226_invert_binary_tree/) | DFS recursion & BFS swap children |
 | 0236 | [Lowest Common Ancestor Of A Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | [Runtime(~60%) classic solution](./cpp/tree_traversal/0236_lowest_common_ancestor_of_a_binary_tree/) | Post-order recursion (LCA logic) |
 | 0257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Easy | [Runtime(100%)](./cpp/tree_traversal/0257_binary_tree_paths/) | DFS recursion, build path strings root→leaf |
-| 0094 | [Average Of Levels In Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | Easy | [Runtime(100%)](./cpp/tree_traversal/0637_average_of_levels_in_binary_tree/) | BFS level-order sum & count |
+| 0637 | [Average Of Levels In Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | Easy | [Runtime(100%)](./cpp/tree_traversal/0637_average_of_levels_in_binary_tree/) | BFS level-order sum & count |
 | 1110 | [Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | Medium | [Runtime(vary a lot)](./cpp/tree_traversal/1110_delete_nodes_and_return_forest/) | DFS + post-order, handle forest of trees |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
