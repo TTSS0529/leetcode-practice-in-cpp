@@ -11,8 +11,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - 2025-12-07 **seven problems(min) per week**
 - 📅 Phase 4: 2025-12-08 - now **freestyle**
-- ✅ Total Problems Solved: **224/224**
-- 📈 Difficulty Breakdown: Easy(71) / Medium(132) / Hard(21) / Total(224)
+- ✅ Total Problems Solved: **225/225**
+- 📈 Difficulty Breakdown: Easy(72) / Medium(132) / Hard(21) / Total(225)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -30,7 +30,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
   - [🏆 Contest Reviews](#-contest-reviews)
   - [📚 Shared Solutions](#-shared-solutions)
   - [🗂️ Problem Categories](#️-problem-categories)
-    - [📊 Array (Total: 3 problems)](#-array-total-3-problems)
+    - [📊 Array (Total: 4 problems)](#-array-total-4-problems)
     - [🌀 Backtracking (Total: 12 problems)](#-backtracking-total-12-problems)
     - [🌲 Binary Search Tree (Total: 4 problems)](#-binary-search-tree-total-4-problems)
     - [🔧 Bit Manipulation (Total: 14 problems)](#-bit-manipulation-total-14-problems)
@@ -103,10 +103,11 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ## 🗂️ Problem Categories
 
-### 📊 Array (Total: 3 problems)
+### 📊 Array (Total: 4 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | [Runtime(100%)](./cpp/array/0485_max_consecutive_ones/) | consecutive count |
+| 0645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | [Runtime(100%)](./cpp/array/0645_set_mismatch/) | Find duplicate & missing → hash / counting |
 | 1470 | [Shuffle The Array](https://leetcode.com/problems/shuffle-the-array/) | Easy | [Runtime(100%)](./cpp/array/1470_shuffle_the_array/) | Array reorder |
 | 1929 | [Concatenation Of Array](https://leetcode.com/problems/concatenation-of-array/) | Easy | [Runtime(100%)](./cpp/array/1929_concatenation_of_array/) | Simple array manipulation |
 
