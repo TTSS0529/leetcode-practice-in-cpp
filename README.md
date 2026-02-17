@@ -11,8 +11,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - 2025-12-07 **seven problems(min) per week**
 - 📅 Phase 4: 2025-12-08 - now **freestyle**
-- ✅ Total Problems Solved: **221/221**
-- 📈 Difficulty Breakdown: Easy(68) / Medium(132) / Hard(21) / Total(221)
+- ✅ Total Problems Solved: **222/222**
+- 📈 Difficulty Breakdown: Easy(69) / Medium(132) / Hard(21) / Total(222)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -30,6 +30,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
   - [🏆 Contest Reviews](#-contest-reviews)
   - [📚 Shared Solutions](#-shared-solutions)
   - [🗂️ Problem Categories](#️-problem-categories)
+    - [📊 Array (Total: 1 problems)](#-array-total-1-problems)
     - [🌀 Backtracking (Total: 12 problems)](#-backtracking-total-12-problems)
     - [🌲 Binary Search Tree (Total: 4 problems)](#-binary-search-tree-total-4-problems)
     - [🔧 Bit Manipulation (Total: 14 problems)](#-bit-manipulation-total-14-problems)
@@ -101,6 +102,15 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 ---
 
 ## 🗂️ Problem Categories
+
+### 📊 Array (Total: 1 problems)
+| # | Title | Difficulty | Solution Folder | Notes |
+|:---:|:---:|:---:|:---:|:---:|
+| 1929 | [Concatenation Of Array](ttps://leetcode.com/problems/concatenation-of-array/) | Easy | [Runtime(100%)](./cpp/array/1929_concatenation_of_array/) | Simple array manipulation |
+
+[🔝 Back to Top](#leetcode-practice-in-cpp)
+
+---
 
 ### 🌀 Backtracking (Total: 12 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
