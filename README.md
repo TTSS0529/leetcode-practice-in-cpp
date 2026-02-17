@@ -11,8 +11,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - 2025-12-07 **seven problems(min) per week**
 - 📅 Phase 4: 2025-12-08 - now **freestyle**
-- ✅ Total Problems Solved: **225/225**
-- 📈 Difficulty Breakdown: Easy(72) / Medium(132) / Hard(21) / Total(225)
+- ✅ Total Problems Solved: **226/226**
+- 📈 Difficulty Breakdown: Easy(73) / Medium(132) / Hard(21) / Total(226)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -30,7 +30,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
   - [🏆 Contest Reviews](#-contest-reviews)
   - [📚 Shared Solutions](#-shared-solutions)
   - [🗂️ Problem Categories](#️-problem-categories)
-    - [📊 Array (Total: 4 problems)](#-array-total-4-problems)
+    - [📊 Array (Total: 5 problems)](#-array-total-5-problems)
     - [🌀 Backtracking (Total: 12 problems)](#-backtracking-total-12-problems)
     - [🌲 Binary Search Tree (Total: 4 problems)](#-binary-search-tree-total-4-problems)
     - [🔧 Bit Manipulation (Total: 14 problems)](#-bit-manipulation-total-14-problems)
@@ -69,7 +69,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
 Each problem is placed in its own folder, which contains:
 
 - A `.hpp` header file for declarations  
-- A `test.cpp` file for testing all versions  
+- A `test.cpp` file for testing all versions*(note: for new problems recorded from LeetCode, test.cpp may not yet exist; the original 200+ problems do have simple tests)*
 - Multiple `.cpp` files, each representing a different version of the solution
   - `contest.cpp`: The original code written during the contest or simulated contest
   - `brute_force.cpp`: A straightforward or initial solution outside the contest context
@@ -103,11 +103,12 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ## 🗂️ Problem Categories
 
-### 📊 Array (Total: 4 problems)
+### 📊 Array (Total: 5 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | [Runtime(100%)](./cpp/array/0485_max_consecutive_ones/) | consecutive count |
 | 0645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | [Runtime(100%)](./cpp/array/0645_set_mismatch/) | Find duplicate & missing → hash / counting |
+| 1365 | [How Many Numbers Are Smaller Than The Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | [Runtime(100%)](./cpp/array/1365_how_many_numbers_are_smaller_than_the_current_number/) | Count smaller |
 | 1470 | [Shuffle The Array](https://leetcode.com/problems/shuffle-the-array/) | Easy | [Runtime(100%)](./cpp/array/1470_shuffle_the_array/) | Array reorder |
 | 1929 | [Concatenation Of Array](https://leetcode.com/problems/concatenation-of-array/) | Easy | [Runtime(100%)](./cpp/array/1929_concatenation_of_array/) | Simple array manipulation |
 
