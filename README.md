@@ -11,8 +11,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - 2025-12-07 **seven problems(min) per week**
 - 📅 Phase 4: 2025-12-08 - now **freestyle**
-- ✅ Total Problems Solved: **226/226**
-- 📈 Difficulty Breakdown: Easy(73) / Medium(132) / Hard(21) / Total(226)
+- ✅ Total Problems Solved: **227/227**
+- 📈 Difficulty Breakdown: Easy(73) / Medium(133) / Hard(21) / Total(227)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -53,7 +53,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🛣️ Shortest Path (Total: 2 problems)](#️-shortest-path-total-2-problems)
     - [🧮 Simulation (Total: 10 problems)](#-simulation-total-10-problems)
     - [🌊 Sliding Window (Total: 3 problems)](#-sliding-window-total-3-problems)
-    - [🧱 Stack \& Queue (Total: 10 problems)](#-stack--queue-total-10-problems)
+    - [🧱 Stack \& Queue (Total: 11 problems)](#-stack--queue-total-11-problems)
     - [🔤 String Processing (Total: 5 problems)](#-string-processing-total-5-problems)
     - [💡 Tree DP / Path Sum (Total: 4 problems)](#-tree-dp--path-sum-total-4-problems)
     - [🌳 Tree Traversal (Total: 12 problems)](#-tree-traversal-total-12-problems)
@@ -466,7 +466,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🧱 Stack & Queue (Total: 10 problems)
+### 🧱 Stack & Queue (Total: 11 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Runtime(100%)](./cpp/stack_queue/0020_valid_parentheses/) | Stack / Bracket matching |
@@ -479,6 +479,7 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 | 0503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | Medium | [Runtime(sometimes 100%)](./cpp/stack_queue/0503_next_greater_element_ii/) | Monotonic stack / Circular array / Push indices only in first pass |
 | 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [Runtime(~100%)](./cpp/stack_queue/0739_daily_temperatures/) | Monotonic stack / Next greater element |
 | 0946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | Medium | [Runtime(100%)](./cpp/stack_queue/0946_validate_stack_sequences/) | Simulate push/pop behavior with a real stack |
+| 1441 | [Build An Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/) | Medium | [Runtime(100%)](./cpp/stack_queue/1441_build_an_array_with_stack_operations/) | Stack simulation / Sequential push-pop control |
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
 
