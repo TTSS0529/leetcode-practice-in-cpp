@@ -11,8 +11,8 @@ My initial target is to solve one or two problems per day. If I miss any problem
 - 📅 Phase 2: 2025-06-30 - 2025-08-24 **ten problems(min) per week**
 - 📅 Phase 3: 2025-08-25 - 2025-12-07 **seven problems(min) per week**
 - 📅 Phase 4: 2025-12-08 - now **freestyle**
-- ✅ Total Problems Solved: **227/227**
-- 📈 Difficulty Breakdown: Easy(73) / Medium(133) / Hard(21) / Total(227)
+- ✅ Total Problems Solved: **228/228**
+- 📈 Difficulty Breakdown: Easy(73) / Medium(134) / Hard(21) / Total(228)
 - 🧠 Topics Covered: Linked List, Array, Dynamic Programming, Stack, etc.
 
 [🔝 Back to Top](#leetcode-practice-in-cpp)
@@ -53,7 +53,7 @@ My initial target is to solve one or two problems per day. If I miss any problem
     - [🛣️ Shortest Path (Total: 2 problems)](#️-shortest-path-total-2-problems)
     - [🧮 Simulation (Total: 10 problems)](#-simulation-total-10-problems)
     - [🌊 Sliding Window (Total: 3 problems)](#-sliding-window-total-3-problems)
-    - [🧱 Stack \& Queue (Total: 11 problems)](#-stack--queue-total-11-problems)
+    - [🧱 Stack \& Queue (Total: 12 problems)](#-stack--queue-total-12-problems)
     - [🔤 String Processing (Total: 5 problems)](#-string-processing-total-5-problems)
     - [💡 Tree DP / Path Sum (Total: 4 problems)](#-tree-dp--path-sum-total-4-problems)
     - [🌳 Tree Traversal (Total: 12 problems)](#-tree-traversal-total-12-problems)
@@ -466,10 +466,11 @@ You can find all shared solution links and records in the [shared.md](./shared.m
 
 ---
 
-### 🧱 Stack & Queue (Total: 11 problems)
+### 🧱 Stack & Queue (Total: 12 problems)
 | # | Title | Difficulty | Solution Folder | Notes |
 |:---:|:---:|:---:|:---:|:---:|
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Runtime(100%)](./cpp/stack_queue/0020_valid_parentheses/) | Stack / Bracket matching |
+| 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [Runtime(100%)](./cpp/stack_queue/0150_evaluate_reverse_polish_notation/) | Stack / Evaluate postfix expression |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | [Runtime(~45% but classic, can improve later)](./cpp/stack_queue/0155_min_stack/) | Two-stack approach / O(1) min |
 | 0225 | [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | Easy | [Runtime(100%)](./cpp/stack_queue/0225_implement_stack_using_queues/) | Single queue rotation / Push O(n), others O(1) |
 | 0227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | Medium | [Runtime(sometimes 100%)](./cpp/stack_queue/0227_basic_calculator_ii/) | Operator precedence / O(n) scan |
